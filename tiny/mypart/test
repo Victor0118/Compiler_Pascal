@@ -1,0 +1,9 @@
+program MY_OFFSET;
+const
+	offset = 100;
+var
+	i:integer;
+begin
+	i := offset;
+	writeln(i);
+end.
