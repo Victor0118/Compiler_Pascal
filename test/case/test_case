@@ -1,0 +1,16 @@
+program MY_OFFSET;
+const
+	offset = 2;
+var
+	i:integer;
+	j:integer;
+	
+begin
+//if
+	i:=2;
+	case i of
+		1:writeln(i);
+		offset:writeln("offset");
+		3:writeln(i);
+	end;
+end.

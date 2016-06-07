@@ -1,0 +1,4 @@
+ Name     type   
+------  -------- 
+ a     array_' @'_' z'_ integer
+ b     record_ b1_ b2_ integer_ b3_ char

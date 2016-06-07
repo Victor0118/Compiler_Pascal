@@ -1,0 +1,32 @@
+ offset :=  2
+temp2 :=  2
+temp1 := temp2
+temp0 := temp1
+ i := temp0
+case 1
+label L1
+temp5 :=  i
+temp4 := temp5
+temp3 := temp4
+param temp3
+call  writeln 1
+goto L0
+label L2
+temp8 := " offset"
+temp7 := temp8
+temp6 := temp7
+param temp6
+call  writeln 1
+goto L0
+label L3
+temp11 :=  i
+temp10 := temp11
+temp9 := temp10
+param temp9
+call  writeln 1
+goto L0
+temp15 :=  i
+temp14 := temp15
+temp13 := temp14
+temp12 := temp13
+label L0

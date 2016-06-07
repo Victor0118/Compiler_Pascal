@@ -1,0 +1,118 @@
++--nodeID:118;nodeType:program;whichDerivation:0
+	+--nodeID:2;nodeType:program_head;whichDerivation:0
+	|	+--nodeID:1;nodeType:ID;whichDerivation:0;nodeContent:MY_OFFSET 
+	+--nodeID:117;nodeType:routine;whichDerivation:0
+	|	+--nodeID:33;nodeType:routine_head;whichDerivation:0
+	|	|	+--nodeID:3;nodeType:label_part;whichDerivation:0
+	|	|	+--nodeID:8;nodeType:const_part;whichDerivation:0
+	|	|	|	+--nodeID:5;nodeType:const_expr_list;whichDerivation:1
+	|	|	|	|	+--nodeID:4;nodeType:ID;whichDerivation:0;nodeContent:offset 
+	|	|	|	|	+--nodeID:7;nodeType:const_value;whichDerivation:0
+	|	|	|	|	|	+--nodeID:6;nodeType:INTEGER;whichDerivation:0;nodeContent:100 
+	|	|	+--nodeID:9;nodeType:type_part;whichDerivation:1
+	|	|	+--nodeID:31;nodeType:var_part;whichDerivation:0
+	|	|	|	+--nodeID:30;nodeType:var_decl_list;whichDerivation:0
+	|	|	|	|	+--nodeID:23;nodeType:var_decl_list;whichDerivation:0
+	|	|	|	|	|	+--nodeID:16;nodeType:var_decl_list;whichDerivation:1
+	|	|	|	|	|	|	+--nodeID:15;nodeType:var_decl;whichDerivation:0
+	|	|	|	|	|	|	|	+--nodeID:10;nodeType:name_list;whichDerivation:1
+	|	|	|	|	|	|	|	|	+--nodeID:11;nodeType:ID;whichDerivation:0;nodeContent:i 
+	|	|	|	|	|	|	|	+--nodeID:14;nodeType:type_decl;whichDerivation:0
+	|	|	|	|	|	|	|	|	+--nodeID:12;nodeType:simple_type_decl;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	+--nodeID:13;nodeType:SYS_TYPE;whichDerivation:0;nodeContent:integer 
+	|	|	|	|	|	+--nodeID:22;nodeType:var_decl;whichDerivation:0
+	|	|	|	|	|	|	+--nodeID:17;nodeType:name_list;whichDerivation:1
+	|	|	|	|	|	|	|	+--nodeID:18;nodeType:ID;whichDerivation:0;nodeContent:j 
+	|	|	|	|	|	|	+--nodeID:21;nodeType:type_decl;whichDerivation:0
+	|	|	|	|	|	|	|	+--nodeID:19;nodeType:simple_type_decl;whichDerivation:0
+	|	|	|	|	|	|	|	|	+--nodeID:20;nodeType:SYS_TYPE;whichDerivation:0;nodeContent:integer 
+	|	|	|	|	+--nodeID:29;nodeType:var_decl;whichDerivation:0
+	|	|	|	|	|	+--nodeID:24;nodeType:name_list;whichDerivation:1
+	|	|	|	|	|	|	+--nodeID:25;nodeType:ID;whichDerivation:0;nodeContent:k 
+	|	|	|	|	|	+--nodeID:28;nodeType:type_decl;whichDerivation:0
+	|	|	|	|	|	|	+--nodeID:26;nodeType:simple_type_decl;whichDerivation:0
+	|	|	|	|	|	|	|	+--nodeID:27;nodeType:SYS_TYPE;whichDerivation:0;nodeContent:integer 
+	|	|	+--nodeID:32;nodeType:routine_part;whichDerivation:2
+	|	+--nodeID:116;nodeType:routine_body;whichDerivation:0
+	|	|	+--nodeID:115;nodeType:compound_stmt;whichDerivation:0
+	|	|	|	+--nodeID:114;nodeType:stmt_list;whichDerivation:0
+	|	|	|	|	+--nodeID:103;nodeType:stmt_list;whichDerivation:0
+	|	|	|	|	|	+--nodeID:67;nodeType:stmt_list;whichDerivation:0
+	|	|	|	|	|	|	+--nodeID:56;nodeType:stmt_list;whichDerivation:0
+	|	|	|	|	|	|	|	+--nodeID:45;nodeType:stmt_list;whichDerivation:0
+	|	|	|	|	|	|	|	|	+--nodeID:34;nodeType:stmt_list;whichDerivation:1
+	|	|	|	|	|	|	|	|	+--nodeID:44;nodeType:stmt;whichDerivation:1
+	|	|	|	|	|	|	|	|	|	+--nodeID:43;nodeType:non_label_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	+--nodeID:36;nodeType:assign_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:35;nodeType:ID;whichDerivation:0;nodeContent:i 
+	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:42;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:41;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:40;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:39;nodeType:factor;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:38;nodeType:const_value;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:37;nodeType:INTEGER;whichDerivation:0;nodeContent:1 
+	|	|	|	|	|	|	|	+--nodeID:55;nodeType:stmt;whichDerivation:1
+	|	|	|	|	|	|	|	|	+--nodeID:54;nodeType:non_label_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	+--nodeID:47;nodeType:assign_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	+--nodeID:46;nodeType:ID;whichDerivation:0;nodeContent:j 
+	|	|	|	|	|	|	|	|	|	|	+--nodeID:53;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:52;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:51;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:50;nodeType:factor;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:49;nodeType:const_value;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:48;nodeType:INTEGER;whichDerivation:0;nodeContent:2 
+	|	|	|	|	|	|	+--nodeID:66;nodeType:stmt;whichDerivation:1
+	|	|	|	|	|	|	|	+--nodeID:65;nodeType:non_label_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	|	+--nodeID:58;nodeType:assign_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	+--nodeID:57;nodeType:ID;whichDerivation:0;nodeContent:k 
+	|	|	|	|	|	|	|	|	|	+--nodeID:64;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	|	+--nodeID:63;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:62;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:61;nodeType:factor;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:60;nodeType:const_value;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:59;nodeType:INTEGER;whichDerivation:0;nodeContent:3 
+	|	|	|	|	|	+--nodeID:102;nodeType:stmt;whichDerivation:1
+	|	|	|	|	|	|	+--nodeID:101;nodeType:non_label_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	+--nodeID:69;nodeType:assign_stmt;whichDerivation:0
+	|	|	|	|	|	|	|	|	+--nodeID:68;nodeType:ID;whichDerivation:0;nodeContent:i 
+	|	|	|	|	|	|	|	|	+--nodeID:100;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	+--nodeID:99;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	+--nodeID:98;nodeType:term;whichDerivation:1
+	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:94;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:93;nodeType:factor;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:92;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:91;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:90;nodeType:term;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:87;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:86;nodeType:factor;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:85;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:84;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:83;nodeType:term;whichDerivation:2
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:80;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:79;nodeType:factor;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:78;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:77;nodeType:expr;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:73;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:72;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:70;nodeType:factor;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:71;nodeType:ID;whichDerivation:0;nodeContent:i 
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:76;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:74;nodeType:factor;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:75;nodeType:ID;whichDerivation:0;nodeContent:j 
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:81;nodeType:factor;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:82;nodeType:ID;whichDerivation:0;nodeContent:j 
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:88;nodeType:factor;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:89;nodeType:ID;whichDerivation:0;nodeContent:k 
+	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:97;nodeType:factor;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:96;nodeType:const_value;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:95;nodeType:INTEGER;whichDerivation:0;nodeContent:3 
+	|	|	|	|	+--nodeID:113;nodeType:stmt;whichDerivation:1
+	|	|	|	|	|	+--nodeID:112;nodeType:non_label_stmt;whichDerivation:1
+	|	|	|	|	|	|	+--nodeID:105;nodeType:Kproc_stmt;whichDerivation:3
+	|	|	|	|	|	|	|	+--nodeID:104;nodeType:SYS_PROC;whichDerivation:0;nodeContent:writeln 
+	|	|	|	|	|	|	|	+--nodeID:111;nodeType:expression_list;whichDerivation:1
+	|	|	|	|	|	|	|	|	+--nodeID:110;nodeType:expression;whichDerivation:6
+	|	|	|	|	|	|	|	|	|	+--nodeID:109;nodeType:expr;whichDerivation:3
+	|	|	|	|	|	|	|	|	|	|	+--nodeID:108;nodeType:term;whichDerivation:4
+	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:106;nodeType:factor;whichDerivation:0
+	|	|	|	|	|	|	|	|	|	|	|	|	+--nodeID:107;nodeType:ID;whichDerivation:0;nodeContent:i 

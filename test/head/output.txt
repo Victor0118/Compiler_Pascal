@@ -1,0 +1,22 @@
+ offset :=  100
+Procedure  init
+begin
+temp2 :=  1
+temp1 := temp2
+temp0 := temp1
+ i := temp0
+end
+Function  assign
+begin
+Procedure  init_2
+begin
+temp5 :=  2
+temp4 := temp5
+temp3 := temp4
+ i := temp3
+end
+temp8 :=  i
+temp7 := temp8
+temp6 := temp7
+ assign := temp6
+end

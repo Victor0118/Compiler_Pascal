@@ -1,0 +1,23 @@
+program MY_OFFSET;
+const
+	offset = 100;
+type
+	a=array['@'..'z']of integer;
+	b=record b1,b2:integer;b3:char; end;
+var
+	i:integer;
+	aa:a;
+	bb:b;
+begin
+//assign
+	i := 10;
+	writeln(i);
+
+	aa['z'] := i;
+
+	writeln(aa['z']);
+
+	bb.b1 := i;
+
+	writeln(bb.b1);	
+end.

@@ -1,0 +1,71 @@
+program houzhui;
+var
+height,sa,tmp,tax,rank:array[0..1000]of longint;
+tp:array['@'..'z']of longint;
+s:ansistring;
+len:longint;
+ch:char;
+
+procedure init;
+var i:longint;
+begin
+  readln(s); len:=length(s);
+  for i:=1 to len do tp[s[i]]:=1;  //tp是用来计算单个字母的rank，如果该字母出现，则赋为1
+  for ch:='A' to 'Z' do
+    if tp[ch]=1 then tp[ch]:=tp[pred(ch)]+1 else tp[ch]:=tp[pred(ch)];
+  for i:=1 to len do rank[i]:=tp[s[i]];
+end;
+
+procedure sort(st:longint);  //st表示排序的起始位置的前一个位置
+var i:longint;
+begin
+  for i:=0 to len do tax[i]:=0;  //tax表示计数器
+  for i:=1 to len do inc(tax[rank[sa[i]+st]]);
+  for i:=1 to len do inc(tax[i],tax[i-1]);  //计数器变成前缀和
+  for i:=len downto 1 do       //downto可以保证原来排名较后的先放入tmp数组，也就是优先放入tmp的后面位置
+  begin
+    tmp[tax[rank[sa[i]+st]]]:=sa[i];         //原来的tax实际上把tmp(新的sa)分成了几段，tax[i]表示第i大的这一段占了几格，计算前缀和后就表示这段最后的位置
+    dec(tax[rank[sa[i]+st]]);
+  end;
+  sa:=tmp;
+end;
+
+procedure get_sa;
+var i,j,x:longint;
+begin
+  for i:=1 to len do
+  begin
+    x:=1;
+    for j:=1 to i-1 do x:=x*2;
+    for j:=1 to len do sa[j]:=j;
+    sort(x);
+    sort(0);              //求出sa
+    for j:=1 to len do
+    if (rank[sa[j]+x]=rank[sa[j-1]+x]) and (rank[sa[j]]=rank[sa[j-1]]) then tmp[sa[j]]:=tmp[sa[j-1]]  //如果排名第j与j-1的串是相同的(即前后的rank都相同)则新的rank也相同
+      else tmp[sa[j]]:=tmp[sa[j-1]]+1;
+    rank:=tmp;           //求出rank
+    if rank[sa[len]]=len then break;
+  end;
+end;
+
+procedure get_height;
+var i,x,next:longint;
+begin
+  for i:=1 to len do if rank[i]<len then
+  begin
+    x:=rank[i]; next:=sa[x+1];
+    while (height[x]+i<=len)and (height[x]+next<=len)and(s[height[x]+i]=s[height[x]+next]) do inc(height[x]);  //要小心越界，不过也可以在s后加一排空格来代替前2个条件
+    if height[x]-1>0 then height[rank[i+1]]:=height[x]-1;    //i+1表示的串相当于i表示的串删去第1个字母，所以至少可以匹配height[x]-1个
+  end;
+end;
+
+begin
+  assign(input,'Suffix.in'); reset(input);
+  assign(output,'Suffix.out'); rewrite(output);
+
+  init;
+  get_sa;
+  get_height;
+
+  close(input); close(output);
+end.

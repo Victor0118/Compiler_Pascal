@@ -1,0 +1,28 @@
+program MY_OFFSET;
+const
+	offset = 100;
+type
+	a=array['@'..'z']of integer;
+	b=record b1,b2:integer;b3:char; end;
+	c=record c1,c2:array[0..10] of b; c3:boolean; end;
+	d=real;
+var
+	i:integer;
+procedure init;
+	begin
+		i:=1;
+	end;
+
+function assign(st:integer):integer;  //st表示排序的起始位置的前一个位置
+	var
+		i:integer;
+		procedure init_2;
+			begin
+				i:=2;
+			end;
+	begin
+		assign:=i;
+	end;
+begin
+	
+end.

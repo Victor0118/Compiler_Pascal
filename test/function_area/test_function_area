@@ -1,0 +1,40 @@
+program MY_OFFSET;
+const
+	offset = 100;
+var
+	i:integer;
+procedure init;
+	begin
+		i:=1;
+	end;
+
+function assign(st:integer):integer;
+	var
+		i:integer;
+		procedure init_2;
+			begin
+				i:=2;
+			end;
+	begin
+		assign:=i;
+	end;
+function assign_2(var st:integer):integer;
+	var
+		i:integer;
+		procedure init_2;
+			begin
+				i:=2;
+			end;
+	begin
+		assign:=i;
+	end;
+
+begin
+	init;
+	writeln(i);
+	assign(i);
+	writeln(i);
+	writeln(assign(i));
+	assign_2(i);
+	writeln(i);
+end.

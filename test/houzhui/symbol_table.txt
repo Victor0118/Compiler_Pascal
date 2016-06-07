@@ -1,0 +1,40 @@
+table scope: Main
+Variable Name    type     Line Numbers
+-------------  --------   ------------
+ sa            array_ 0_ 1000_ longint    3 
+ tp            array_' @'_' z'_ longint    4 
+ init          Function    9 
+ sort          Function   19 
+ len            longint    6 
+ height        array_ 0_ 1000_ longint    3 
+ get_sa        Function   33 
+ rank          array_ 0_ 1000_ longint    3 
+ tmp           array_ 0_ 1000_ longint    3 
+ get_height    Function   51  ch             char       7 
+ tax           array_ 0_ 1000_ longint    3 
+ s              ansistring    5 
+
+table scope: Proc_ init
+Variable Name    type     Line Numbers
+-------------  --------   ------------
+ i              longint   10 
+
+table scope: Proc_ sort
+Variable Name    type     Line Numbers
+-------------  --------   ------------
+ i              longint   20 
+
+table scope: Proc_ get_sa
+Variable Name    type     Line Numbers
+-------------  --------   ------------
+ i              longint   34 
+ j              longint   34 
+ x              longint   34 
+
+table scope: Proc_ get_height
+Variable Name    type     Line Numbers
+-------------  --------   ------------
+ next           longint   52 
+ i              longint   52 
+ x              longint   52 
+

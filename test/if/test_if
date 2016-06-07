@@ -1,0 +1,24 @@
+program MY_OFFSET;
+const
+	offset = 100;
+var
+	i:integer;
+	j:integer;
+	
+begin
+//if
+	i:=2;
+	if i=2 
+	then
+		writeln("i is 2");
+	if i=1 
+	then
+		writeln("i is 1");
+	
+	if i=1
+	then
+		writeln(i)
+	else
+		writeln("i is not 1");
+
+end.

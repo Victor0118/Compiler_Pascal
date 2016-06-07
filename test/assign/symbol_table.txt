@@ -1,0 +1,7 @@
+table scope: Main
+Variable Name    type     Line Numbers
+-------------  --------   ------------
+ aa             a          9 
+ bb             b         10 
+ i              integer    8 
+
