@@ -1,0 +1,6 @@
+case 0 with end label: L0
+ items              labels
+------------------- ------------
+1 integer               L1
+3 integer               L3
+offset               L2

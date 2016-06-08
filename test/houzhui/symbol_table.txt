@@ -1,41 +1,596 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
+temp554        None       70 
 ch             char        7 
-sa             array_0_1000_longint    3 
+temp555        None       70 
+temp556        None       70 
+temp557        None       70 
+temp558        None       70 
+sa             array_0 integer_1000 integer_longint    3 
 len            longint     6 
 init           Function    9 
 sort           Function   19 
-tp             array_'@'_'z'_longint    4 
-tmp            array_0_1000_longint    3 
-rank           array_0_1000_longint    3 
+tp             array_'@' char_'z' char_longint    4 
+input          None       63   63   70 
+tmp            array_0 integer_1000 integer_longint    3 
+rank           array_0 integer_1000 integer_longint    3 
 s              ansistring    5 
-tax            array_0_1000_longint    3 
-height         array_0_1000_longint    3 
+output         None       64   64   70 
+tax            array_0 integer_1000 integer_longint    3 
+height         array_0 integer_1000 integer_longint    3 
 get_sa         Function   33 
 get_height     Function   51 
+temp533        None       63 
+temp534        None       63 
+temp535        None       63 
+temp536                   63 
+temp537                   63 
+temp538                   63 
+temp539                   63 
+temp540        None       63 
+temp541        None       63 
+temp542        None       63 
+temp543        None       64 
+temp544        None       64 
+temp545        None       64 
+temp546                   64 
+temp547                   64 
+temp548                   64 
+temp549                   64 
+temp550        None       64 
+temp551        None       64 
+temp552        None       64 
+temp553        None       70 
 
 table scope: Proc_init
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-i              longint    10 
+ch             char       15   15   15   15   15 
+               None       12 
+temp90         longint    16 
+temp91         longint    16 
+temp92         array_'@' char_'z' char_longint   16 
+temp93         array_'@' char_'z' char_longint   16 
+temp94         array_'@' char_'z' char_longint   16 
+temp95         array_'@' char_'z' char_longint   16 
+temp96         ansistring   16 
+temp97         ansistring   16 
+temp98         ansistring   16 
+temp99         ansistring   16 
+len            longint    13   16 
+temp10         integer    13 
+temp11         integer    13 
+temp12         integer    13 
+temp13         integer    13 
+temp14         longint    13 
+temp15         longint    13 
+temp16         longint    13 
+temp18         ansistring   13 
+temp19         ansistring   13 
+temp20         ansistring   13 
+temp21         ansistring   13 
+temp22         longint    13 
+temp23         longint    13 
+i              longint    10   13   16   16 
+temp24         longint    13 
+temp25         integer    13 
+temp26         integer    13 
+temp27         integer    13 
+temp28         integer    13 
+temp29         char       14 
+s              ansistring   12   12 
+temp30         char       14 
+temp31         char       14 
+temp32         char       14 
+temp33         char       14 
+temp34         char       14 
+temp35         char       14 
+temp36         char       14 
+temp39         array_'@' char_'z' char_longint   15 
+pred           None       15   15 
+temp40         array_'@' char_'z' char_longint   15 
+temp41         array_'@' char_'z' char_longint   15 
+temp42         array_'@' char_'z' char_longint   15 
+temp43         array_'@' char_'z' char_longint   15 
+temp44         char       15 
+temp45         char       15 
+temp46         char       15 
+temp47         integer    15 
+temp48         integer    15 
+temp49         integer    15 
+temp50         char       15 
+temp51         char       15 
+temp52         char       15 
+temp53         array_'@' char_'z' char_longint   15 
+temp54         array_'@' char_'z' char_longint   15 
+temp55         array_'@' char_'z' char_longint   15 
+temp56         array_'@' char_'z' char_longint   15 
+temp57         array_'@' char_'z' char_longint   15 
+temp100        longint    16 
+temp58         None       15 
+temp101        longint    16 
+temp59         None       15 
+temp102        longint    16 
+temp60         None       15 
+temp61         char       15 
+temp62         char       15 
+temp63         char       15 
+temp65         integer    15 
+length         None       12 
+temp66         integer    15 
+temp67         char       15 
+temp68         char       15 
+temp69         char       15 
+temp70         array_'@' char_'z' char_longint   15 
+temp71         array_'@' char_'z' char_longint   15 
+temp72         array_'@' char_'z' char_longint   15 
+temp73         array_'@' char_'z' char_longint   15 
+temp74         None       15 
+temp0          ansistring   12 
+temp75         None       15 
+temp1          ansistring   12 
+temp76         None       15 
+temp2          ansistring   12 
+temp77         char       15 
+temp3          None       12 
+temp78         char       15 
+temp4          None       12 
+temp79         char       15 
+temp5          None       12 
+temp6          ansistring   12 
+temp7          ansistring   12 
+temp8          ansistring   12 
+temp81         integer    16 
+temp82         integer    16 
+temp83         integer    16 
+temp84         integer    16 
+temp85         longint    16 
+temp86         longint    16 
+temp87         longint    16 
+temp89         longint    16 
 
 table scope: Proc_sort
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-i              longint    20 
+               array_0 integer_1000 integer_longint   30 
+temp208        array_0 integer_1000 integer_longint   28 
+temp135        array_0 integer_1000 integer_longint   23 
+temp209        array_0 integer_1000 integer_longint   28 
+temp136        array_0 integer_1000 integer_longint   23 
+temp137        array_0 integer_1000 integer_longint   23 
+temp138        array_0 integer_1000 integer_longint   23 
+temp139        longint    23 
+temp210        array_0 integer_1000 integer_longint   28 
+temp211        array_0 integer_1000 integer_longint   28 
+temp212        array_0 integer_1000 integer_longint   28 
+temp213        longint    28 
+temp140        longint    23 
+temp214        longint    28 
+temp141        longint    23 
+temp215        longint    28 
+temp142        None       23 
+temp216        None       28 
+temp143        integer    24 
+temp217        array_0 integer_1000 integer_longint   30 
+temp144        integer    24 
+temp218        array_0 integer_1000 integer_longint   30 
+temp145        integer    24 
+temp219        array_0 integer_1000 integer_longint   30 
+temp146        integer    24 
+temp147        longint    24 
+temp148        longint    24 
+temp149        longint    24 
+temp151        array_0 integer_1000 integer_longint   24 
+temp152        array_0 integer_1000 integer_longint   24 
+temp153        array_0 integer_1000 integer_longint   24 
+temp154        array_0 integer_1000 integer_longint   24 
+temp155        longint    24 
+temp156        longint    24 
+temp157        longint    24 
+temp158        array_0 integer_1000 integer_longint   24 
+temp159        array_0 integer_1000 integer_longint   24 
+temp160        array_0 integer_1000 integer_longint   24 
+temp161        array_0 integer_1000 integer_longint   24 
+temp162        longint    24 
+len            longint    22   23   24   25 
+temp163        longint    24 
+temp164        longint    24 
+temp165        longint    24 
+temp166        integer    24 
+temp167        integer    24 
+temp168        longint    25 
+temp169        longint    25 
+st             None       23   27   28 
+temp170        longint    25 
+temp171        integer    25 
+temp172        integer    25 
+temp173        integer    25 
+temp174        integer    25 
+temp176        array_0 integer_1000 integer_longint   27 
+temp177        array_0 integer_1000 integer_longint   27 
+temp178        array_0 integer_1000 integer_longint   27 
+temp179        array_0 integer_1000 integer_longint   27 
+temp180        array_0 integer_1000 integer_longint   27 
+temp181        array_0 integer_1000 integer_longint   27 
+temp182        array_0 integer_1000 integer_longint   27 
+temp183        array_0 integer_1000 integer_longint   27 
+temp184        array_0 integer_1000 integer_longint   27 
+temp185        array_0 integer_1000 integer_longint   27 
+temp186        array_0 integer_1000 integer_longint   27 
+temp187        array_0 integer_1000 integer_longint   27 
+temp188        array_0 integer_1000 integer_longint   27 
+temp189        longint    27 
+temp190        longint    27 
+temp191        longint    27 
+temp192        None       27 
+temp193        array_0 integer_1000 integer_longint   27 
+temp194        array_0 integer_1000 integer_longint   27 
+temp195        array_0 integer_1000 integer_longint   27 
+temp196        array_0 integer_1000 integer_longint   27 
+temp197        longint    27 
+temp198        longint    27 
+temp199        longint    27 
+i              longint    20   22   23   24   24   27   27   28 
+tmp            array_0 integer_1000 integer_longint   30 
+temp103        integer    22 
+temp104        integer    22 
+temp105        integer    22 
+temp106        integer    22 
+temp107        longint    22 
+temp108        longint    22 
+temp109        longint    22 
+temp111        longint    22 
+temp112        longint    22 
+temp113        longint    22 
+temp114        integer    22 
+temp115        integer    22 
+temp116        integer    22 
+temp117        integer    22 
+temp118        integer    23 
+temp119        integer    23 
+temp120        integer    23 
+temp121        integer    23 
+temp122        longint    23 
+temp123        longint    23 
+temp124        longint    23 
+temp126        array_0 integer_1000 integer_longint   23 
+temp127        array_0 integer_1000 integer_longint   23 
+temp128        array_0 integer_1000 integer_longint   23 
+temp129        array_0 integer_1000 integer_longint   23 
+temp200        array_0 integer_1000 integer_longint   28 
+temp201        array_0 integer_1000 integer_longint   28 
+temp202        array_0 integer_1000 integer_longint   28 
+temp203        array_0 integer_1000 integer_longint   28 
+temp130        array_0 integer_1000 integer_longint   23 
+temp204        array_0 integer_1000 integer_longint   28 
+temp131        array_0 integer_1000 integer_longint   23 
+temp205        array_0 integer_1000 integer_longint   28 
+temp132        array_0 integer_1000 integer_longint   23 
+temp206        array_0 integer_1000 integer_longint   28 
+temp133        array_0 integer_1000 integer_longint   23 
+temp207        array_0 integer_1000 integer_longint   28 
+temp134        array_0 integer_1000 integer_longint   23 
 
 table scope: Proc_get_sa
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-i              longint    34 
-j              longint    34 
-x              longint    34 
+               integer    38   39   46 
+temp220        integer    36 
+temp221        integer    36 
+temp222        integer    36 
+temp223        integer    36 
+temp224        longint    36 
+temp225        longint    36 
+temp226        longint    36 
+temp228        integer    38 
+temp229        integer    38 
+temp300        array_0 integer_1000 integer_longint   44 
+temp301        array_0 integer_1000 integer_longint   44 
+temp302        array_0 integer_1000 integer_longint   44 
+temp303        array_0 integer_1000 integer_longint   44 
+temp230        integer    38 
+temp304        longint    44 
+temp231        integer    38 
+temp305        longint    44 
+temp232        integer    39 
+temp306        longint    44 
+temp233        integer    39 
+temp307        longint    44 
+temp234        integer    39 
+temp308        integer    44 
+temp235        integer    39 
+len            longint    36   40   43   47   47 
+temp309        integer    44 
+temp236        longint    39 
+temp237        longint    39 
+temp238        longint    39 
+temp239        longint    39 
+temp310        longint    44 
+temp311        array_0 integer_1000 integer_longint   44 
+temp312        array_0 integer_1000 integer_longint   44 
+temp313        array_0 integer_1000 integer_longint   44 
+temp240        integer    39 
+temp314        array_0 integer_1000 integer_longint   44 
+temp241        integer    39 
+temp315        array_0 integer_1000 integer_longint   44 
+temp316        array_0 integer_1000 integer_longint   44 
+temp243        longint    39 
+temp317        array_0 integer_1000 integer_longint   44 
+temp244        longint    39 
+temp318        array_0 integer_1000 integer_longint   44 
+temp245        longint    39 
+temp319        array_0 integer_1000 integer_longint   44 
+temp246        longint    39 
+temp247        integer    39 
+temp248        integer    40 
+temp249        integer    40 
+temp320        longint    44 
+temp321        longint    44 
+temp322        longint    44 
+temp323        array_0 integer_1000 integer_longint   44 
+temp250        integer    40 
+temp324        array_0 integer_1000 integer_longint   44 
+temp251        integer    40 
+temp325        array_0 integer_1000 integer_longint   44 
+temp252        longint    40 
+temp326        array_0 integer_1000 integer_longint   44 
+temp253        longint    40 
+temp327        array_0 integer_1000 integer_longint   44 
+temp254        longint    40 
+temp328        array_0 integer_1000 integer_longint   44 
+temp329        array_0 integer_1000 integer_longint   44 
+temp256        longint    40 
+temp257        longint    40 
+temp258        longint    40 
+temp259        longint    40 
+temp330        longint    44 
+temp331        longint    44 
+temp332        longint    44 
+temp333        longint    44 
+temp260        longint    40 
+temp334        integer    44 
+temp261        longint    40 
+temp335        integer    44 
+temp262        longint    41 
+temp336        array_0 integer_1000 integer_longint   44 
+temp263        longint    41 
+temp337        array_0 integer_1000 integer_longint   44 
+temp264        longint    41 
+temp338        array_0 integer_1000 integer_longint   44 
+temp265        integer    42 
+temp339        array_0 integer_1000 integer_longint   44 
+temp266        integer    42 
+temp267        integer    42 
+temp268        integer    42 
+temp269        integer    43 
+temp340        longint    44 
+temp341        longint    44 
+temp342        longint    44 
+temp343        array_0 integer_1000 integer_longint   45 
+temp270        integer    43 
+temp344        array_0 integer_1000 integer_longint   45 
+temp271        integer    43 
+i              longint    34   39 
+temp345        array_0 integer_1000 integer_longint   44 
+temp272        integer    43 
+j              longint    34   40   40   44   44   44   44   44   44   45   45 
+temp346        array_0 integer_1000 integer_longint   44 
+temp273        longint    43 
+temp347        array_0 integer_1000 integer_longint   44 
+temp274        longint    43 
+temp348        array_0 integer_1000 integer_longint   44 
+temp275        longint    43 
+temp349        array_0 integer_1000 integer_longint   44 
+temp278        array_0 integer_1000 integer_longint   44 
+tmp            array_0 integer_1000 integer_longint   46 
+temp279        array_0 integer_1000 integer_longint   44 
+temp350        array_0 integer_1000 integer_longint   44 
+temp351        longint    44 
+temp352        longint    44 
+temp353        longint    44 
+temp280        array_0 integer_1000 integer_longint   44 
+x              longint    34   39   41   44   44 
+temp354        longint    44 
+temp281        array_0 integer_1000 integer_longint   44 
+temp355        integer    44 
+temp282        array_0 integer_1000 integer_longint   44 
+temp356        integer    44 
+temp283        array_0 integer_1000 integer_longint   44 
+temp357        array_0 integer_1000 integer_longint   45 
+temp284        array_0 integer_1000 integer_longint   44 
+temp358        array_0 integer_1000 integer_longint   45 
+temp285        array_0 integer_1000 integer_longint   44 
+temp359        array_0 integer_1000 integer_longint   45 
+temp286        array_0 integer_1000 integer_longint   44 
+temp287        array_0 integer_1000 integer_longint   44 
+temp288        array_0 integer_1000 integer_longint   44 
+temp289        array_0 integer_1000 integer_longint   44 
+temp360        array_0 integer_1000 integer_longint   45 
+temp361        longint    45 
+temp362        longint    45 
+temp363        longint    45 
+temp290        array_0 integer_1000 integer_longint   44 
+temp364        array_0 integer_1000 integer_longint   45 
+temp291        array_0 integer_1000 integer_longint   44 
+temp365        array_0 integer_1000 integer_longint   45 
+temp292        longint    44 
+temp366        array_0 integer_1000 integer_longint   45 
+temp293        longint    44 
+temp367        array_0 integer_1000 integer_longint   45 
+temp294        longint    44 
+temp368        array_0 integer_1000 integer_longint   45 
+temp295        longint    44 
+temp369        array_0 integer_1000 integer_longint   45 
+temp296        array_0 integer_1000 integer_longint   44 
+temp297        array_0 integer_1000 integer_longint   44 
+temp298        array_0 integer_1000 integer_longint   44 
+temp299        array_0 integer_1000 integer_longint   44 
+temp370        array_0 integer_1000 integer_longint   45 
+temp371        array_0 integer_1000 integer_longint   45 
+temp372        array_0 integer_1000 integer_longint   45 
+temp373        longint    45 
+temp374        longint    45 
+temp375        longint    45 
+temp376        longint    45 
+temp377        integer    45 
+temp378        integer    45 
+temp379        integer    45 
+temp380        integer    45 
+temp381        array_0 integer_1000 integer_longint   46 
+temp382        array_0 integer_1000 integer_longint   46 
+temp383        array_0 integer_1000 integer_longint   46 
+temp385        array_0 integer_1000 integer_longint   47 
+temp386        array_0 integer_1000 integer_longint   47 
+temp387        array_0 integer_1000 integer_longint   47 
+temp388        array_0 integer_1000 integer_longint   47 
+temp389        array_0 integer_1000 integer_longint   47 
+temp390        array_0 integer_1000 integer_longint   47 
+temp391        array_0 integer_1000 integer_longint   47 
+temp392        array_0 integer_1000 integer_longint   47 
+temp393        array_0 integer_1000 integer_longint   47 
+temp394        longint    47 
+temp395        longint    47 
+temp396        longint    47 
+temp397        longint    47 
+temp398        longint    47 
 
 table scope: Proc_get_height
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-i              longint    52 
-next           longint    52 
-x              longint    52 
+temp481        ansistring   57 
+               array_0 integer_1000 integer_longint   56   56 
+temp482        array_0 integer_1000 integer_longint   57 
+temp483        array_0 integer_1000 integer_longint   57 
+temp484        array_0 integer_1000 integer_longint   57 
+temp485        array_0 integer_1000 integer_longint   57 
+temp486        array_0 integer_1000 integer_longint   57 
+temp487        longint    57 
+temp488        longint    57 
+temp489        longint    57 
+temp490        longint    57 
+temp491        array_0 integer_1000 integer_longint   57 
+temp492        array_0 integer_1000 integer_longint   57 
+temp493        array_0 integer_1000 integer_longint   57 
+temp494        array_0 integer_1000 integer_longint   57 
+temp495        longint    57 
+temp496        longint    57 
+temp497        longint    57 
+temp499        array_0 integer_1000 integer_longint   58 
+len            longint    54   54   57   57 
+temp400        integer    54 
+temp401        integer    54 
+temp402        integer    54 
+temp403        longint    54 
+temp404        longint    54 
+temp405        longint    54 
+temp408        array_0 integer_1000 integer_longint   54 
+temp409        array_0 integer_1000 integer_longint   54 
+temp410        array_0 integer_1000 integer_longint   54 
+temp411        array_0 integer_1000 integer_longint   54 
+temp412        array_0 integer_1000 integer_longint   54 
+temp413        longint    54 
+temp414        longint    54 
+temp415        longint    54 
+temp416        longint    54 
+temp417        longint    54 
+i              longint    52   54   56   57   57   58 
+temp418        array_0 integer_1000 integer_longint   56 
+temp419        array_0 integer_1000 integer_longint   56 
+temp420        array_0 integer_1000 integer_longint   56 
+temp421        array_0 integer_1000 integer_longint   56 
+next           longint    52   57   57 
+temp422        longint    56 
+temp423        longint    56 
+temp424        longint    56 
+temp425        array_0 integer_1000 integer_longint   56 
+temp426        array_0 integer_1000 integer_longint   56 
+x              longint    52   56   57   57   57   57   57   58   58 
+temp427        array_0 integer_1000 integer_longint   56 
+temp428        array_0 integer_1000 integer_longint   56 
+temp429        longint    56 
+temp500        array_0 integer_1000 integer_longint   58 
+temp501        array_0 integer_1000 integer_longint   58 
+temp502        array_0 integer_1000 integer_longint   58 
+temp503        array_0 integer_1000 integer_longint   58 
+temp430        longint    56 
+temp504        array_0 integer_1000 integer_longint   58 
+temp431        longint    56 
+temp505        longint    58 
+temp432        longint    56 
+temp506        longint    58 
+temp433        integer    56 
+temp507        longint    58 
+temp434        integer    56 
+temp508        integer    58 
+temp509        integer    58 
+temp436        array_0 integer_1000 integer_longint   57 
+temp437        array_0 integer_1000 integer_longint   57 
+temp438        array_0 integer_1000 integer_longint   57 
+temp439        array_0 integer_1000 integer_longint   57 
+temp510        integer    58 
+temp511        integer    58 
+temp512        integer    58 
+temp513        array_0 integer_1000 integer_longint   58 
+temp440        array_0 integer_1000 integer_longint   57 
+temp514        array_0 integer_1000 integer_longint   58 
+temp441        array_0 integer_1000 integer_longint   57 
+temp515        array_0 integer_1000 integer_longint   58 
+temp442        array_0 integer_1000 integer_longint   57 
+temp516        array_0 integer_1000 integer_longint   58 
+temp443        array_0 integer_1000 integer_longint   57 
+temp517        longint    58 
+temp444        array_0 integer_1000 integer_longint   57 
+temp518        longint    58 
+temp445        array_0 integer_1000 integer_longint   57 
+temp519        longint    58 
+temp446        array_0 integer_1000 integer_longint   57 
+temp447        longint    57 
+temp448        longint    57 
+temp449        longint    57 
+temp520        longint    58 
+temp521        integer    58 
+temp522        integer    58 
+temp523        array_0 integer_1000 integer_longint   58 
+temp450        longint    57 
+temp524        array_0 integer_1000 integer_longint   58 
+temp451        longint    57 
+temp525        array_0 integer_1000 integer_longint   58 
+temp452        longint    57 
+temp526        array_0 integer_1000 integer_longint   58 
+temp453        array_0 integer_1000 integer_longint   57 
+temp527        array_0 integer_1000 integer_longint   58 
+temp454        array_0 integer_1000 integer_longint   57 
+temp528        longint    58 
+temp455        array_0 integer_1000 integer_longint   57 
+temp529        longint    58 
+temp456        array_0 integer_1000 integer_longint   57 
+temp457        array_0 integer_1000 integer_longint   57 
+temp458        array_0 integer_1000 integer_longint   57 
+temp459        longint    57 
+temp530        longint    58 
+temp531        integer    58 
+temp532        integer    58 
+temp460        longint    57 
+temp461        longint    57 
+temp462        longint    57 
+temp463        longint    57 
+temp464        longint    57 
+temp465        ansistring   57 
+temp466        ansistring   57 
+temp467        ansistring   57 
+temp468        ansistring   57 
+temp469        ansistring   57 
+temp399        integer    54 
+temp470        array_0 integer_1000 integer_longint   57 
+temp471        array_0 integer_1000 integer_longint   57 
+temp472        array_0 integer_1000 integer_longint   57 
+temp473        array_0 integer_1000 integer_longint   57 
+temp474        array_0 integer_1000 integer_longint   57 
+temp475        longint    57 
+temp476        longint    57 
+temp477        longint    57 
+temp478        longint    57 
+temp479        ansistring   57 
+temp480        ansistring   57 
 

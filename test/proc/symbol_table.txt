@@ -1,16 +1,42 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
+               None       20 
 init           Function    6 
-i              integer     5 
-assign         Function   11 
+temp10         None       20 
+temp11         None       20 
+temp12         None       20 
+temp13         integer    20 
+temp14         integer    20 
+temp15         integer    20 
+temp17         integer    21 
+temp18         integer    21 
+temp19         integer    21 
+temp20         integer    26 
+temp21         integer    26 
+temp22         integer    26 
+i              integer     5   18   20   21   25   26 
+assign         Function   11   20 
+temp7          integer    18 
+temp8          integer    18 
+temp9          integer    18 
 
 table scope: Proc_init
 Variable Name    type     Line Numbers
 -------------  --------   ------------
+               integer     8 
+temp0          integer     8 
+temp1          integer     8 
+temp2          integer     8 
+temp3          integer     8 
 
 table scope: Func_assign
 Variable Name    type     Line Numbers
 -------------  --------   ------------
+               None       13 
+st             None       13 
 assign_return  integer    11 
+temp4          None       13 
+temp5          None       13 
+temp6          None       13 
 

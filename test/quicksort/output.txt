@@ -1,301 +1,309 @@
-maxn := 10000
+maxn = 10000 integer
 Procedure qsort
 begin
-temp2 := l
-temp1 := temp2
-temp0 := temp1
-i := temp0
-temp5 := r
-temp4 := temp5
-temp3 := temp4
-j := temp3
-temp17 := i
-temp16 := temp17
-temp18 := j
-temp15 := temp16 + temp18
-temp14 := temp15
-temp13 := temp14
-temp12 := temp13 / 2
-temp11 := temp12
-temp10 := temp11
-temp9 := x [ temp10 ]
-temp8 := temp9
-temp7 := temp8
-temp6 := temp7
-k := temp6
-temp30 := i
-temp29 := temp30
-temp31 := j
-temp28 := temp29 + temp31
-temp27 := temp28
-temp26 := temp27
-temp25 := temp26 / 2
-temp24 := temp25
-temp23 := temp24
-temp22 := y [ temp23 ]
-temp21 := temp22
-temp20 := temp21
-temp19 := temp20
-p := temp19
+temp2 = l None
+temp1 = temp2 None
+temp0 = temp1 None
+i = temp0 None
+temp5 = r None
+temp4 = temp5 None
+temp3 = temp4 None
+j = temp3 None
+temp17 = i integer
+temp16 = temp17 integer
+temp18 = j integer
+temp15 = temp16 + temp18 integer
+temp14 = temp15 integer
+temp13 = temp14 integer
+temp19 = 2 integer
+temp12 = temp13 / temp19 integer
+temp11 = temp12 integer
+temp10 = temp11 integer
+temp9 = x [ temp10 ]
+temp8 = temp9 array_1 integer_100 integer_integer
+temp7 = temp8 array_1 integer_100 integer_integer
+temp6 = temp7 array_1 integer_100 integer_integer
+k = temp6 array_1 integer_100 integer_integer
+temp31 = i integer
+temp30 = temp31 integer
+temp32 = j integer
+temp29 = temp30 + temp32 integer
+temp28 = temp29 integer
+temp27 = temp28 integer
+temp33 = 2 integer
+temp26 = temp27 / temp33 integer
+temp25 = temp26 integer
+temp24 = temp25 integer
+temp23 = y [ temp24 ]
+temp22 = temp23 array_1 integer_100 integer_integer
+temp21 = temp22 array_1 integer_100 integer_integer
+temp20 = temp21 array_1 integer_100 integer_integer
+p = temp20 array_1 integer_100 integer_integer
 label L0
 label L1
-temp45 := i
-temp44 := temp45
-temp43 := temp44
-temp42 := x [ temp43 ]
-temp41 := temp42
-temp40 := temp41
-temp39 := temp40
-temp47 := k
-temp46 := temp47
-temp38 := temp39 < temp46
-temp37 := temp38
-temp36 := temp37
-temp60 := i
-temp59 := temp60
-temp58 := temp59
-temp57 := x [ temp58 ]
-temp56 := temp57
-temp55 := temp56
-temp54 := temp55
-temp62 := k
-temp61 := temp62
-temp53 := temp54 == temp61
-temp52 := temp53
-temp70 := i
-temp69 := temp70
-temp68 := temp69
-temp67 := y [ temp68 ]
-temp66 := temp67
-temp65 := temp66
-temp64 := temp65
-temp72 := p
-temp71 := temp72
-temp63 := temp64 < temp71
-temp51 := temp52 && temp63
-temp50 := temp51
-temp49 := temp50
-temp48 := temp49
-temp35 := temp36 || temp48
-temp34 := temp35
-temp33 := temp34
-if_false temp33 goto L2
-temp75 := i
-temp74 := temp75
-temp73 := temp74
-param temp73
+temp47 = i integer
+temp46 = temp47 integer
+temp45 = temp46 integer
+temp44 = x [ temp45 ]
+temp43 = temp44 array_1 integer_100 integer_integer
+temp42 = temp43 array_1 integer_100 integer_integer
+temp41 = temp42 array_1 integer_100 integer_integer
+temp49 = k integer
+temp48 = temp49 integer
+temp40 = temp41 < temp48 array_1 integer_100 integer_integer
+temp39 = temp40 array_1 integer_100 integer_integer
+temp38 = temp39 array_1 integer_100 integer_integer
+temp62 = i integer
+temp61 = temp62 integer
+temp60 = temp61 integer
+temp59 = x [ temp60 ]
+temp58 = temp59 array_1 integer_100 integer_integer
+temp57 = temp58 array_1 integer_100 integer_integer
+temp56 = temp57 array_1 integer_100 integer_integer
+temp64 = k integer
+temp63 = temp64 integer
+temp55 = temp56 == temp63 array_1 integer_100 integer_integer
+temp54 = temp55 array_1 integer_100 integer_integer
+temp72 = i integer
+temp71 = temp72 integer
+temp70 = temp71 integer
+temp69 = y [ temp70 ]
+temp68 = temp69 array_1 integer_100 integer_integer
+temp67 = temp68 array_1 integer_100 integer_integer
+temp66 = temp67 array_1 integer_100 integer_integer
+temp74 = p integer
+temp73 = temp74 integer
+temp65 = temp66 < temp73 array_1 integer_100 integer_integer
+temp53 = temp54 && temp65 array_1 integer_100 integer_integer
+temp52 = temp53 array_1 integer_100 integer_integer
+temp51 = temp52 array_1 integer_100 integer_integer
+temp50 = temp51 array_1 integer_100 integer_integer
+temp37 = temp38 || temp50 array_1 integer_100 integer_integer
+temp36 = temp37 array_1 integer_100 integer_integer
+temp35 = temp36
+if_false temp35 goto L2
+temp77 = i integer
+temp76 = temp77 integer
+temp75 = temp76 integer
+param temp75
 call inc 1
 goto L1
 label L2
 label L3
-temp88 := j
-temp87 := temp88
-temp86 := temp87
-temp85 := x [ temp86 ]
-temp84 := temp85
-temp83 := temp84
-temp82 := temp83
-temp90 := k
-temp89 := temp90
-temp81 := temp82 <= temp89
-temp80 := temp81
-temp79 := temp80
-temp103 := j
-temp102 := temp103
-temp101 := temp102
-temp100 := x [ temp101 ]
-temp99 := temp100
-temp98 := temp99
-temp97 := temp98
-temp105 := k
-temp104 := temp105
-temp96 := temp97 == temp104
-temp95 := temp96
-temp113 := j
-temp112 := temp113
-temp111 := temp112
-temp110 := y [ temp111 ]
-temp109 := temp110
-temp108 := temp109
-temp107 := temp108
-temp115 := p
-temp114 := temp115
-temp106 := temp107 <= temp114
-temp94 := temp95 && temp106
-temp93 := temp94
-temp92 := temp93
-temp91 := temp92
-temp78 := temp79 || temp91
-temp77 := temp78
-temp76 := temp77
-if_false temp76 goto L4
-temp118 := j
-temp117 := temp118
-temp116 := temp117
-param temp116
+temp90 = j integer
+temp89 = temp90 integer
+temp88 = temp89 integer
+temp87 = x [ temp88 ]
+temp86 = temp87 array_1 integer_100 integer_integer
+temp85 = temp86 array_1 integer_100 integer_integer
+temp84 = temp85 array_1 integer_100 integer_integer
+temp92 = k integer
+temp91 = temp92 integer
+temp83 = temp84 <= temp91 array_1 integer_100 integer_integer
+temp82 = temp83 array_1 integer_100 integer_integer
+temp81 = temp82 array_1 integer_100 integer_integer
+temp105 = j integer
+temp104 = temp105 integer
+temp103 = temp104 integer
+temp102 = x [ temp103 ]
+temp101 = temp102 array_1 integer_100 integer_integer
+temp100 = temp101 array_1 integer_100 integer_integer
+temp99 = temp100 array_1 integer_100 integer_integer
+temp107 = k integer
+temp106 = temp107 integer
+temp98 = temp99 == temp106 array_1 integer_100 integer_integer
+temp97 = temp98 array_1 integer_100 integer_integer
+temp115 = j integer
+temp114 = temp115 integer
+temp113 = temp114 integer
+temp112 = y [ temp113 ]
+temp111 = temp112 array_1 integer_100 integer_integer
+temp110 = temp111 array_1 integer_100 integer_integer
+temp109 = temp110 array_1 integer_100 integer_integer
+temp117 = p integer
+temp116 = temp117 integer
+temp108 = temp109 <= temp116 array_1 integer_100 integer_integer
+temp96 = temp97 && temp108 array_1 integer_100 integer_integer
+temp95 = temp96 array_1 integer_100 integer_integer
+temp94 = temp95 array_1 integer_100 integer_integer
+temp93 = temp94 array_1 integer_100 integer_integer
+temp80 = temp81 || temp93 array_1 integer_100 integer_integer
+temp79 = temp80 array_1 integer_100 integer_integer
+temp78 = temp79
+if_false temp78 goto L4
+temp120 = j integer
+temp119 = temp120 integer
+temp118 = temp119 integer
+param temp118
 call dec 1
 goto L3
 label L4
-temp123 := i
-temp122 := temp123
-temp121 := temp122
-temp125 := j
-temp124 := temp125
-temp120 := temp121 <= temp124
-temp119 := temp120
-if_false temp119 goto L5
-temp132 := i
-temp131 := temp132
-temp130 := temp131
-temp129 := x [ temp130 ]
-temp128 := temp129
-temp127 := temp128
-temp126 := temp127
-temp := temp126
-temp135 := i
-temp134 := temp135
-temp133 := temp134
-temp142 := j
-temp141 := temp142
-temp140 := temp141
-temp139 := x [ temp140 ]
-temp138 := temp139
-temp137 := temp138
-temp136 := temp137
-x [ temp133 ] := temp136
-temp145 := j
-temp144 := temp145
-temp143 := temp144
-temp148 := temp
-temp147 := temp148
-temp146 := temp147
-x [ temp143 ] := temp146
-temp155 := i
-temp154 := temp155
-temp153 := temp154
-temp152 := y [ temp153 ]
-temp151 := temp152
-temp150 := temp151
-temp149 := temp150
-temp := temp149
-temp158 := i
-temp157 := temp158
-temp156 := temp157
-temp165 := j
-temp164 := temp165
-temp163 := temp164
-temp162 := y [ temp163 ]
-temp161 := temp162
-temp160 := temp161
-temp159 := temp160
-y [ temp156 ] := temp159
-temp168 := j
-temp167 := temp168
-temp166 := temp167
-temp171 := temp
-temp170 := temp171
-temp169 := temp170
-y [ temp166 ] := temp169
-temp178 := i
-temp177 := temp178
-temp176 := temp177
-temp175 := sa [ temp176 ]
-temp174 := temp175
-temp173 := temp174
-temp172 := temp173
-temp := temp172
-temp181 := i
-temp180 := temp181
-temp179 := temp180
-temp188 := j
-temp187 := temp188
-temp186 := temp187
-temp185 := sa [ temp186 ]
-temp184 := temp185
-temp183 := temp184
-temp182 := temp183
-sa [ temp179 ] := temp182
-temp191 := j
-temp190 := temp191
-temp189 := temp190
-temp194 := temp
-temp193 := temp194
-temp192 := temp193
-sa [ temp189 ] := temp192
-temp197 := i
-temp196 := temp197
-temp195 := temp196
-param temp195
+temp125 = i integer
+temp124 = temp125 integer
+temp123 = temp124 integer
+temp127 = j integer
+temp126 = temp127 integer
+temp122 = temp123 <= temp126 integer
+temp121 = temp122
+if_false temp121 goto L5
+temp134 = i integer
+temp133 = temp134 integer
+temp132 = temp133 integer
+temp131 = x [ temp132 ]
+temp130 = temp131 array_1 integer_100 integer_integer
+temp129 = temp130 array_1 integer_100 integer_integer
+temp128 = temp129 array_1 integer_100 integer_integer
+temp = temp128 array_1 integer_100 integer_integer
+temp137 = i integer
+temp136 = temp137 integer
+temp135 = temp136 integer
+temp144 = j integer
+temp143 = temp144 integer
+temp142 = temp143 integer
+temp141 = x [ temp142 ]
+temp140 = temp141 array_1 integer_100 integer_integer
+temp139 = temp140 array_1 integer_100 integer_integer
+temp138 = temp139 array_1 integer_100 integer_integer
+x [ temp135 ] = temp138
+temp147 = j integer
+temp146 = temp147 integer
+temp145 = temp146 integer
+temp150 = temp integer
+temp149 = temp150 integer
+temp148 = temp149 integer
+x [ temp145 ] = temp148
+temp157 = i integer
+temp156 = temp157 integer
+temp155 = temp156 integer
+temp154 = y [ temp155 ]
+temp153 = temp154 array_1 integer_100 integer_integer
+temp152 = temp153 array_1 integer_100 integer_integer
+temp151 = temp152 array_1 integer_100 integer_integer
+temp = temp151 array_1 integer_100 integer_integer
+temp160 = i integer
+temp159 = temp160 integer
+temp158 = temp159 integer
+temp167 = j integer
+temp166 = temp167 integer
+temp165 = temp166 integer
+temp164 = y [ temp165 ]
+temp163 = temp164 array_1 integer_100 integer_integer
+temp162 = temp163 array_1 integer_100 integer_integer
+temp161 = temp162 array_1 integer_100 integer_integer
+y [ temp158 ] = temp161
+temp170 = j integer
+temp169 = temp170 integer
+temp168 = temp169 integer
+temp173 = temp integer
+temp172 = temp173 integer
+temp171 = temp172 integer
+y [ temp168 ] = temp171
+temp180 = i integer
+temp179 = temp180 integer
+temp178 = temp179 integer
+temp177 = sa [ temp178 ]
+temp176 = temp177 None
+temp175 = temp176 None
+temp174 = temp175 None
+temp = temp174 None
+temp183 = i integer
+temp182 = temp183 integer
+temp181 = temp182 integer
+temp190 = j integer
+temp189 = temp190 integer
+temp188 = temp189 integer
+temp187 = sa [ temp188 ]
+temp186 = temp187 None
+temp185 = temp186 None
+temp184 = temp185 None
+sa [ temp181 ] = temp184
+temp193 = j integer
+temp192 = temp193 integer
+temp191 = temp192 integer
+temp196 = temp integer
+temp195 = temp196 integer
+temp194 = temp195 integer
+sa [ temp191 ] = temp194
+temp199 = i integer
+temp198 = temp199 integer
+temp197 = temp198 integer
+param temp197
 call inc 1
-temp200 := j
-temp199 := temp200
-temp198 := temp199
-param temp198
+temp202 = j integer
+temp201 = temp202 integer
+temp200 = temp201 integer
+param temp200
 call dec 1
 goto L6
 label L5
 label L6
-temp204 := i
-temp203 := temp204
-temp202 := temp203
-temp206 := j
-temp205 := temp206
-temp201 := temp202 <= temp205
-temp32 := temp201
-if_false temp32 goto L0
-temp211 := i
-temp210 := temp211
-temp209 := temp210
-temp213 := j
-temp212 := temp213
-temp208 := temp209 < temp212
-temp207 := temp208
-if_false temp207 goto L7
-temp216 := i
-temp215 := temp216
-temp214 := temp215
-temp219 := r
-temp218 := temp219
-temp217 := temp218
-param temp214
-param temp217
+temp206 = i integer
+temp205 = temp206 integer
+temp204 = temp205 integer
+temp208 = j integer
+temp207 = temp208 integer
+temp203 = temp204 <= temp207 integer
+temp34 = temp203
+if_false temp34 goto L0
+temp213 = i integer
+temp212 = temp213 integer
+temp211 = temp212 integer
+temp215 = j integer
+temp214 = temp215 integer
+temp210 = temp211 < temp214 integer
+temp209 = temp210
+if_false temp209 goto L7
+temp218 = i integer
+temp217 = temp218 integer
+temp216 = temp217 integer
+temp221 = r None
+temp220 = temp221 None
+temp219 = temp220 None
+param temp216
+param temp219
 call qsort 2
 goto L8
 label L7
 label L8
-temp224 := l
-temp223 := temp224
-temp222 := temp223
-temp226 := j
-temp225 := temp226
-temp221 := temp222 < temp225
-temp220 := temp221
-if_false temp220 goto L9
+temp226 = l None
+temp225 = temp226 None
+temp224 = temp225 None
+temp228 = j integer
+temp227 = temp228 integer
+temp223 = temp224 < temp227 None
+temp222 = temp223
+if_false temp222 goto L9
 call qsort 0
 goto L10
 label L9
 label L10
 end
-temp229 := 1
-temp228 := temp229
-temp227 := temp228
-temp232 := 1
-temp231 := temp232
-temp230 := temp231
-x [ temp227 ] := temp230
-temp235 := 100
-temp234 := temp235
-temp233 := temp234
-temp238 := 3
-temp237 := temp238
-temp236 := temp237
-x [ temp233 ] := temp236
-temp241 := 1
-temp240 := temp241
-temp239 := temp240
-temp244 := 100
-temp243 := temp244
-temp242 := temp243
-param temp239
-param temp242
+temp232 = 1 integer
+temp231 = temp232 integer
+temp230 = temp231 integer
+temp229 = temp230 integer
+temp236 = 1 integer
+temp235 = temp236 integer
+temp234 = temp235 integer
+temp233 = temp234 integer
+x [ temp229 ] = temp233
+temp240 = 100 integer
+temp239 = temp240 integer
+temp238 = temp239 integer
+temp237 = temp238 integer
+temp244 = 3 integer
+temp243 = temp244 integer
+temp242 = temp243 integer
+temp241 = temp242 integer
+x [ temp237 ] = temp241
+temp248 = 1 integer
+temp247 = temp248 integer
+temp246 = temp247 integer
+temp245 = temp246 integer
+temp252 = 100 integer
+temp251 = temp252 integer
+temp250 = temp251 integer
+temp249 = temp250 integer
+param temp245
+param temp249
 call qsort 2

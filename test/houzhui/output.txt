@@ -1,689 +1,723 @@
 Procedure init
 begin
-temp2 := s
-temp1 := temp2
-temp0 := temp1
+temp2 = s ansistring
+temp1 = temp2 ansistring
+temp0 = temp1 ansistring
 param temp0
 call readln 1
-temp8 := s
-temp7 := temp8
-temp6 := temp7
+temp8 = s ansistring
+temp7 = temp8 ansistring
+temp6 = temp7 ansistring
 param temp6
 call length 1
 return temp9
-temp5 := temp9
-temp4 := temp5
-temp3 := temp4
-len := temp3
-temp12 := 1
-temp11 := temp12
-temp10 := temp11
-temp15 := len
-temp14 := temp15
-temp13 := temp14
-i := temp10
+temp5 = temp9 None
+temp4 = temp5 None
+temp3 = temp4 None
+len = temp3 None
+temp13 = 1 integer
+temp12 = temp13 integer
+temp11 = temp12 integer
+temp10 = temp11 integer
+temp16 = len longint
+temp15 = temp16 longint
+temp14 = temp15 longint
+i = temp10
 label L0
-temp16 := i - temp13
-if_false temp16 goto L1
-temp23 := i
-temp22 := temp23
-temp21 := temp22
-temp20 := s [ temp21 ]
-temp19 := temp20
-temp18 := temp19
-temp17 := temp18
-temp26 := 1
-temp25 := temp26
-temp24 := temp25
-tp [ temp17 ] := temp24
-i := i + 1
+temp17 = i - temp14
+if_false temp17 goto L1
+temp24 = i longint
+temp23 = temp24 longint
+temp22 = temp23 longint
+temp21 = s [ temp22 ]
+temp20 = temp21 ansistring
+temp19 = temp20 ansistring
+temp18 = temp19 ansistring
+temp28 = 1 integer
+temp27 = temp28 integer
+temp26 = temp27 integer
+temp25 = temp26 integer
+tp [ temp18 ] = temp25
+i = i + 1
 goto L0
 label L1
-temp29 := 'A'
-temp28 := temp29
-temp27 := temp28
-temp32 := 'Z'
-temp31 := temp32
-temp30 := temp31
-ch := temp27
+temp32 = 'A' char
+temp31 = temp32 char
+temp30 = temp31 char
+temp29 = temp30 char
+temp36 = 'Z' char
+temp35 = temp36 char
+temp34 = temp35 char
+temp33 = temp34 char
+ch = temp29
 label L2
-temp33 := ch - temp30
-if_false temp33 goto L3
-temp42 := ch
-temp41 := temp42
-temp40 := temp41
-temp39 := tp [ temp40 ]
-temp38 := temp39
-temp37 := temp38
-temp36 := temp37
-temp44 := 1
-temp43 := temp44
-temp35 := temp36 == temp43
-temp34 := temp35
-if_false temp34 goto L4
-temp47 := ch
-temp46 := temp47
-temp45 := temp46
-temp58 := ch
-temp57 := temp58
-temp56 := temp57
-param temp56
+temp37 = ch - temp33
+if_false temp37 goto L3
+temp46 = ch char
+temp45 = temp46 char
+temp44 = temp45 char
+temp43 = tp [ temp44 ]
+temp42 = temp43 array_'@' char_'z' char_longint
+temp41 = temp42 array_'@' char_'z' char_longint
+temp40 = temp41 array_'@' char_'z' char_longint
+temp49 = 1 integer
+temp48 = temp49 integer
+temp47 = temp48 integer
+temp39 = temp40 == temp47 array_'@' char_'z' char_longint
+temp38 = temp39
+if_false temp38 goto L4
+temp52 = ch char
+temp51 = temp52 char
+temp50 = temp51 char
+temp63 = ch char
+temp62 = temp63 char
+temp61 = temp62 char
+param temp61
 call pred 1
-return temp59
-temp55 := temp59
-temp54 := temp55
-temp53 := temp54
-temp52 := tp [ temp53 ]
-temp51 := temp52
-temp50 := temp51
-temp60 := 1
-temp49 := temp50 + temp60
-temp48 := temp49
-tp [ temp45 ] := temp48
+return temp64
+temp60 = temp64 None
+temp59 = temp60 None
+temp58 = temp59 None
+temp57 = tp [ temp58 ]
+temp56 = temp57 array_'@' char_'z' char_longint
+temp55 = temp56 array_'@' char_'z' char_longint
+temp66 = 1 integer
+temp65 = temp66 integer
+temp54 = temp55 + temp65 array_'@' char_'z' char_longint
+temp53 = temp54 array_'@' char_'z' char_longint
+tp [ temp50 ] = temp53
 goto L5
 label L4
-temp63 := ch
-temp62 := temp63
-temp61 := temp62
-temp73 := ch
-temp72 := temp73
-temp71 := temp72
-param temp71
+temp69 = ch char
+temp68 = temp69 char
+temp67 = temp68 char
+temp79 = ch char
+temp78 = temp79 char
+temp77 = temp78 char
+param temp77
 call pred 1
-return temp74
-temp70 := temp74
-temp69 := temp70
-temp68 := temp69
-temp67 := tp [ temp68 ]
-temp66 := temp67
-temp65 := temp66
-temp64 := temp65
-tp [ temp61 ] := temp64
+return temp80
+temp76 = temp80 None
+temp75 = temp76 None
+temp74 = temp75 None
+temp73 = tp [ temp74 ]
+temp72 = temp73 array_'@' char_'z' char_longint
+temp71 = temp72 array_'@' char_'z' char_longint
+temp70 = temp71 array_'@' char_'z' char_longint
+tp [ temp67 ] = temp70
 label L5
-ch := ch + 1
+ch = ch + 1
 goto L2
 label L3
-temp77 := 1
-temp76 := temp77
-temp75 := temp76
-temp80 := len
-temp79 := temp80
-temp78 := temp79
-i := temp75
+temp84 = 1 integer
+temp83 = temp84 integer
+temp82 = temp83 integer
+temp81 = temp82 integer
+temp87 = len longint
+temp86 = temp87 longint
+temp85 = temp86 longint
+i = temp81
 label L6
-temp81 := i - temp78
-if_false temp81 goto L7
-temp84 := i
-temp83 := temp84
-temp82 := temp83
-temp95 := i
-temp94 := temp95
-temp93 := temp94
-temp92 := s [ temp93 ]
-temp91 := temp92
-temp90 := temp91
-temp89 := temp90
-temp88 := tp [ temp89 ]
-temp87 := temp88
-temp86 := temp87
-temp85 := temp86
-rank [ temp82 ] := temp85
-i := i + 1
+temp88 = i - temp85
+if_false temp88 goto L7
+temp91 = i longint
+temp90 = temp91 longint
+temp89 = temp90 longint
+temp102 = i longint
+temp101 = temp102 longint
+temp100 = temp101 longint
+temp99 = s [ temp100 ]
+temp98 = temp99 ansistring
+temp97 = temp98 ansistring
+temp96 = temp97 ansistring
+temp95 = tp [ temp96 ]
+temp94 = temp95 array_'@' char_'z' char_longint
+temp93 = temp94 array_'@' char_'z' char_longint
+temp92 = temp93 array_'@' char_'z' char_longint
+rank [ temp89 ] = temp92
+i = i + 1
 goto L6
 label L7
 end
 Procedure sort
 begin
-temp98 := 0
-temp97 := temp98
-temp96 := temp97
-temp101 := len
-temp100 := temp101
-temp99 := temp100
-i := temp96
+temp106 = 0 integer
+temp105 = temp106 integer
+temp104 = temp105 integer
+temp103 = temp104 integer
+temp109 = len longint
+temp108 = temp109 longint
+temp107 = temp108 longint
+i = temp103
 label L8
-temp102 := i - temp99
-if_false temp102 goto L9
-temp105 := i
-temp104 := temp105
-temp103 := temp104
-temp108 := 0
-temp107 := temp108
-temp106 := temp107
-tax [ temp103 ] := temp106
-i := i + 1
+temp110 = i - temp107
+if_false temp110 goto L9
+temp113 = i longint
+temp112 = temp113 longint
+temp111 = temp112 longint
+temp117 = 0 integer
+temp116 = temp117 integer
+temp115 = temp116 integer
+temp114 = temp115 integer
+tax [ temp111 ] = temp114
+i = i + 1
 goto L8
 label L9
-temp111 := 1
-temp110 := temp111
-temp109 := temp110
-temp114 := len
-temp113 := temp114
-temp112 := temp113
-i := temp109
+temp121 = 1 integer
+temp120 = temp121 integer
+temp119 = temp120 integer
+temp118 = temp119 integer
+temp124 = len longint
+temp123 = temp124 longint
+temp122 = temp123 longint
+i = temp118
 label L10
-temp115 := i - temp112
-if_false temp115 goto L11
-temp131 := i
-temp130 := temp131
-temp129 := temp130
-temp128 := sa [ temp129 ]
-temp127 := temp128
-temp126 := temp127
-temp132 := st
-temp125 := temp126 + temp132
-temp124 := temp125
-temp123 := rank [ temp124 ]
-temp122 := temp123
-temp121 := temp122
-temp120 := temp121
-temp119 := tax [ temp120 ]
-temp118 := temp119
-temp117 := temp118
-temp116 := temp117
-param temp116
+temp125 = i - temp122
+if_false temp125 goto L11
+temp141 = i longint
+temp140 = temp141 longint
+temp139 = temp140 longint
+temp138 = sa [ temp139 ]
+temp137 = temp138 array_0 integer_1000 integer_longint
+temp136 = temp137 array_0 integer_1000 integer_longint
+temp142 = st None
+temp135 = temp136 + temp142 array_0 integer_1000 integer_longint
+temp134 = temp135 array_0 integer_1000 integer_longint
+temp133 = rank [ temp134 ]
+temp132 = temp133 array_0 integer_1000 integer_longint
+temp131 = temp132 array_0 integer_1000 integer_longint
+temp130 = temp131 array_0 integer_1000 integer_longint
+temp129 = tax [ temp130 ]
+temp128 = temp129 array_0 integer_1000 integer_longint
+temp127 = temp128 array_0 integer_1000 integer_longint
+temp126 = temp127 array_0 integer_1000 integer_longint
+param temp126
 call inc 1
-i := i + 1
+i = i + 1
 goto L10
 label L11
-temp135 := 1
-temp134 := temp135
-temp133 := temp134
-temp138 := len
-temp137 := temp138
-temp136 := temp137
-i := temp133
+temp146 = 1 integer
+temp145 = temp146 integer
+temp144 = temp145 integer
+temp143 = temp144 integer
+temp149 = len longint
+temp148 = temp149 longint
+temp147 = temp148 longint
+i = temp143
 label L12
-temp139 := i - temp136
-if_false temp139 goto L13
-temp146 := i
-temp145 := temp146
-temp144 := temp145
-temp143 := tax [ temp144 ]
-temp142 := temp143
-temp141 := temp142
-temp140 := temp141
-temp154 := i
-temp153 := temp154
-temp155 := 1
-temp152 := temp153 - temp155
-temp151 := temp152
-temp150 := tax [ temp151 ]
-temp149 := temp150
-temp148 := temp149
-temp147 := temp148
-param temp140
-param temp147
+temp150 = i - temp147
+if_false temp150 goto L13
+temp157 = i longint
+temp156 = temp157 longint
+temp155 = temp156 longint
+temp154 = tax [ temp155 ]
+temp153 = temp154 array_0 integer_1000 integer_longint
+temp152 = temp153 array_0 integer_1000 integer_longint
+temp151 = temp152 array_0 integer_1000 integer_longint
+temp165 = i longint
+temp164 = temp165 longint
+temp167 = 1 integer
+temp166 = temp167 integer
+temp163 = temp164 - temp166 longint
+temp162 = temp163 longint
+temp161 = tax [ temp162 ]
+temp160 = temp161 array_0 integer_1000 integer_longint
+temp159 = temp160 array_0 integer_1000 integer_longint
+temp158 = temp159 array_0 integer_1000 integer_longint
+param temp151
+param temp158
 call inc 2
-i := i + 1
+i = i + 1
 goto L12
 label L13
-temp158 := len
-temp157 := temp158
-temp156 := temp157
-temp161 := 1
-temp160 := temp161
-temp159 := temp160
-i := temp156
+temp170 = len longint
+temp169 = temp170 longint
+temp168 = temp169 longint
+temp174 = 1 integer
+temp173 = temp174 integer
+temp172 = temp173 integer
+temp171 = temp172 integer
+i = temp168
 label L14
-temp162 := i - temp159
-if_false temp162 goto L15
-temp178 := i
-temp177 := temp178
-temp176 := temp177
-temp175 := sa [ temp176 ]
-temp174 := temp175
-temp173 := temp174
-temp179 := st
-temp172 := temp173 + temp179
-temp171 := temp172
-temp170 := rank [ temp171 ]
-temp169 := temp170
-temp168 := temp169
-temp167 := temp168
-temp166 := tax [ temp167 ]
-temp165 := temp166
-temp164 := temp165
-temp163 := temp164
-temp186 := i
-temp185 := temp186
-temp184 := temp185
-temp183 := sa [ temp184 ]
-temp182 := temp183
-temp181 := temp182
-temp180 := temp181
-tmp [ temp163 ] := temp180
-temp202 := i
-temp201 := temp202
-temp200 := temp201
-temp199 := sa [ temp200 ]
-temp198 := temp199
-temp197 := temp198
-temp203 := st
-temp196 := temp197 + temp203
-temp195 := temp196
-temp194 := rank [ temp195 ]
-temp193 := temp194
-temp192 := temp193
-temp191 := temp192
-temp190 := tax [ temp191 ]
-temp189 := temp190
-temp188 := temp189
-temp187 := temp188
-param temp187
+temp175 = i - temp171
+if_false temp175 goto L15
+temp191 = i longint
+temp190 = temp191 longint
+temp189 = temp190 longint
+temp188 = sa [ temp189 ]
+temp187 = temp188 array_0 integer_1000 integer_longint
+temp186 = temp187 array_0 integer_1000 integer_longint
+temp192 = st None
+temp185 = temp186 + temp192 array_0 integer_1000 integer_longint
+temp184 = temp185 array_0 integer_1000 integer_longint
+temp183 = rank [ temp184 ]
+temp182 = temp183 array_0 integer_1000 integer_longint
+temp181 = temp182 array_0 integer_1000 integer_longint
+temp180 = temp181 array_0 integer_1000 integer_longint
+temp179 = tax [ temp180 ]
+temp178 = temp179 array_0 integer_1000 integer_longint
+temp177 = temp178 array_0 integer_1000 integer_longint
+temp176 = temp177 array_0 integer_1000 integer_longint
+temp199 = i longint
+temp198 = temp199 longint
+temp197 = temp198 longint
+temp196 = sa [ temp197 ]
+temp195 = temp196 array_0 integer_1000 integer_longint
+temp194 = temp195 array_0 integer_1000 integer_longint
+temp193 = temp194 array_0 integer_1000 integer_longint
+tmp [ temp176 ] = temp193
+temp215 = i longint
+temp214 = temp215 longint
+temp213 = temp214 longint
+temp212 = sa [ temp213 ]
+temp211 = temp212 array_0 integer_1000 integer_longint
+temp210 = temp211 array_0 integer_1000 integer_longint
+temp216 = st None
+temp209 = temp210 + temp216 array_0 integer_1000 integer_longint
+temp208 = temp209 array_0 integer_1000 integer_longint
+temp207 = rank [ temp208 ]
+temp206 = temp207 array_0 integer_1000 integer_longint
+temp205 = temp206 array_0 integer_1000 integer_longint
+temp204 = temp205 array_0 integer_1000 integer_longint
+temp203 = tax [ temp204 ]
+temp202 = temp203 array_0 integer_1000 integer_longint
+temp201 = temp202 array_0 integer_1000 integer_longint
+temp200 = temp201 array_0 integer_1000 integer_longint
+param temp200
 call dec 1
-i := i + 1
+i = i + 1
 goto L14
 label L15
-temp206 := tmp
-temp205 := temp206
-temp204 := temp205
-sa := temp204
+temp219 = tmp array_0 integer_1000 integer_longint
+temp218 = temp219 array_0 integer_1000 integer_longint
+temp217 = temp218 array_0 integer_1000 integer_longint
+sa = temp217 array_0 integer_1000 integer_longint
 end
 Procedure get_sa
 begin
-temp209 := 1
-temp208 := temp209
-temp207 := temp208
-temp212 := len
-temp211 := temp212
-temp210 := temp211
-i := temp207
+temp223 = 1 integer
+temp222 = temp223 integer
+temp221 = temp222 integer
+temp220 = temp221 integer
+temp226 = len longint
+temp225 = temp226 longint
+temp224 = temp225 longint
+i = temp220
 label L16
-temp213 := i - temp210
-if_false temp213 goto L17
-temp216 := 1
-temp215 := temp216
-temp214 := temp215
-x := temp214
-temp219 := 1
-temp218 := temp219
-temp217 := temp218
-temp223 := i
-temp222 := temp223
-temp224 := 1
-temp221 := temp222 - temp224
-temp220 := temp221
-j := temp217
+temp227 = i - temp224
+if_false temp227 goto L17
+temp231 = 1 integer
+temp230 = temp231 integer
+temp229 = temp230 integer
+temp228 = temp229 integer
+x = temp228 integer
+temp235 = 1 integer
+temp234 = temp235 integer
+temp233 = temp234 integer
+temp232 = temp233 integer
+temp239 = i longint
+temp238 = temp239 longint
+temp241 = 1 integer
+temp240 = temp241 integer
+temp237 = temp238 - temp240 longint
+temp236 = temp237 longint
+j = temp232
 label L18
-temp225 := j - temp220
-if_false temp225 goto L19
-temp229 := x
-temp228 := temp229 * 2
-temp227 := temp228
-temp226 := temp227
-x := temp226
-j := j + 1
+temp242 = j - temp236
+if_false temp242 goto L19
+temp246 = x longint
+temp247 = 2 integer
+temp245 = temp246 * temp247 longint
+temp244 = temp245 longint
+temp243 = temp244 longint
+x = temp243 longint
+j = j + 1
 goto L18
 label L19
-temp232 := 1
-temp231 := temp232
-temp230 := temp231
-temp235 := len
-temp234 := temp235
-temp233 := temp234
-j := temp230
+temp251 = 1 integer
+temp250 = temp251 integer
+temp249 = temp250 integer
+temp248 = temp249 integer
+temp254 = len longint
+temp253 = temp254 longint
+temp252 = temp253 longint
+j = temp248
 label L20
-temp236 := j - temp233
-if_false temp236 goto L21
-temp239 := j
-temp238 := temp239
-temp237 := temp238
-temp242 := j
-temp241 := temp242
-temp240 := temp241
-sa [ temp237 ] := temp240
-j := j + 1
+temp255 = j - temp252
+if_false temp255 goto L21
+temp258 = j longint
+temp257 = temp258 longint
+temp256 = temp257 longint
+temp261 = j longint
+temp260 = temp261 longint
+temp259 = temp260 longint
+sa [ temp256 ] = temp259
+j = j + 1
 goto L20
 label L21
-temp245 := x
-temp244 := temp245
-temp243 := temp244
-param temp243
+temp264 = x longint
+temp263 = temp264 longint
+temp262 = temp263 longint
+param temp262
 call sort 1
-temp248 := 0
-temp247 := temp248
-temp246 := temp247
-param temp246
+temp268 = 0 integer
+temp267 = temp268 integer
+temp266 = temp267 integer
+temp265 = temp266 integer
+param temp265
 call sort 1
-temp251 := 1
-temp250 := temp251
-temp249 := temp250
-temp254 := len
-temp253 := temp254
-temp252 := temp253
-j := temp249
+temp272 = 1 integer
+temp271 = temp272 integer
+temp270 = temp271 integer
+temp269 = temp270 integer
+temp275 = len longint
+temp274 = temp275 longint
+temp273 = temp274 longint
+j = temp269
 label L22
-temp255 := j - temp252
-if_false temp255 goto L23
-temp273 := j
-temp272 := temp273
-temp271 := temp272
-temp270 := sa [ temp271 ]
-temp269 := temp270
-temp268 := temp269
-temp274 := x
-temp267 := temp268 + temp274
-temp266 := temp267
-temp265 := rank [ temp266 ]
-temp264 := temp265
-temp263 := temp264
-temp262 := temp263
-temp286 := j
-temp285 := temp286
-temp287 := 1
-temp284 := temp285 - temp287
-temp283 := temp284
-temp282 := sa [ temp283 ]
-temp281 := temp282
-temp280 := temp281
-temp288 := x
-temp279 := temp280 + temp288
-temp278 := temp279
-temp277 := rank [ temp278 ]
-temp276 := temp277
-temp275 := temp276
-temp261 := temp262 == temp275
-temp260 := temp261
-temp300 := j
-temp299 := temp300
-temp298 := temp299
-temp297 := sa [ temp298 ]
-temp296 := temp297
-temp295 := temp296
-temp294 := temp295
-temp293 := rank [ temp294 ]
-temp292 := temp293
-temp291 := temp292
-temp290 := temp291
-temp311 := j
-temp310 := temp311
-temp312 := 1
-temp309 := temp310 - temp312
-temp308 := temp309
-temp307 := sa [ temp308 ]
-temp306 := temp307
-temp305 := temp306
-temp304 := temp305
-temp303 := rank [ temp304 ]
-temp302 := temp303
-temp301 := temp302
-temp289 := temp290 == temp301
-temp259 := temp260 && temp289
-temp258 := temp259
-temp257 := temp258
-temp256 := temp257
-if_false temp256 goto L24
-temp319 := j
-temp318 := temp319
-temp317 := temp318
-temp316 := sa [ temp317 ]
-temp315 := temp316
-temp314 := temp315
-temp313 := temp314
-temp331 := j
-temp330 := temp331
-temp332 := 1
-temp329 := temp330 - temp332
-temp328 := temp329
-temp327 := sa [ temp328 ]
-temp326 := temp327
-temp325 := temp326
-temp324 := temp325
-temp323 := tmp [ temp324 ]
-temp322 := temp323
-temp321 := temp322
-temp320 := temp321
-tmp [ temp313 ] := temp320
+temp276 = j - temp273
+if_false temp276 goto L23
+temp294 = j longint
+temp293 = temp294 longint
+temp292 = temp293 longint
+temp291 = sa [ temp292 ]
+temp290 = temp291 array_0 integer_1000 integer_longint
+temp289 = temp290 array_0 integer_1000 integer_longint
+temp295 = x longint
+temp288 = temp289 + temp295 array_0 integer_1000 integer_longint
+temp287 = temp288 array_0 integer_1000 integer_longint
+temp286 = rank [ temp287 ]
+temp285 = temp286 array_0 integer_1000 integer_longint
+temp284 = temp285 array_0 integer_1000 integer_longint
+temp283 = temp284 array_0 integer_1000 integer_longint
+temp307 = j longint
+temp306 = temp307 longint
+temp309 = 1 integer
+temp308 = temp309 integer
+temp305 = temp306 - temp308 longint
+temp304 = temp305 longint
+temp303 = sa [ temp304 ]
+temp302 = temp303 array_0 integer_1000 integer_longint
+temp301 = temp302 array_0 integer_1000 integer_longint
+temp310 = x longint
+temp300 = temp301 + temp310 array_0 integer_1000 integer_longint
+temp299 = temp300 array_0 integer_1000 integer_longint
+temp298 = rank [ temp299 ]
+temp297 = temp298 array_0 integer_1000 integer_longint
+temp296 = temp297 array_0 integer_1000 integer_longint
+temp282 = temp283 == temp296 array_0 integer_1000 integer_longint
+temp281 = temp282 array_0 integer_1000 integer_longint
+temp322 = j longint
+temp321 = temp322 longint
+temp320 = temp321 longint
+temp319 = sa [ temp320 ]
+temp318 = temp319 array_0 integer_1000 integer_longint
+temp317 = temp318 array_0 integer_1000 integer_longint
+temp316 = temp317 array_0 integer_1000 integer_longint
+temp315 = rank [ temp316 ]
+temp314 = temp315 array_0 integer_1000 integer_longint
+temp313 = temp314 array_0 integer_1000 integer_longint
+temp312 = temp313 array_0 integer_1000 integer_longint
+temp333 = j longint
+temp332 = temp333 longint
+temp335 = 1 integer
+temp334 = temp335 integer
+temp331 = temp332 - temp334 longint
+temp330 = temp331 longint
+temp329 = sa [ temp330 ]
+temp328 = temp329 array_0 integer_1000 integer_longint
+temp327 = temp328 array_0 integer_1000 integer_longint
+temp326 = temp327 array_0 integer_1000 integer_longint
+temp325 = rank [ temp326 ]
+temp324 = temp325 array_0 integer_1000 integer_longint
+temp323 = temp324 array_0 integer_1000 integer_longint
+temp311 = temp312 == temp323 array_0 integer_1000 integer_longint
+temp280 = temp281 && temp311 array_0 integer_1000 integer_longint
+temp279 = temp280 array_0 integer_1000 integer_longint
+temp278 = temp279 array_0 integer_1000 integer_longint
+temp277 = temp278
+if_false temp277 goto L24
+temp342 = j longint
+temp341 = temp342 longint
+temp340 = temp341 longint
+temp339 = sa [ temp340 ]
+temp338 = temp339 array_0 integer_1000 integer_longint
+temp337 = temp338 array_0 integer_1000 integer_longint
+temp336 = temp337 array_0 integer_1000 integer_longint
+temp354 = j longint
+temp353 = temp354 longint
+temp356 = 1 integer
+temp355 = temp356 integer
+temp352 = temp353 - temp355 longint
+temp351 = temp352 longint
+temp350 = sa [ temp351 ]
+temp349 = temp350 array_0 integer_1000 integer_longint
+temp348 = temp349 array_0 integer_1000 integer_longint
+temp347 = temp348 array_0 integer_1000 integer_longint
+temp346 = tmp [ temp347 ]
+temp345 = temp346 array_0 integer_1000 integer_longint
+temp344 = temp345 array_0 integer_1000 integer_longint
+temp343 = temp344 array_0 integer_1000 integer_longint
+tmp [ temp336 ] = temp343
 goto L25
 label L24
-temp339 := j
-temp338 := temp339
-temp337 := temp338
-temp336 := sa [ temp337 ]
-temp335 := temp336
-temp334 := temp335
-temp333 := temp334
-temp352 := j
-temp351 := temp352
-temp353 := 1
-temp350 := temp351 - temp353
-temp349 := temp350
-temp348 := sa [ temp349 ]
-temp347 := temp348
-temp346 := temp347
-temp345 := temp346
-temp344 := tmp [ temp345 ]
-temp343 := temp344
-temp342 := temp343
-temp354 := 1
-temp341 := temp342 + temp354
-temp340 := temp341
-tmp [ temp333 ] := temp340
+temp363 = j longint
+temp362 = temp363 longint
+temp361 = temp362 longint
+temp360 = sa [ temp361 ]
+temp359 = temp360 array_0 integer_1000 integer_longint
+temp358 = temp359 array_0 integer_1000 integer_longint
+temp357 = temp358 array_0 integer_1000 integer_longint
+temp376 = j longint
+temp375 = temp376 longint
+temp378 = 1 integer
+temp377 = temp378 integer
+temp374 = temp375 - temp377 longint
+temp373 = temp374 longint
+temp372 = sa [ temp373 ]
+temp371 = temp372 array_0 integer_1000 integer_longint
+temp370 = temp371 array_0 integer_1000 integer_longint
+temp369 = temp370 array_0 integer_1000 integer_longint
+temp368 = tmp [ temp369 ]
+temp367 = temp368 array_0 integer_1000 integer_longint
+temp366 = temp367 array_0 integer_1000 integer_longint
+temp380 = 1 integer
+temp379 = temp380 integer
+temp365 = temp366 + temp379 array_0 integer_1000 integer_longint
+temp364 = temp365 array_0 integer_1000 integer_longint
+tmp [ temp357 ] = temp364
 label L25
-j := j + 1
+j = j + 1
 goto L22
 label L23
-temp357 := tmp
-temp356 := temp357
-temp355 := temp356
-rank := temp355
-temp370 := len
-temp369 := temp370
-temp368 := temp369
-temp367 := sa [ temp368 ]
-temp366 := temp367
-temp365 := temp366
-temp364 := temp365
-temp363 := rank [ temp364 ]
-temp362 := temp363
-temp361 := temp362
-temp360 := temp361
-temp372 := len
-temp371 := temp372
-temp359 := temp360 == temp371
-temp358 := temp359
-if_false temp358 goto L26
+temp383 = tmp array_0 integer_1000 integer_longint
+temp382 = temp383 array_0 integer_1000 integer_longint
+temp381 = temp382 array_0 integer_1000 integer_longint
+rank = temp381 array_0 integer_1000 integer_longint
+temp396 = len longint
+temp395 = temp396 longint
+temp394 = temp395 longint
+temp393 = sa [ temp394 ]
+temp392 = temp393 array_0 integer_1000 integer_longint
+temp391 = temp392 array_0 integer_1000 integer_longint
+temp390 = temp391 array_0 integer_1000 integer_longint
+temp389 = rank [ temp390 ]
+temp388 = temp389 array_0 integer_1000 integer_longint
+temp387 = temp388 array_0 integer_1000 integer_longint
+temp386 = temp387 array_0 integer_1000 integer_longint
+temp398 = len longint
+temp397 = temp398 longint
+temp385 = temp386 == temp397 array_0 integer_1000 integer_longint
+temp384 = temp385
+if_false temp384 goto L26
 call break 0
 goto L27
 label L26
 label L27
-i := i + 1
+i = i + 1
 goto L16
 label L17
 end
 Procedure get_height
 begin
-temp375 := 1
-temp374 := temp375
-temp373 := temp374
-temp378 := len
-temp377 := temp378
-temp376 := temp377
-i := temp373
+temp402 = 1 integer
+temp401 = temp402 integer
+temp400 = temp401 integer
+temp399 = temp400 integer
+temp405 = len longint
+temp404 = temp405 longint
+temp403 = temp404 longint
+i = temp399
 label L28
-temp379 := i - temp376
-if_false temp379 goto L29
-temp388 := i
-temp387 := temp388
-temp386 := temp387
-temp385 := rank [ temp386 ]
-temp384 := temp385
-temp383 := temp384
-temp382 := temp383
-temp390 := len
-temp389 := temp390
-temp381 := temp382 < temp389
-temp380 := temp381
-if_false temp380 goto L30
-temp397 := i
-temp396 := temp397
-temp395 := temp396
-temp394 := rank [ temp395 ]
-temp393 := temp394
-temp392 := temp393
-temp391 := temp392
-x := temp391
-temp405 := x
-temp404 := temp405
-temp406 := 1
-temp403 := temp404 + temp406
-temp402 := temp403
-temp401 := sa [ temp402 ]
-temp400 := temp401
-temp399 := temp400
-temp398 := temp399
-next := temp398
+temp406 = i - temp403
+if_false temp406 goto L29
+temp415 = i longint
+temp414 = temp415 longint
+temp413 = temp414 longint
+temp412 = rank [ temp413 ]
+temp411 = temp412 array_0 integer_1000 integer_longint
+temp410 = temp411 array_0 integer_1000 integer_longint
+temp409 = temp410 array_0 integer_1000 integer_longint
+temp417 = len longint
+temp416 = temp417 longint
+temp408 = temp409 < temp416 array_0 integer_1000 integer_longint
+temp407 = temp408
+if_false temp407 goto L30
+temp424 = i longint
+temp423 = temp424 longint
+temp422 = temp423 longint
+temp421 = rank [ temp422 ]
+temp420 = temp421 array_0 integer_1000 integer_longint
+temp419 = temp420 array_0 integer_1000 integer_longint
+temp418 = temp419 array_0 integer_1000 integer_longint
+x = temp418 array_0 integer_1000 integer_longint
+temp432 = x longint
+temp431 = temp432 longint
+temp434 = 1 integer
+temp433 = temp434 integer
+temp430 = temp431 + temp433 longint
+temp429 = temp430 longint
+temp428 = sa [ temp429 ]
+temp427 = temp428 array_0 integer_1000 integer_longint
+temp426 = temp427 array_0 integer_1000 integer_longint
+temp425 = temp426 array_0 integer_1000 integer_longint
+next = temp425 array_0 integer_1000 integer_longint
 label L32
-temp421 := x
-temp420 := temp421
-temp419 := temp420
-temp418 := height [ temp419 ]
-temp417 := temp418
-temp416 := temp417
-temp422 := i
-temp415 := temp416 + temp422
-temp414 := temp415
-temp424 := len
-temp423 := temp424
-temp413 := temp414 <= temp423
-temp412 := temp413
-temp433 := x
-temp432 := temp433
-temp431 := temp432
-temp430 := height [ temp431 ]
-temp429 := temp430
-temp428 := temp429
-temp434 := next
-temp427 := temp428 + temp434
-temp426 := temp427
-temp436 := len
-temp435 := temp436
-temp425 := temp426 <= temp435
-temp411 := temp412 && temp425
-temp449 := x
-temp448 := temp449
-temp447 := temp448
-temp446 := height [ temp447 ]
-temp445 := temp446
-temp444 := temp445
-temp450 := i
-temp443 := temp444 + temp450
-temp442 := temp443
-temp441 := s [ temp442 ]
-temp440 := temp441
-temp439 := temp440
-temp438 := temp439
-temp461 := x
-temp460 := temp461
-temp459 := temp460
-temp458 := height [ temp459 ]
-temp457 := temp458
-temp456 := temp457
-temp462 := next
-temp455 := temp456 + temp462
-temp454 := temp455
-temp453 := s [ temp454 ]
-temp452 := temp453
-temp451 := temp452
-temp437 := temp438 == temp451
-temp410 := temp411 && temp437
-temp409 := temp410
-temp408 := temp409
-temp407 := temp408
-if_false temp407 goto L33
-temp469 := x
-temp468 := temp469
-temp467 := temp468
-temp466 := height [ temp467 ]
-temp465 := temp466
-temp464 := temp465
-temp463 := temp464
-param temp463
+temp449 = x longint
+temp448 = temp449 longint
+temp447 = temp448 longint
+temp446 = height [ temp447 ]
+temp445 = temp446 array_0 integer_1000 integer_longint
+temp444 = temp445 array_0 integer_1000 integer_longint
+temp450 = i longint
+temp443 = temp444 + temp450 array_0 integer_1000 integer_longint
+temp442 = temp443 array_0 integer_1000 integer_longint
+temp452 = len longint
+temp451 = temp452 longint
+temp441 = temp442 <= temp451 array_0 integer_1000 integer_longint
+temp440 = temp441 array_0 integer_1000 integer_longint
+temp461 = x longint
+temp460 = temp461 longint
+temp459 = temp460 longint
+temp458 = height [ temp459 ]
+temp457 = temp458 array_0 integer_1000 integer_longint
+temp456 = temp457 array_0 integer_1000 integer_longint
+temp462 = next longint
+temp455 = temp456 + temp462 array_0 integer_1000 integer_longint
+temp454 = temp455 array_0 integer_1000 integer_longint
+temp464 = len longint
+temp463 = temp464 longint
+temp453 = temp454 <= temp463 array_0 integer_1000 integer_longint
+temp439 = temp440 && temp453 array_0 integer_1000 integer_longint
+temp477 = x longint
+temp476 = temp477 longint
+temp475 = temp476 longint
+temp474 = height [ temp475 ]
+temp473 = temp474 array_0 integer_1000 integer_longint
+temp472 = temp473 array_0 integer_1000 integer_longint
+temp478 = i longint
+temp471 = temp472 + temp478 array_0 integer_1000 integer_longint
+temp470 = temp471 array_0 integer_1000 integer_longint
+temp469 = s [ temp470 ]
+temp468 = temp469 ansistring
+temp467 = temp468 ansistring
+temp466 = temp467 ansistring
+temp489 = x longint
+temp488 = temp489 longint
+temp487 = temp488 longint
+temp486 = height [ temp487 ]
+temp485 = temp486 array_0 integer_1000 integer_longint
+temp484 = temp485 array_0 integer_1000 integer_longint
+temp490 = next longint
+temp483 = temp484 + temp490 array_0 integer_1000 integer_longint
+temp482 = temp483 array_0 integer_1000 integer_longint
+temp481 = s [ temp482 ]
+temp480 = temp481 ansistring
+temp479 = temp480 ansistring
+temp465 = temp466 == temp479 ansistring
+temp438 = temp439 && temp465 array_0 integer_1000 integer_longint
+temp437 = temp438 array_0 integer_1000 integer_longint
+temp436 = temp437 array_0 integer_1000 integer_longint
+temp435 = temp436
+if_false temp435 goto L33
+temp497 = x longint
+temp496 = temp497 longint
+temp495 = temp496 longint
+temp494 = height [ temp495 ]
+temp493 = temp494 array_0 integer_1000 integer_longint
+temp492 = temp493 array_0 integer_1000 integer_longint
+temp491 = temp492 array_0 integer_1000 integer_longint
+param temp491
 call inc 1
 goto L32
 label L33
-temp479 := x
-temp478 := temp479
-temp477 := temp478
-temp476 := height [ temp477 ]
-temp475 := temp476
-temp474 := temp475
-temp480 := 1
-temp473 := temp474 - temp480
-temp472 := temp473
-temp482 := 0
-temp481 := temp482
-temp471 := temp472 <= temp481
-temp470 := temp471
-if_false temp470 goto L34
-temp490 := i
-temp489 := temp490
-temp491 := 1
-temp488 := temp489 + temp491
-temp487 := temp488
-temp486 := rank [ temp487 ]
-temp485 := temp486
-temp484 := temp485
-temp483 := temp484
-temp499 := x
-temp498 := temp499
-temp497 := temp498
-temp496 := height [ temp497 ]
-temp495 := temp496
-temp494 := temp495
-temp500 := 1
-temp493 := temp494 - temp500
-temp492 := temp493
-height [ temp483 ] := temp492
+temp507 = x longint
+temp506 = temp507 longint
+temp505 = temp506 longint
+temp504 = height [ temp505 ]
+temp503 = temp504 array_0 integer_1000 integer_longint
+temp502 = temp503 array_0 integer_1000 integer_longint
+temp509 = 1 integer
+temp508 = temp509 integer
+temp501 = temp502 - temp508 array_0 integer_1000 integer_longint
+temp500 = temp501 array_0 integer_1000 integer_longint
+temp512 = 0 integer
+temp511 = temp512 integer
+temp510 = temp511 integer
+temp499 = temp500 <= temp510 array_0 integer_1000 integer_longint
+temp498 = temp499
+if_false temp498 goto L34
+temp520 = i longint
+temp519 = temp520 longint
+temp522 = 1 integer
+temp521 = temp522 integer
+temp518 = temp519 + temp521 longint
+temp517 = temp518 longint
+temp516 = rank [ temp517 ]
+temp515 = temp516 array_0 integer_1000 integer_longint
+temp514 = temp515 array_0 integer_1000 integer_longint
+temp513 = temp514 array_0 integer_1000 integer_longint
+temp530 = x longint
+temp529 = temp530 longint
+temp528 = temp529 longint
+temp527 = height [ temp528 ]
+temp526 = temp527 array_0 integer_1000 integer_longint
+temp525 = temp526 array_0 integer_1000 integer_longint
+temp532 = 1 integer
+temp531 = temp532 integer
+temp524 = temp525 - temp531 array_0 integer_1000 integer_longint
+temp523 = temp524 array_0 integer_1000 integer_longint
+height [ temp513 ] = temp523
 goto L35
 label L34
 label L35
 goto L31
 label L30
 label L31
-i := i + 1
+i = i + 1
 goto L28
 label L29
 end
-temp503 := input
-temp502 := temp503
-temp501 := temp502
-temp506 := "Suffix.in"
-temp505 := temp506
-temp504 := temp505
-param temp501
-param temp504
+temp535 = input None
+temp534 = temp535 None
+temp533 = temp534 None
+temp539 = "Suffix.in"
+temp538 = temp539 
+temp537 = temp538 
+temp536 = temp537 
+param temp533
+param temp536
 call assign 2
-temp509 := input
-temp508 := temp509
-temp507 := temp508
-param temp507
+temp542 = input None
+temp541 = temp542 None
+temp540 = temp541 None
+param temp540
 call reset 1
-temp512 := output
-temp511 := temp512
-temp510 := temp511
-temp515 := "Suffix.out"
-temp514 := temp515
-temp513 := temp514
-param temp510
-param temp513
+temp545 = output None
+temp544 = temp545 None
+temp543 = temp544 None
+temp549 = "Suffix.out"
+temp548 = temp549 
+temp547 = temp548 
+temp546 = temp547 
+param temp543
+param temp546
 call assign 2
-temp518 := output
-temp517 := temp518
-temp516 := temp517
-param temp516
+temp552 = output None
+temp551 = temp552 None
+temp550 = temp551 None
+param temp550
 call rewrite 1
 call init 0
 call get_sa 0
 call get_height 0
-temp521 := input
-temp520 := temp521
-temp519 := temp520
-param temp519
+temp555 = input None
+temp554 = temp555 None
+temp553 = temp554 None
+param temp553
 call close 1
-temp524 := output
-temp523 := temp524
-temp522 := temp523
-param temp522
+temp558 = output None
+temp557 = temp558 None
+temp556 = temp557 None
+param temp556
 call close 1
