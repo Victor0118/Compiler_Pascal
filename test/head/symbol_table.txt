@@ -1,22 +1,22 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- init          Function   11 
- assign        Function   16 
- i              integer   10 
+init           Function   11 
+i              integer    10 
+assign         Function   16 
 
-table scope: Proc_ init
+table scope: Proc_init
 Variable Name    type     Line Numbers
 -------------  --------   ------------
 
-table scope: Func_ assign
+table scope: Func_assign
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- assign_return  integer   16 
- init_2        Function   19 
- i              integer   18 
+assign_return  integer    16 
+init_2         Function   19 
+i              integer    18 
 
-table scope: Proc_ init_2
+table scope: Proc_init_2
 Variable Name    type     Line Numbers
 -------------  --------   ------------
 

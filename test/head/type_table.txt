@@ -1,6 +1,6 @@
  Name     type   
 ------  -------- 
- a     array_' @'_' z'_ integer
- b     record_ b1_ b2_ integer_ b3_ char
- c     record_ c1_ c2_array_ 0_ 10_ b_ c3_ boolean
- d      real
+a     array_'@'_'z'_integer
+b     record_b1_b2_integer_b3_char
+c     record_c1_c2_array_0_10_b_c3_boolean
+d     real

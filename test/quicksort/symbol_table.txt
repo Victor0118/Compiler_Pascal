@@ -1,24 +1,23 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- y             array_ 1_ 100_ integer    6 
- pos            integer    5 
- sum            integer    5 
- qsort         Function    7 
- ans            integer    5 
- i              integer    5 
- j              integer    5 
- n              integer    5 
- p              integer    5 
- q              integer    5 
- x             array_ 1_ 100_ integer    6 
+i              integer     5 
+j              integer     5 
+n              integer     5 
+p              integer     5 
+q              integer     5 
+x              array_1_100_integer    6 
+y              array_1_100_integer    6 ans            integer     5 
+qsort          Function    7 
+pos            integer     5 
+sum            integer     5 
 
-table scope: Proc_ qsort
+table scope: Proc_qsort
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- temp           integer    8 
- i              integer    8 
- j              integer    8 
- k              integer    8 
- p              integer    8 
+temp           integer     8 
+i              integer     8 
+j              integer     8 
+k              integer     8 
+p              integer     8 
 

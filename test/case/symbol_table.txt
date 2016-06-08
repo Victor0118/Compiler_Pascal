@@ -1,6 +1,6 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- i              integer    5 
- j              integer    6 
+i              integer     5 
+j              integer     6 
 

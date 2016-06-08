@@ -1,411 +1,411 @@
-Procedure  init
+Procedure init
 begin
-temp2 :=  s
+temp2 := s
 temp1 := temp2
 temp0 := temp1
 param temp0
-call  readln 1
-temp8 :=  s
+call readln 1
+temp8 := s
 temp7 := temp8
 temp6 := temp7
 param temp6
-call  length 1
+call length 1
 return temp9
 temp5 := temp9
 temp4 := temp5
 temp3 := temp4
- len := temp3
-temp12 :=  1
+len := temp3
+temp12 := 1
 temp11 := temp12
 temp10 := temp11
-temp15 :=  len
+temp15 := len
 temp14 := temp15
 temp13 := temp14
- i := temp10
+i := temp10
 label L0
-temp16 :=  i - temp13
+temp16 := i - temp13
 if_false temp16 goto L1
-temp23 :=  i
+temp23 := i
 temp22 := temp23
 temp21 := temp22
-temp20 :=  s[ temp21 ]
+temp20 := s [ temp21 ]
 temp19 := temp20
 temp18 := temp19
 temp17 := temp18
-temp26 :=  1
+temp26 := 1
 temp25 := temp26
 temp24 := temp25
- tp[ temp17 ] := temp24
- i :=  i + 1
+tp [ temp17 ] := temp24
+i := i + 1
 goto L0
 label L1
-temp29 := ' A'
+temp29 := 'A'
 temp28 := temp29
 temp27 := temp28
-temp32 := ' Z'
+temp32 := 'Z'
 temp31 := temp32
 temp30 := temp31
- ch := temp27
+ch := temp27
 label L2
-temp33 :=  ch - temp30
+temp33 := ch - temp30
 if_false temp33 goto L3
-temp42 :=  ch
+temp42 := ch
 temp41 := temp42
 temp40 := temp41
-temp39 :=  tp[ temp40 ]
+temp39 := tp [ temp40 ]
 temp38 := temp39
 temp37 := temp38
 temp36 := temp37
-temp44 :=  1
+temp44 := 1
 temp43 := temp44
 temp35 := temp36 == temp43
 temp34 := temp35
 if_false temp34 goto L4
-temp47 :=  ch
+temp47 := ch
 temp46 := temp47
 temp45 := temp46
-temp58 :=  ch
+temp58 := ch
 temp57 := temp58
 temp56 := temp57
 param temp56
-call  pred 1
+call pred 1
 return temp59
 temp55 := temp59
 temp54 := temp55
 temp53 := temp54
-temp52 :=  tp[ temp53 ]
+temp52 := tp [ temp53 ]
 temp51 := temp52
 temp50 := temp51
-temp60 :=  1
+temp60 := 1
 temp49 := temp50 + temp60
 temp48 := temp49
- tp[ temp45 ] := temp48
+tp [ temp45 ] := temp48
 goto L5
 label L4
-temp63 :=  ch
+temp63 := ch
 temp62 := temp63
 temp61 := temp62
-temp73 :=  ch
+temp73 := ch
 temp72 := temp73
 temp71 := temp72
 param temp71
-call  pred 1
+call pred 1
 return temp74
 temp70 := temp74
 temp69 := temp70
 temp68 := temp69
-temp67 :=  tp[ temp68 ]
+temp67 := tp [ temp68 ]
 temp66 := temp67
 temp65 := temp66
 temp64 := temp65
- tp[ temp61 ] := temp64
+tp [ temp61 ] := temp64
 label L5
- ch :=  ch + 1
+ch := ch + 1
 goto L2
 label L3
-temp77 :=  1
+temp77 := 1
 temp76 := temp77
 temp75 := temp76
-temp80 :=  len
+temp80 := len
 temp79 := temp80
 temp78 := temp79
- i := temp75
+i := temp75
 label L6
-temp81 :=  i - temp78
+temp81 := i - temp78
 if_false temp81 goto L7
-temp84 :=  i
+temp84 := i
 temp83 := temp84
 temp82 := temp83
-temp95 :=  i
+temp95 := i
 temp94 := temp95
 temp93 := temp94
-temp92 :=  s[ temp93 ]
+temp92 := s [ temp93 ]
 temp91 := temp92
 temp90 := temp91
 temp89 := temp90
-temp88 :=  tp[ temp89 ]
+temp88 := tp [ temp89 ]
 temp87 := temp88
 temp86 := temp87
 temp85 := temp86
- rank[ temp82 ] := temp85
- i :=  i + 1
+rank [ temp82 ] := temp85
+i := i + 1
 goto L6
 label L7
 end
-Procedure  sort
+Procedure sort
 begin
-temp98 :=  0
+temp98 := 0
 temp97 := temp98
 temp96 := temp97
-temp101 :=  len
+temp101 := len
 temp100 := temp101
 temp99 := temp100
- i := temp96
+i := temp96
 label L8
-temp102 :=  i - temp99
+temp102 := i - temp99
 if_false temp102 goto L9
-temp105 :=  i
+temp105 := i
 temp104 := temp105
 temp103 := temp104
-temp108 :=  0
+temp108 := 0
 temp107 := temp108
 temp106 := temp107
- tax[ temp103 ] := temp106
- i :=  i + 1
+tax [ temp103 ] := temp106
+i := i + 1
 goto L8
 label L9
-temp111 :=  1
+temp111 := 1
 temp110 := temp111
 temp109 := temp110
-temp114 :=  len
+temp114 := len
 temp113 := temp114
 temp112 := temp113
- i := temp109
+i := temp109
 label L10
-temp115 :=  i - temp112
+temp115 := i - temp112
 if_false temp115 goto L11
-temp131 :=  i
+temp131 := i
 temp130 := temp131
 temp129 := temp130
-temp128 :=  sa[ temp129 ]
+temp128 := sa [ temp129 ]
 temp127 := temp128
 temp126 := temp127
-temp132 :=  st
+temp132 := st
 temp125 := temp126 + temp132
 temp124 := temp125
-temp123 :=  rank[ temp124 ]
+temp123 := rank [ temp124 ]
 temp122 := temp123
 temp121 := temp122
 temp120 := temp121
-temp119 :=  tax[ temp120 ]
+temp119 := tax [ temp120 ]
 temp118 := temp119
 temp117 := temp118
 temp116 := temp117
 param temp116
-call  inc 1
- i :=  i + 1
+call inc 1
+i := i + 1
 goto L10
 label L11
-temp135 :=  1
+temp135 := 1
 temp134 := temp135
 temp133 := temp134
-temp138 :=  len
+temp138 := len
 temp137 := temp138
 temp136 := temp137
- i := temp133
+i := temp133
 label L12
-temp139 :=  i - temp136
+temp139 := i - temp136
 if_false temp139 goto L13
-temp146 :=  i
+temp146 := i
 temp145 := temp146
 temp144 := temp145
-temp143 :=  tax[ temp144 ]
+temp143 := tax [ temp144 ]
 temp142 := temp143
 temp141 := temp142
 temp140 := temp141
-temp154 :=  i
+temp154 := i
 temp153 := temp154
-temp155 :=  1
+temp155 := 1
 temp152 := temp153 - temp155
 temp151 := temp152
-temp150 :=  tax[ temp151 ]
+temp150 := tax [ temp151 ]
 temp149 := temp150
 temp148 := temp149
 temp147 := temp148
 param temp140
 param temp147
-call  inc 2
- i :=  i + 1
+call inc 2
+i := i + 1
 goto L12
 label L13
-temp158 :=  len
+temp158 := len
 temp157 := temp158
 temp156 := temp157
-temp161 :=  1
+temp161 := 1
 temp160 := temp161
 temp159 := temp160
- i := temp156
+i := temp156
 label L14
-temp162 :=  i - temp159
+temp162 := i - temp159
 if_false temp162 goto L15
-temp178 :=  i
+temp178 := i
 temp177 := temp178
 temp176 := temp177
-temp175 :=  sa[ temp176 ]
+temp175 := sa [ temp176 ]
 temp174 := temp175
 temp173 := temp174
-temp179 :=  st
+temp179 := st
 temp172 := temp173 + temp179
 temp171 := temp172
-temp170 :=  rank[ temp171 ]
+temp170 := rank [ temp171 ]
 temp169 := temp170
 temp168 := temp169
 temp167 := temp168
-temp166 :=  tax[ temp167 ]
+temp166 := tax [ temp167 ]
 temp165 := temp166
 temp164 := temp165
 temp163 := temp164
-temp186 :=  i
+temp186 := i
 temp185 := temp186
 temp184 := temp185
-temp183 :=  sa[ temp184 ]
+temp183 := sa [ temp184 ]
 temp182 := temp183
 temp181 := temp182
 temp180 := temp181
- tmp[ temp163 ] := temp180
-temp202 :=  i
+tmp [ temp163 ] := temp180
+temp202 := i
 temp201 := temp202
 temp200 := temp201
-temp199 :=  sa[ temp200 ]
+temp199 := sa [ temp200 ]
 temp198 := temp199
 temp197 := temp198
-temp203 :=  st
+temp203 := st
 temp196 := temp197 + temp203
 temp195 := temp196
-temp194 :=  rank[ temp195 ]
+temp194 := rank [ temp195 ]
 temp193 := temp194
 temp192 := temp193
 temp191 := temp192
-temp190 :=  tax[ temp191 ]
+temp190 := tax [ temp191 ]
 temp189 := temp190
 temp188 := temp189
 temp187 := temp188
 param temp187
-call  dec 1
- i :=  i + 1
+call dec 1
+i := i + 1
 goto L14
 label L15
-temp206 :=  tmp
+temp206 := tmp
 temp205 := temp206
 temp204 := temp205
- sa := temp204
+sa := temp204
 end
-Procedure  get_sa
+Procedure get_sa
 begin
-temp209 :=  1
+temp209 := 1
 temp208 := temp209
 temp207 := temp208
-temp212 :=  len
+temp212 := len
 temp211 := temp212
 temp210 := temp211
- i := temp207
+i := temp207
 label L16
-temp213 :=  i - temp210
+temp213 := i - temp210
 if_false temp213 goto L17
-temp216 :=  1
+temp216 := 1
 temp215 := temp216
 temp214 := temp215
- x := temp214
-temp219 :=  1
+x := temp214
+temp219 := 1
 temp218 := temp219
 temp217 := temp218
-temp223 :=  i
+temp223 := i
 temp222 := temp223
-temp224 :=  1
+temp224 := 1
 temp221 := temp222 - temp224
 temp220 := temp221
- j := temp217
+j := temp217
 label L18
-temp225 :=  j - temp220
+temp225 := j - temp220
 if_false temp225 goto L19
-temp229 :=  x
-temp228 := temp229 *  2
+temp229 := x
+temp228 := temp229 * 2
 temp227 := temp228
 temp226 := temp227
- x := temp226
- j :=  j + 1
+x := temp226
+j := j + 1
 goto L18
 label L19
-temp232 :=  1
+temp232 := 1
 temp231 := temp232
 temp230 := temp231
-temp235 :=  len
+temp235 := len
 temp234 := temp235
 temp233 := temp234
- j := temp230
+j := temp230
 label L20
-temp236 :=  j - temp233
+temp236 := j - temp233
 if_false temp236 goto L21
-temp239 :=  j
+temp239 := j
 temp238 := temp239
 temp237 := temp238
-temp242 :=  j
+temp242 := j
 temp241 := temp242
 temp240 := temp241
- sa[ temp237 ] := temp240
- j :=  j + 1
+sa [ temp237 ] := temp240
+j := j + 1
 goto L20
 label L21
-temp245 :=  x
+temp245 := x
 temp244 := temp245
 temp243 := temp244
 param temp243
-call  sort 1
-temp248 :=  0
+call sort 1
+temp248 := 0
 temp247 := temp248
 temp246 := temp247
 param temp246
-call  sort 1
-temp251 :=  1
+call sort 1
+temp251 := 1
 temp250 := temp251
 temp249 := temp250
-temp254 :=  len
+temp254 := len
 temp253 := temp254
 temp252 := temp253
- j := temp249
+j := temp249
 label L22
-temp255 :=  j - temp252
+temp255 := j - temp252
 if_false temp255 goto L23
-temp273 :=  j
+temp273 := j
 temp272 := temp273
 temp271 := temp272
-temp270 :=  sa[ temp271 ]
+temp270 := sa [ temp271 ]
 temp269 := temp270
 temp268 := temp269
-temp274 :=  x
+temp274 := x
 temp267 := temp268 + temp274
 temp266 := temp267
-temp265 :=  rank[ temp266 ]
+temp265 := rank [ temp266 ]
 temp264 := temp265
 temp263 := temp264
 temp262 := temp263
-temp286 :=  j
+temp286 := j
 temp285 := temp286
-temp287 :=  1
+temp287 := 1
 temp284 := temp285 - temp287
 temp283 := temp284
-temp282 :=  sa[ temp283 ]
+temp282 := sa [ temp283 ]
 temp281 := temp282
 temp280 := temp281
-temp288 :=  x
+temp288 := x
 temp279 := temp280 + temp288
 temp278 := temp279
-temp277 :=  rank[ temp278 ]
+temp277 := rank [ temp278 ]
 temp276 := temp277
 temp275 := temp276
 temp261 := temp262 == temp275
 temp260 := temp261
-temp300 :=  j
+temp300 := j
 temp299 := temp300
 temp298 := temp299
-temp297 :=  sa[ temp298 ]
+temp297 := sa [ temp298 ]
 temp296 := temp297
 temp295 := temp296
 temp294 := temp295
-temp293 :=  rank[ temp294 ]
+temp293 := rank [ temp294 ]
 temp292 := temp293
 temp291 := temp292
 temp290 := temp291
-temp311 :=  j
+temp311 := j
 temp310 := temp311
-temp312 :=  1
+temp312 := 1
 temp309 := temp310 - temp312
 temp308 := temp309
-temp307 :=  sa[ temp308 ]
+temp307 := sa [ temp308 ]
 temp306 := temp307
 temp305 := temp306
 temp304 := temp305
-temp303 :=  rank[ temp304 ]
+temp303 := rank [ temp304 ]
 temp302 := temp303
 temp301 := temp302
 temp289 := temp290 == temp301
@@ -414,176 +414,176 @@ temp258 := temp259
 temp257 := temp258
 temp256 := temp257
 if_false temp256 goto L24
-temp319 :=  j
+temp319 := j
 temp318 := temp319
 temp317 := temp318
-temp316 :=  sa[ temp317 ]
+temp316 := sa [ temp317 ]
 temp315 := temp316
 temp314 := temp315
 temp313 := temp314
-temp331 :=  j
+temp331 := j
 temp330 := temp331
-temp332 :=  1
+temp332 := 1
 temp329 := temp330 - temp332
 temp328 := temp329
-temp327 :=  sa[ temp328 ]
+temp327 := sa [ temp328 ]
 temp326 := temp327
 temp325 := temp326
 temp324 := temp325
-temp323 :=  tmp[ temp324 ]
+temp323 := tmp [ temp324 ]
 temp322 := temp323
 temp321 := temp322
 temp320 := temp321
- tmp[ temp313 ] := temp320
+tmp [ temp313 ] := temp320
 goto L25
 label L24
-temp339 :=  j
+temp339 := j
 temp338 := temp339
 temp337 := temp338
-temp336 :=  sa[ temp337 ]
+temp336 := sa [ temp337 ]
 temp335 := temp336
 temp334 := temp335
 temp333 := temp334
-temp352 :=  j
+temp352 := j
 temp351 := temp352
-temp353 :=  1
+temp353 := 1
 temp350 := temp351 - temp353
 temp349 := temp350
-temp348 :=  sa[ temp349 ]
+temp348 := sa [ temp349 ]
 temp347 := temp348
 temp346 := temp347
 temp345 := temp346
-temp344 :=  tmp[ temp345 ]
+temp344 := tmp [ temp345 ]
 temp343 := temp344
 temp342 := temp343
-temp354 :=  1
+temp354 := 1
 temp341 := temp342 + temp354
 temp340 := temp341
- tmp[ temp333 ] := temp340
+tmp [ temp333 ] := temp340
 label L25
- j :=  j + 1
+j := j + 1
 goto L22
 label L23
-temp357 :=  tmp
+temp357 := tmp
 temp356 := temp357
 temp355 := temp356
- rank := temp355
-temp370 :=  len
+rank := temp355
+temp370 := len
 temp369 := temp370
 temp368 := temp369
-temp367 :=  sa[ temp368 ]
+temp367 := sa [ temp368 ]
 temp366 := temp367
 temp365 := temp366
 temp364 := temp365
-temp363 :=  rank[ temp364 ]
+temp363 := rank [ temp364 ]
 temp362 := temp363
 temp361 := temp362
 temp360 := temp361
-temp372 :=  len
+temp372 := len
 temp371 := temp372
 temp359 := temp360 == temp371
 temp358 := temp359
 if_false temp358 goto L26
-call  break 0
+call break 0
 goto L27
 label L26
 label L27
- i :=  i + 1
+i := i + 1
 goto L16
 label L17
 end
-Procedure  get_height
+Procedure get_height
 begin
-temp375 :=  1
+temp375 := 1
 temp374 := temp375
 temp373 := temp374
-temp378 :=  len
+temp378 := len
 temp377 := temp378
 temp376 := temp377
- i := temp373
+i := temp373
 label L28
-temp379 :=  i - temp376
+temp379 := i - temp376
 if_false temp379 goto L29
-temp388 :=  i
+temp388 := i
 temp387 := temp388
 temp386 := temp387
-temp385 :=  rank[ temp386 ]
+temp385 := rank [ temp386 ]
 temp384 := temp385
 temp383 := temp384
 temp382 := temp383
-temp390 :=  len
+temp390 := len
 temp389 := temp390
 temp381 := temp382 < temp389
 temp380 := temp381
 if_false temp380 goto L30
-temp397 :=  i
+temp397 := i
 temp396 := temp397
 temp395 := temp396
-temp394 :=  rank[ temp395 ]
+temp394 := rank [ temp395 ]
 temp393 := temp394
 temp392 := temp393
 temp391 := temp392
- x := temp391
-temp405 :=  x
+x := temp391
+temp405 := x
 temp404 := temp405
-temp406 :=  1
+temp406 := 1
 temp403 := temp404 + temp406
 temp402 := temp403
-temp401 :=  sa[ temp402 ]
+temp401 := sa [ temp402 ]
 temp400 := temp401
 temp399 := temp400
 temp398 := temp399
- next := temp398
+next := temp398
 label L32
-temp421 :=  x
+temp421 := x
 temp420 := temp421
 temp419 := temp420
-temp418 :=  height[ temp419 ]
+temp418 := height [ temp419 ]
 temp417 := temp418
 temp416 := temp417
-temp422 :=  i
+temp422 := i
 temp415 := temp416 + temp422
 temp414 := temp415
-temp424 :=  len
+temp424 := len
 temp423 := temp424
 temp413 := temp414 <= temp423
 temp412 := temp413
-temp433 :=  x
+temp433 := x
 temp432 := temp433
 temp431 := temp432
-temp430 :=  height[ temp431 ]
+temp430 := height [ temp431 ]
 temp429 := temp430
 temp428 := temp429
-temp434 :=  next
+temp434 := next
 temp427 := temp428 + temp434
 temp426 := temp427
-temp436 :=  len
+temp436 := len
 temp435 := temp436
 temp425 := temp426 <= temp435
 temp411 := temp412 && temp425
-temp449 :=  x
+temp449 := x
 temp448 := temp449
 temp447 := temp448
-temp446 :=  height[ temp447 ]
+temp446 := height [ temp447 ]
 temp445 := temp446
 temp444 := temp445
-temp450 :=  i
+temp450 := i
 temp443 := temp444 + temp450
 temp442 := temp443
-temp441 :=  s[ temp442 ]
+temp441 := s [ temp442 ]
 temp440 := temp441
 temp439 := temp440
 temp438 := temp439
-temp461 :=  x
+temp461 := x
 temp460 := temp461
 temp459 := temp460
-temp458 :=  height[ temp459 ]
+temp458 := height [ temp459 ]
 temp457 := temp458
 temp456 := temp457
-temp462 :=  next
+temp462 := next
 temp455 := temp456 + temp462
 temp454 := temp455
-temp453 :=  s[ temp454 ]
+temp453 := s [ temp454 ]
 temp452 := temp453
 temp451 := temp452
 temp437 := temp438 == temp451
@@ -592,98 +592,98 @@ temp409 := temp410
 temp408 := temp409
 temp407 := temp408
 if_false temp407 goto L33
-temp469 :=  x
+temp469 := x
 temp468 := temp469
 temp467 := temp468
-temp466 :=  height[ temp467 ]
+temp466 := height [ temp467 ]
 temp465 := temp466
 temp464 := temp465
 temp463 := temp464
 param temp463
-call  inc 1
+call inc 1
 goto L32
 label L33
-temp479 :=  x
+temp479 := x
 temp478 := temp479
 temp477 := temp478
-temp476 :=  height[ temp477 ]
+temp476 := height [ temp477 ]
 temp475 := temp476
 temp474 := temp475
-temp480 :=  1
+temp480 := 1
 temp473 := temp474 - temp480
 temp472 := temp473
-temp482 :=  0
+temp482 := 0
 temp481 := temp482
 temp471 := temp472 <= temp481
 temp470 := temp471
 if_false temp470 goto L34
-temp490 :=  i
+temp490 := i
 temp489 := temp490
-temp491 :=  1
+temp491 := 1
 temp488 := temp489 + temp491
 temp487 := temp488
-temp486 :=  rank[ temp487 ]
+temp486 := rank [ temp487 ]
 temp485 := temp486
 temp484 := temp485
 temp483 := temp484
-temp499 :=  x
+temp499 := x
 temp498 := temp499
 temp497 := temp498
-temp496 :=  height[ temp497 ]
+temp496 := height [ temp497 ]
 temp495 := temp496
 temp494 := temp495
-temp500 :=  1
+temp500 := 1
 temp493 := temp494 - temp500
 temp492 := temp493
- height[ temp483 ] := temp492
+height [ temp483 ] := temp492
 goto L35
 label L34
 label L35
 goto L31
 label L30
 label L31
- i :=  i + 1
+i := i + 1
 goto L28
 label L29
 end
-temp503 :=  input
+temp503 := input
 temp502 := temp503
 temp501 := temp502
-temp506 := " Suffix.in"
+temp506 := "Suffix.in"
 temp505 := temp506
 temp504 := temp505
 param temp501
 param temp504
-call  assign 2
-temp509 :=  input
+call assign 2
+temp509 := input
 temp508 := temp509
 temp507 := temp508
 param temp507
-call  reset 1
-temp512 :=  output
+call reset 1
+temp512 := output
 temp511 := temp512
 temp510 := temp511
-temp515 := " Suffix.out"
+temp515 := "Suffix.out"
 temp514 := temp515
 temp513 := temp514
 param temp510
 param temp513
-call  assign 2
-temp518 :=  output
+call assign 2
+temp518 := output
 temp517 := temp518
 temp516 := temp517
 param temp516
-call  rewrite 1
-call  init 0
-call  get_sa 0
-call  get_height 0
-temp521 :=  input
+call rewrite 1
+call init 0
+call get_sa 0
+call get_height 0
+temp521 := input
 temp520 := temp521
 temp519 := temp520
 param temp519
-call  close 1
-temp524 :=  output
+call close 1
+temp524 := output
 temp523 := temp524
 temp522 := temp523
 param temp522
-call  close 1
+call close 1

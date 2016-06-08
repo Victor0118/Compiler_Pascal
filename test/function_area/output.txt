@@ -1,73 +1,73 @@
- offset :=  100
-Procedure  init
+offset := 100
+Procedure init
 begin
-temp2 :=  1
+temp2 := 1
 temp1 := temp2
 temp0 := temp1
- i := temp0
+i := temp0
 end
-Function  assign
+Function assign
 begin
-Procedure  init_2
+Procedure init_2
 begin
-temp5 :=  2
+temp5 := 2
 temp4 := temp5
 temp3 := temp4
- i := temp3
+i := temp3
 end
-temp8 :=  i
+temp8 := i
 temp7 := temp8
 temp6 := temp7
- assign := temp6
+assign := temp6
 end
-Function  assign_2
+Function assign_2
 begin
-Procedure  init_2
+Procedure init_2
 begin
-temp11 :=  2
+temp11 := 2
 temp10 := temp11
 temp9 := temp10
- i := temp9
+i := temp9
 end
-temp14 :=  i
+temp14 := i
 temp13 := temp14
 temp12 := temp13
- assign := temp12
+assign := temp12
 end
-call  init 0
-temp17 :=  i
+call init 0
+temp17 := i
 temp16 := temp17
 temp15 := temp16
 param temp15
-call  writeln 1
-temp20 :=  i
+call writeln 1
+temp20 := i
 temp19 := temp20
 temp18 := temp19
 param temp18
-call  assign 1
-temp23 :=  i
+call assign 1
+temp23 := i
 temp22 := temp23
 temp21 := temp22
 param temp21
-call  writeln 1
-temp29 :=  i
+call writeln 1
+temp29 := i
 temp28 := temp29
 temp27 := temp28
 param temp27
-call  assign 1
+call assign 1
 return temp30
 temp26 := temp30
 temp25 := temp26
 temp24 := temp25
 param temp24
-call  writeln 1
-temp33 :=  i
+call writeln 1
+temp33 := i
 temp32 := temp33
 temp31 := temp32
 param temp31
-call  assign_2 1
-temp36 :=  i
+call assign_2 1
+temp36 := i
 temp35 := temp36
 temp34 := temp35
 param temp34
-call  writeln 1
+call writeln 1

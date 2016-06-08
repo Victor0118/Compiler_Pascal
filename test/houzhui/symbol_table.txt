@@ -1,40 +1,41 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- sa            array_ 0_ 1000_ longint    3 
- tp            array_' @'_' z'_ longint    4 
- init          Function    9 
- sort          Function   19 
- len            longint    6 
- height        array_ 0_ 1000_ longint    3 
- get_sa        Function   33 
- rank          array_ 0_ 1000_ longint    3 
- tmp           array_ 0_ 1000_ longint    3 
- get_height    Function   51  ch             char       7 
- tax           array_ 0_ 1000_ longint    3 
- s              ansistring    5 
+ch             char        7 
+sa             array_0_1000_longint    3 
+len            longint     6 
+init           Function    9 
+sort           Function   19 
+tp             array_'@'_'z'_longint    4 
+tmp            array_0_1000_longint    3 
+rank           array_0_1000_longint    3 
+s              ansistring    5 
+tax            array_0_1000_longint    3 
+height         array_0_1000_longint    3 
+get_sa         Function   33 
+get_height     Function   51 
 
-table scope: Proc_ init
+table scope: Proc_init
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- i              longint   10 
+i              longint    10 
 
-table scope: Proc_ sort
+table scope: Proc_sort
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- i              longint   20 
+i              longint    20 
 
-table scope: Proc_ get_sa
+table scope: Proc_get_sa
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- i              longint   34 
- j              longint   34 
- x              longint   34 
+i              longint    34 
+j              longint    34 
+x              longint    34 
 
-table scope: Proc_ get_height
+table scope: Proc_get_height
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- next           longint   52 
- i              longint   52 
- x              longint   52 
+i              longint    52 
+next           longint    52 
+x              longint    52 
 

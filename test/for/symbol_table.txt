@@ -1,5 +1,5 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
- i              integer    5 
+i              integer     5 
 
