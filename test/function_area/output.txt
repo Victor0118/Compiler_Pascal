@@ -41,36 +41,36 @@ call init 0
 temp20 = i integer
 temp19 = temp20 integer
 temp18 = temp19 integer
-param temp18
+param temp18 integer
 call writeln 1
 temp23 = i integer
 temp22 = temp23 integer
 temp21 = temp22 integer
-param temp21
+param temp21 integer
 call assign 1
 temp26 = i integer
 temp25 = temp26 integer
 temp24 = temp25 integer
-param temp24
+param temp24 integer
 call writeln 1
 temp32 = i integer
 temp31 = temp32 integer
 temp30 = temp31 integer
-param temp30
+param temp30 integer
 call assign 1
 return temp33
 temp29 = temp33 None
 temp28 = temp29 None
 temp27 = temp28 None
-param temp27
+param temp27 None
 call writeln 1
 temp36 = i integer
 temp35 = temp36 integer
 temp34 = temp35 integer
-param temp34
+param temp34 integer
 call assign_2 1
 temp39 = i integer
 temp38 = temp39 integer
 temp37 = temp38 integer
-param temp37
+param temp37 integer
 call writeln 1

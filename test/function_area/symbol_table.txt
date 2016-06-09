@@ -2,77 +2,33 @@ table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
 init           Function    6 
-temp18         integer    34 
-temp19         integer    34 
-temp20         integer    34 
-temp21         integer    35 
-temp22         integer    35 
-temp23         integer    35 
 i              integer     5   34   35   36   37   38   39 
-temp24         integer    36 
-temp25         integer    36 
-temp26         integer    36 
-temp27         None       37 
-temp28         None       37 
-temp29         None       37 
 assign_2       Function   21 
-temp30         integer    37 
-temp31         integer    37 
-temp32         integer    37 
-temp34         integer    38 
-temp35         integer    38 
-temp36         integer    38 
-temp37         integer    39 
-temp38         integer    39 
-temp39         integer    39 
 assign         Function   11   37 
 
 table scope: Proc_init
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer     8 
-temp0          integer     8 
-temp1          integer     8 
-temp2          integer     8 
-temp3          integer     8 
 
 table scope: Func_assign
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    19 
 assign_return  integer    11 
 init_2         Function   14 
-temp10         integer    19 
 i              integer    13   19 
-temp8          integer    19 
-temp9          integer    19 
 
 table scope: Proc_init_2
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    16 
-temp4          integer    16 
-temp5          integer    16 
-temp6          integer    16 
-temp7          integer    16 
 
 table scope: Func_assign_2
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    29 
 assign_2_return integer    21 
 init_2         Function   24 
-temp15         integer    29 
-temp16         integer    29 
-temp17         integer    29 
 i              integer    23   29 
 
 table scope: Proc_init_2
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    26 
-temp11         integer    26 
-temp12         integer    26 
-temp13         integer    26 
-temp14         integer    26 
 

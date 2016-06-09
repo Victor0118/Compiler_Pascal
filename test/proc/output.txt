@@ -18,12 +18,12 @@ call init 0
 temp9 = i integer
 temp8 = temp9 integer
 temp7 = temp8 integer
-param temp7
+param temp7 integer
 call writeln 1
 temp15 = i integer
 temp14 = temp15 integer
 temp13 = temp14 integer
-param temp13
+param temp13 integer
 call assign 1
 return temp16
 temp12 = temp16 None
@@ -33,12 +33,12 @@ i = temp10 None
 temp19 = i integer
 temp18 = temp19 integer
 temp17 = temp18 integer
-param temp17
+param temp17 integer
 call writeln 1
 call wirteln 0
 call i 0
 temp22 = i integer
 temp21 = temp22 integer
 temp20 = temp21 integer
-param temp20
+param temp20 integer
 call writeln 1

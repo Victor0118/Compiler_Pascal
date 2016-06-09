@@ -1,33 +1,6 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    10   11   14 
-temp10         integer    12 
-temp11         integer    12 
-temp12         integer    12 
-temp13         integer    12 
-temp14         integer    12 
-temp15         integer    14 
-temp16         integer    14 
-temp17         integer    14 
-temp18         integer    14 
-temp19         integer    14 
-temp20         integer    14 
-temp21         integer    15 
-temp22         integer    15 
-temp23         integer    15 
 i              integer     5   12   14   15   17 
-temp24         integer    17 
 j              integer     6   12 
-temp25         integer    17 
-temp26         integer    17 
-temp0          integer    10 
-temp1          integer    10 
-temp2          integer    10 
-temp3          integer    10 
-temp4          integer    11 
-temp5          integer    11 
-temp6          integer    11 
-temp7          integer    11 
-temp9          integer    12 
 

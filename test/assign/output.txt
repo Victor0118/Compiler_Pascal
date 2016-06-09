@@ -7,7 +7,7 @@ i = temp0 integer
 temp6 = i integer
 temp5 = temp6 integer
 temp4 = temp5 integer
-param temp4
+param temp4 integer
 call writeln 1
 temp10 = 'z' char
 temp9 = temp10 char
@@ -16,23 +16,30 @@ temp7 = temp8 char
 temp13 = i integer
 temp12 = temp13 integer
 temp11 = temp12 integer
-aa [ temp7 ] = temp11
-temp21 = 'z' char
+temp14 = temp7 * elem_size( aa )
+temp15 = &aa + temp14
+temp16 = *temp15
+temp16 = temp11 integer
+temp23 = 'z' char
+temp22 = temp23 char
+temp21 = temp22 char
 temp20 = temp21 char
-temp19 = temp20 char
-temp18 = temp19 char
-temp17 = aa [ temp18 ]
-temp16 = temp17 a
-temp15 = temp16 a
-temp14 = temp15 a
-param temp14
+temp24 = temp20 * elem_size( aa )
+temp25 = &aa + temp24
+temp26 = *temp25
+temp19 = temp26 None
+temp18 = temp19 None
+temp17 = temp18 None
+param temp17 None
 call writeln 1
-temp24 = i integer
-temp23 = temp24 integer
-temp22 = temp23 integer
-bb.b1 = temp22
-temp27 =  integer
-temp26 = temp27 integer
-temp25 = temp26 integer
-param temp25
+temp29 = i integer
+temp28 = temp29 integer
+temp27 = temp28 integer
+temp30 = &bb + field_offset( bb,b1 )
+*temp30 = temp27 integer
+temp34 = &bb + field_offset( bb, )
+temp33 = *temp34 None
+temp32 = temp33 None
+temp31 = temp32 None
+param temp31 None
 call writeln 1

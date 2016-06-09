@@ -28,12 +28,12 @@ i = temp15 integer
 temp23 = i integer
 temp22 = temp23 integer
 temp21 = temp22 integer
-param temp21
+param temp21 integer
 call writeln 1
 goto L0
 label L1
 temp26 = i integer
 temp25 = temp26 integer
 temp24 = temp25 integer
-param temp24
+param temp24 integer
 call writeln 1

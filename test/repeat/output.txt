@@ -20,7 +20,7 @@ i = temp9 integer
 temp17 = i integer
 temp16 = temp17 integer
 temp15 = temp16 integer
-param temp15
+param temp15 integer
 call writeln 1
 temp21 = i integer
 temp20 = temp21 integer

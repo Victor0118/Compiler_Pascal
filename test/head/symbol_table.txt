@@ -8,29 +8,15 @@ assign         Function   16
 table scope: Proc_init
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    13 
-temp0          integer    13 
-temp1          integer    13 
-temp2          integer    13 
-temp3          integer    13 
 
 table scope: Func_assign
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    24 
 assign_return  integer    16 
 init_2         Function   19 
-temp10         integer    24 
 i              integer    18   24 
-temp8          integer    24 
-temp9          integer    24 
 
 table scope: Proc_init_2
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-               integer    21 
-temp4          integer    21 
-temp5          integer    21 
-temp6          integer    21 
-temp7          integer    21 
 

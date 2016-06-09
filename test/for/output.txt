@@ -23,5 +23,5 @@ label L1
 temp16 = i integer
 temp15 = temp16 integer
 temp14 = temp15 integer
-param temp14
+param temp14 integer
 call writeln 1
