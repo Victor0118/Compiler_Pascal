@@ -1,6 +1,6 @@
 table scope: Main
 Variable Name    type     Line Numbers
 -------------  --------   ------------
-offset         None        7 
+offset         integer     3    7 
 i              integer     5    7    8 
 

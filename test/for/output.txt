@@ -3,9 +3,9 @@ temp3 = 0 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
 temp0 = temp1 integer
-temp6 = offset None
-temp5 = temp6 None
-temp4 = temp5 None
+temp6 = offset integer
+temp5 = temp6 integer
+temp4 = temp5 integer
 i = temp0
 label L0
 temp7 = i - temp4
