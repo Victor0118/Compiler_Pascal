@@ -1,37 +1,41 @@
-offset = 100 integer
-temp3 = 0 integer
+temp0 = 100 integer
+offset = temp0 integer
+temp5 = 0 integer
+temp4 = temp5 integer
+temp3 = temp4 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
-temp0 = temp1 integer
-i = temp0 integer
-temp7 = 10 integer
+i = temp1 integer
+temp10 = 10 integer
+temp9 = temp10 integer
+temp8 = temp9 integer
+temp7 = temp8 integer
 temp6 = temp7 integer
-temp5 = temp6 integer
-temp4 = temp5 integer
-j = temp4 integer
+j = temp6 integer
 label L0
-temp12 = i integer
-temp11 = temp12 integer
-temp10 = temp11 integer
-temp14 = j integer
+temp15 = i integer
+temp14 = temp15 integer
 temp13 = temp14 integer
-temp9 = temp10 < temp13 integer
-temp8 = temp9
-if_false temp8 goto L1
-temp18 = i integer
-temp17 = temp18 integer
-temp20 = 1 integer
-temp19 = temp20 integer
-temp16 = temp17 + temp19 integer
-temp15 = temp16 integer
-i = temp15 integer
-temp23 = i integer
+temp17 = j integer
+temp16 = temp17 integer
+temp12 = temp13 < temp16 integer
+temp11 = temp12
+if_false temp11 goto L1
+temp21 = i integer
+temp20 = temp21 integer
+temp24 = 1 integer
+temp23 = temp24 integer
 temp22 = temp23 integer
-temp21 = temp22 integer
-call writeln temp21 integer
+temp19 = temp20 + temp22 integer
+temp18 = temp19 integer
+i = temp18 integer
+temp27 = i integer
+temp26 = temp27 integer
+temp25 = temp26 integer
+call writeln temp25 integer
 goto L0
 label L1
-temp26 = i integer
-temp25 = temp26 integer
-temp24 = temp25 integer
-call writeln temp24 integer
+temp30 = i integer
+temp29 = temp30 integer
+temp28 = temp29 integer
+call writeln temp28 integer

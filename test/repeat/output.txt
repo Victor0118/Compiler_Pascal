@@ -1,31 +1,35 @@
-offset = 100 integer
-temp3 = 0 integer
+temp0 = 100 integer
+offset = temp0 integer
+temp5 = 0 integer
+temp4 = temp5 integer
+temp3 = temp4 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
-temp0 = temp1 integer
-i = temp0 integer
-temp7 = 10 integer
-temp6 = temp7 integer
-temp5 = temp6 integer
-temp4 = temp5 integer
-j = temp4 integer
-label L0
-temp12 = i integer
-temp11 = temp12 integer
-temp14 = 1 integer
-temp13 = temp14 integer
-temp10 = temp11 + temp13 integer
+i = temp1 integer
+temp10 = 10 integer
 temp9 = temp10 integer
-i = temp9 integer
-temp17 = i integer
+temp8 = temp9 integer
+temp7 = temp8 integer
+temp6 = temp7 integer
+j = temp6 integer
+label L0
+temp15 = i integer
+temp14 = temp15 integer
+temp18 = 1 integer
+temp17 = temp18 integer
 temp16 = temp17 integer
-temp15 = temp16 integer
-call writeln temp15 integer
+temp13 = temp14 + temp16 integer
+temp12 = temp13 integer
+i = temp12 integer
 temp21 = i integer
 temp20 = temp21 integer
 temp19 = temp20 integer
-temp23 = j integer
-temp22 = temp23 integer
-temp18 = temp19 <= temp22 integer
-temp8 = temp18
-if_false temp8 goto L0
+call writeln temp19 integer
+temp25 = i integer
+temp24 = temp25 integer
+temp23 = temp24 integer
+temp27 = j integer
+temp26 = temp27 integer
+temp22 = temp23 <= temp26 integer
+temp11 = temp22
+if_false temp11 goto L0

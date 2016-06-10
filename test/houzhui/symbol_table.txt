@@ -1,54 +1,52 @@
 table scope: Main
-Variable Name    type     Line Numbers
--------------  --------   ------------
-ch             char        7 
-sa             array_0 integer_1000 integer_longint    3 
-len            longint     6 
-init           Function    9 
-sort           Function   19 
-tp             array_'@' char_'z' char_longint    4 
-input          None       63   63   70 
-tmp            array_0 integer_1000 integer_longint    3 
-rank           array_0 integer_1000 integer_longint    3 
-s              ansistring    5 
-output         None       64   64   70 
-tax            array_0 integer_1000 integer_longint    3 
-height         array_0 integer_1000 integer_longint    3 
-get_sa         Function   33 
-get_height     Function   51 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+ch             char        7                              0
+sa             array_temp0_temp1_longint    3                              0
+len            longint     6                              0
+init           Procedure    9                              0
+sort           Procedure   19                              0
+tp             array_temp2_temp3_longint    4                              0
+input          None       63   63   70                              0
+tmp            array_temp0_temp1_longint    3                              0
+rank           array_temp0_temp1_longint    3                              0
+s              ansistring    5                              0
+output         None       64   64   70                              0
+tax            array_temp0_temp1_longint    3                              0
+height         array_temp0_temp1_longint    3                              0
+get_sa         Procedure   33                              0
+get_height     Procedure   51                              0
 
 table scope: Proc_init
-Variable Name    type     Line Numbers
--------------  --------   ------------
-ch             char       15   15   15   15   15 
-len            longint    13   16 
-i              longint    10   13   16   16 
-s              ansistring   12   12 
-pred           None       15   15 
-length         None       12 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+ch             char       15   15   15   15   15                              0
+len            longint    13   16                              0
+i              longint    10   13   16   16                              0
+s              ansistring   12   12                              0
 
 table scope: Proc_sort
-Variable Name    type     Line Numbers
--------------  --------   ------------
-len            longint    22   23   24   25 
-st             None       23   27   28 
-i              longint    20   22   23   24   24   27   27   28 
-tmp            longint    30 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+len            longint    22   23   24   25                              0
+st             None       23   27   28                              0
+i              longint    20   22   23   24   24   27   27   28                              0
+tmp            longint    30                              0
 
 table scope: Proc_get_sa
-Variable Name    type     Line Numbers
--------------  --------   ------------
-len            longint    36   40   43   47   47 
-i              longint    34   39 
-j              longint    34   40   40   44   44   44   44   44   44   45   45 
-tmp            longint    46 
-x              longint    34   39   41   44   44 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+len            longint    36   40   43   47   47                              0
+i              longint    34   39                              0
+j              longint    34   40   40   44   44   44   44   44   44   45   45                              0
+tmp            longint    46                              0
+x              longint    34   39   41   44   44                              0
 
 table scope: Proc_get_height
-Variable Name    type     Line Numbers
--------------  --------   ------------
-len            longint    54   54   57   57 
-i              longint    52   54   56   57   57   58 
-next           longint    52   57   57 
-x              longint    52   56   57   57   57   57   57   58   58 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+len            longint    54   54   57   57                              0
+i              longint    52   54   56   57   57   58                              0
+next           longint    52   57   57                              0
+x              longint    52   56   57   57   57   57   57   58   58                              0
 

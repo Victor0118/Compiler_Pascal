@@ -1,6 +1,6 @@
  Name     type   
 ------  -------- 
-a     array_'@' char_'z' char_integer
+a     array_temp1_temp2_integer
 b     record_b1_integer_b2_integer_b3_char
-c     record_c1_array_0 integer_10 integer_b_c2_array_0 integer_10 integer_b_c3_boolean
+c     record_c1_array_temp3_temp4_b_c2_array_temp3_temp4_b_c3_boolean
 d     real

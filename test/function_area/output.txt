@@ -1,69 +1,73 @@
-offset = 100 integer
+temp0 = 100 integer
+offset = temp0 integer
 Procedure init
 begin
-temp3 = 1 integer
+temp5 = 1 integer
+temp4 = temp5 integer
+temp3 = temp4 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
-temp0 = temp1 integer
-i = temp0 integer
+i = temp1 integer
 end
 Function assign
 begin
 Procedure init_2
 begin
-temp7 = 2 integer
-temp6 = temp7 integer
-temp5 = temp6 integer
-temp4 = temp5 integer
-i = temp4 integer
-end
-temp10 = i integer
+temp10 = 2 integer
 temp9 = temp10 integer
 temp8 = temp9 integer
-assign = temp8 integer
+temp7 = temp8 integer
+temp6 = temp7 integer
+i = temp6 integer
+end
+temp13 = i integer
+temp12 = temp13 integer
+temp11 = temp12 integer
+assign = temp11 integer
 end
 Function assign_2
 begin
 Procedure init_2
 begin
-temp14 = 2 integer
-temp13 = temp14 integer
-temp12 = temp13 integer
-temp11 = temp12 integer
-i = temp11 integer
-end
-temp17 = i integer
+temp18 = 2 integer
+temp17 = temp18 integer
 temp16 = temp17 integer
 temp15 = temp16 integer
-assign = temp15 integer
+temp14 = temp15 integer
+i = temp14 integer
 end
-temp20 = i integer
+temp21 = i integer
+temp20 = temp21 integer
 temp19 = temp20 integer
-temp18 = temp19 integer
-call writeln temp18 integer
-temp23 = i integer
+assign = temp19 integer
+end
+temp24 = i integer
+temp23 = temp24 integer
 temp22 = temp23 integer
-temp21 = temp22 integer
-call assign temp21 integer
-temp26 = i integer
+call writeln temp22 integer
+temp27 = i integer
+temp26 = temp27 integer
 temp25 = temp26 integer
-temp24 = temp25 integer
-call writeln temp24 integer
-temp32 = i integer
-temp31 = temp32 integer
-temp30 = temp31 integer
-param temp30 integer
-call assign 1
-return temp33
-temp29 = temp33 None
-temp28 = temp29 None
-temp27 = temp28 None
-call writeln temp27 None
+call assign temp25 integer
+temp30 = i integer
+temp29 = temp30 integer
+temp28 = temp29 integer
+call writeln temp28 integer
 temp36 = i integer
 temp35 = temp36 integer
 temp34 = temp35 integer
-call assign_2 temp34 integer
-temp39 = i integer
+param temp34 integer
+call assign 1
+return temp37 integer
+temp33 = temp37 integer
+temp32 = temp33 integer
+temp31 = temp32 integer
+call writeln temp31 integer
+temp40 = i integer
+temp39 = temp40 integer
 temp38 = temp39 integer
-temp37 = temp38 integer
-call writeln temp37 integer
+call assign_2 temp38 integer
+temp43 = i integer
+temp42 = temp43 integer
+temp41 = temp42 integer
+call writeln temp41 integer

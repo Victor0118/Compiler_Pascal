@@ -1,26 +1,26 @@
 table scope: Main
-Variable Name    type     Line Numbers
--------------  --------   ------------
-maxn           integer     3 
-i              integer     5 
-j              integer     5 
-n              integer     5 
-p              integer     5 
-q              integer     5 
-x              array_1 integer_100 integer_integer    6 
-y              array_1 integer_100 integer_integer    6 
-ans            integer     5 
-qsort          Function    7 
-pos            integer     5 
-sum            integer     5 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+maxn           integer     3                              1
+i              integer     5                              0
+j              integer     5                              0
+n              integer     5                              0
+p              integer     5                              0
+q              integer     5                              0
+x              array_temp1_temp2_integer    6                              0
+y              array_temp1_temp2_integer    6                              0
+ans            integer     5                              0
+qsort          Procedure    7                              0
+pos            integer     5                              0
+sum            integer     5                              0
 
 table scope: Proc_qsort
-Variable Name    type     Line Numbers
--------------  --------   ------------
-i              integer     8   11   12   14   14   14   14   16   18   18   19   19   20   20   21   23   24   24 
-j              integer     8   11   12   15   15   15   15   16   18   18   19   19   20   20   21   23   24   25 
-k              integer     8   14   14   15   15 
-l              None       10   25 
-p              integer     8   14   15 
-r              None       10   24 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+i              integer     8   11   12   14   14   14   14   16   18   18   19   19   20   20   21   23   24   24                              0
+j              integer     8   11   12   15   15   15   15   16   18   18   19   19   20   20   21   23   24   25                              0
+k              integer     8   14   14   15   15                              0
+l              None       10   25                              0
+p              integer     8   14   15                              0
+r              None       10   24                              0
 

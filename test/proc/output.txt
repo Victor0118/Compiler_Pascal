@@ -1,38 +1,40 @@
-offset = 100 integer
+temp0 = 100 integer
+offset = temp0 integer
 Procedure init
 begin
-temp3 = 1 integer
+temp5 = 1 integer
+temp4 = temp5 integer
+temp3 = temp4 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
-temp0 = temp1 integer
-i = temp0 integer
+i = temp1 integer
 end
 Function assign
 begin
-temp6 = st None
-temp5 = temp6 None
-temp4 = temp5 None
-assign = temp4 None
+temp8 = st None
+temp7 = temp8 None
+temp6 = temp7 None
+assign = temp6 None
 end
-temp9 = i integer
-temp8 = temp9 integer
-temp7 = temp8 integer
-call writeln temp7 integer
-temp15 = i integer
-temp14 = temp15 integer
-temp13 = temp14 integer
-param temp13 integer
+temp11 = i integer
+temp10 = temp11 integer
+temp9 = temp10 integer
+call writeln temp9 integer
+temp17 = i integer
+temp16 = temp17 integer
+temp15 = temp16 integer
+param temp15 integer
 call assign 1
-return temp16
-temp12 = temp16 None
-temp11 = temp12 None
-temp10 = temp11 None
-i = temp10 None
-temp19 = i integer
-temp18 = temp19 integer
-temp17 = temp18 integer
-call writeln temp17 integer
-temp22 = i integer
-temp21 = temp22 integer
+return temp18 integer
+temp14 = temp18 integer
+temp13 = temp14 integer
+temp12 = temp13 integer
+i = temp12 integer
+temp21 = i integer
 temp20 = temp21 integer
-call writeln temp20 integer
+temp19 = temp20 integer
+call writeln temp19 integer
+temp24 = i integer
+temp23 = temp24 integer
+temp22 = temp23 integer
+call writeln temp22 integer

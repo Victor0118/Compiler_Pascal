@@ -1,18 +1,18 @@
 table scope: Main
-Variable Name    type     Line Numbers
--------------  --------   ------------
-offset         integer     3 
-init           Function    6 
-i              integer     5   18   20   21   25   26 
-assign         Function   11   20 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+offset         integer     3                              1
+init           Procedure    6                              0
+i              integer     5   18   20   21   25   26                              0
+assign         Function   11                              0
 
 table scope: Proc_init
-Variable Name    type     Line Numbers
--------------  --------   ------------
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
 
 table scope: Func_assign
-Variable Name    type     Line Numbers
--------------  --------   ------------
-st             None       13 
-assign_return  integer    11 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+st             None       13                              0
+assign_return  integer    11                              0
 

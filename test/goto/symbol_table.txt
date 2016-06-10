@@ -1,6 +1,6 @@
 table scope: Main
-Variable Name    type     Line Numbers
--------------  --------   ------------
-i              integer     3    9   10   11 
-j              integer     4 
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+i              integer     3    9   10   11                              0
+j              integer     4                              0
 

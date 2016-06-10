@@ -1,4 +1,4 @@
  Name     type   
 ------  -------- 
-a     array_'@' char_'z' char_integer
+a     array_temp1_temp2_integer
 b     record_b1_integer_b2_integer_b3_char
