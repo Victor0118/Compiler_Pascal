@@ -17,8 +17,7 @@ temp15 = "i is 2"
 temp14 = temp15 is
 temp13 = temp14 is
 temp12 = temp13 is
-param temp12 is
-call writeln 1
+call writeln temp12 is
 goto L1
 label L0
 label L1
@@ -35,8 +34,7 @@ temp27 = "i is 1"
 temp26 = temp27 is
 temp25 = temp26 is
 temp24 = temp25 is
-param temp24 is
-call writeln 1
+call writeln temp24 is
 goto L3
 label L2
 label L3
@@ -52,14 +50,12 @@ if_false temp28 goto L4
 temp38 = i integer
 temp37 = temp38 integer
 temp36 = temp37 integer
-param temp36 integer
-call writeln 1
+call writeln temp36 integer
 goto L5
 label L4
 temp42 = "i is not 1"
 temp41 = temp42 is
 temp40 = temp41 is
 temp39 = temp40 is
-param temp39 is
-call writeln 1
+call writeln temp39 is
 label L5

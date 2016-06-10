@@ -14,12 +14,10 @@ temp5 = temp6 None
 temp4 = temp5 None
 assign = temp4 None
 end
-call init 0
 temp9 = i integer
 temp8 = temp9 integer
 temp7 = temp8 integer
-param temp7 integer
-call writeln 1
+call writeln temp7 integer
 temp15 = i integer
 temp14 = temp15 integer
 temp13 = temp14 integer
@@ -33,12 +31,8 @@ i = temp10 None
 temp19 = i integer
 temp18 = temp19 integer
 temp17 = temp18 integer
-param temp17 integer
-call writeln 1
-call wirteln 0
-call i 0
+call writeln temp17 integer
 temp22 = i integer
 temp21 = temp22 integer
 temp20 = temp21 integer
-param temp20 integer
-call writeln 1
+call writeln temp20 integer

@@ -7,8 +7,7 @@ label self_1 integer
 temp6 = i integer
 temp5 = temp6 integer
 temp4 = temp5 integer
-param temp4 integer
-call writeln 1
+call writeln temp4 integer
 temp10 = i integer
 temp9 = temp10 integer
 temp12 = 1 integer

@@ -33,7 +33,7 @@ Variable Name    type     Line Numbers
 len            longint    22   23   24   25 
 st             None       23   27   28 
 i              longint    20   22   23   24   24   27   27   28 
-tmp            array_0 integer_1000 integer_longint   30 
+tmp            longint    30 
 
 table scope: Proc_get_sa
 Variable Name    type     Line Numbers
@@ -41,7 +41,7 @@ Variable Name    type     Line Numbers
 len            longint    36   40   43   47   47 
 i              longint    34   39 
 j              longint    34   40   40   44   44   44   44   44   44   45   45 
-tmp            array_0 integer_1000 integer_longint   46 
+tmp            longint    46 
 x              longint    34   39   41   44   44 
 
 table scope: Proc_get_height

@@ -37,22 +37,18 @@ temp16 = temp17 integer
 temp15 = temp16 integer
 assign = temp15 integer
 end
-call init 0
 temp20 = i integer
 temp19 = temp20 integer
 temp18 = temp19 integer
-param temp18 integer
-call writeln 1
+call writeln temp18 integer
 temp23 = i integer
 temp22 = temp23 integer
 temp21 = temp22 integer
-param temp21 integer
-call assign 1
+call assign temp21 integer
 temp26 = i integer
 temp25 = temp26 integer
 temp24 = temp25 integer
-param temp24 integer
-call writeln 1
+call writeln temp24 integer
 temp32 = i integer
 temp31 = temp32 integer
 temp30 = temp31 integer
@@ -62,15 +58,12 @@ return temp33
 temp29 = temp33 None
 temp28 = temp29 None
 temp27 = temp28 None
-param temp27 None
-call writeln 1
+call writeln temp27 None
 temp36 = i integer
 temp35 = temp36 integer
 temp34 = temp35 integer
-param temp34 integer
-call assign_2 1
+call assign_2 temp34 integer
 temp39 = i integer
 temp38 = temp39 integer
 temp37 = temp38 integer
-param temp37 integer
-call writeln 1
+call writeln temp37 integer
