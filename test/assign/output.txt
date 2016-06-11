@@ -24,7 +24,7 @@ temp23 = temp24 char
 temp22 = temp23 char
 temp21 = temp22 char
 temp25 = temp21 - '@' integer
-temp26 = temp25* elem_size( aa ) integer
+temp26 = temp25 * elem_size( aa ) integer
 temp27 = & aa + temp26 integer
 temp28 = * temp27 integer
 temp20 = temp28 integer
@@ -34,7 +34,7 @@ writeln temp18 integer
 temp31 = i integer
 temp30 = temp31 integer
 temp29 = temp30 integer
-temp32 =  & bb + field_offset( bb , b1 ) integer
+temp32 = & bb + field_offset( bb , b1 ) integer
 * temp33 = temp29 integer
 temp37 = & bb + field_offset( bb , b1 ) integer
 temp38 = * temp37 integer
