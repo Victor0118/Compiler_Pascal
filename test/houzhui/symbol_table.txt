@@ -2,18 +2,18 @@ table scope: Main
 Variable Name    type             Line Numbers        isConst
 -------------  --------   -------------------------   --------
 ch             char        7                              0
-sa             array_temp0_temp1_longint    3                              0
+sa             array_0_1000_longint    3                              0
 len            longint     6                              0
 init           Procedure    9                              0
 sort           Procedure   19                              0
-tp             array_temp2_temp3_longint    4                              0
+tp             array_'@'_'z'_longint    4                              0
 input          None       63   63   70                              0
-tmp            array_temp0_temp1_longint    3                              0
-rank           array_temp0_temp1_longint    3                              0
+tmp            array_0_1000_longint    3                              0
+rank           array_0_1000_longint    3                              0
 s              ansistring    5                              0
 output         None       64   64   70                              0
-tax            array_temp0_temp1_longint    3                              0
-height         array_temp0_temp1_longint    3                              0
+tax            array_0_1000_longint    3                              0
+height         array_0_1000_longint    3                              0
 get_sa         Procedure   33                              0
 get_height     Procedure   51                              0
 
@@ -31,7 +31,7 @@ Variable Name    type             Line Numbers        isConst
 len            longint    22   23   24   25                              0
 st             None       23   27   28                              0
 i              longint    20   22   23   24   24   27   27   28                              0
-tmp            longint    30                              0
+tmp            array_0_1000_longint   30                              0
 
 table scope: Proc_get_sa
 Variable Name    type             Line Numbers        isConst
@@ -39,7 +39,7 @@ Variable Name    type             Line Numbers        isConst
 len            longint    36   40   43   47   47                              0
 i              longint    34   39                              0
 j              longint    34   40   40   44   44   44   44   44   44   45   45                              0
-tmp            longint    46                              0
+tmp            array_0_1000_longint   46                              0
 x              longint    34   39   41   44   44                              0
 
 table scope: Proc_get_height

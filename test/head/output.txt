@@ -1,31 +1,25 @@
-temp0 = 100 integer
+temp0 = offset
 offset = temp0 integer
-temp1 = '@' char
-temp2 = 'z' char
-temp3 = 0 integer
-temp4 = 10 integer
 Procedure init
 begin
-temp9 = 1 integer
-temp8 = temp9 integer
-temp7 = temp8 integer
-temp6 = temp7 integer
-temp5 = temp6 integer
-i = temp5 integer
+temp4 = 1 integer
+temp3 = temp4 integer
+temp2 = temp3 integer
+temp1 = temp2 integer
+i = temp1 integer
 end
 Function assign
 begin
 Procedure init_2
 begin
-temp14 = 2 integer
-temp13 = temp14 integer
-temp12 = temp13 integer
-temp11 = temp12 integer
-temp10 = temp11 integer
-i = temp10 integer
+temp8 = 2 integer
+temp7 = temp8 integer
+temp6 = temp7 integer
+temp5 = temp6 integer
+i = temp5 integer
 end
-temp17 = i integer
-temp16 = temp17 integer
-temp15 = temp16 integer
-assign = temp15 integer
+temp11 = i integer
+temp10 = temp11 integer
+temp9 = temp10 integer
+assign = temp9 integer
 end

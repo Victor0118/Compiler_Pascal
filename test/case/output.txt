@@ -1,36 +1,32 @@
-temp0 = 2 integer
+temp0 = offset
 offset = temp0 integer
-temp5 = 2 integer
-temp4 = temp5 integer
+temp4 = 2 integer
 temp3 = temp4 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
 i = temp1 integer
 case 1
 label L1
-temp6 = 1 integer
-temp9 = i integer
-temp8 = temp9 integer
-temp7 = temp8 integer
-writeln temp7 integer
+temp7 = i integer
+temp6 = temp7 integer
+temp5 = temp6 integer
+writeln temp5 integer
 goto L0
 label L2
-temp14 = "offset"
-temp13 = temp14 
-temp12 = temp13 
-temp11 = temp12 
+temp11 = "offset" 
 temp10 = temp11 
-writeln temp10 
+temp9 = temp10 
+temp8 = temp9 
+writeln temp8 
 goto L0
 label L3
-temp15 = 3 integer
+temp14 = i integer
+temp13 = temp14 integer
+temp12 = temp13 integer
+writeln temp12 integer
+goto L0
 temp18 = i integer
 temp17 = temp18 integer
 temp16 = temp17 integer
-writeln temp16 integer
-goto L0
-temp22 = i integer
-temp21 = temp22 integer
-temp20 = temp21 integer
-temp19 = temp20
+temp15 = temp16
 label L0

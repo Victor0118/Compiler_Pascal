@@ -1,39 +1,35 @@
-temp4 = 1 integer
-temp3 = temp4 integer
+temp3 = 1 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
 temp0 = temp1 integer
 i = temp0 integer
 label self_1 integer
-temp7 = i integer
-temp6 = temp7 integer
+temp6 = i integer
 temp5 = temp6 integer
-writeln temp5 integer
-temp11 = i integer
-temp10 = temp11 integer
-temp14 = 1 integer
-temp13 = temp14 integer
-temp12 = temp13 integer
-temp9 = temp10 + temp12 integer
-temp8 = temp9 integer
-i = temp8 integer
-temp19 = i integer
+temp4 = temp5 integer
+writeln temp4 integer
+temp10 = i integer
+temp9 = temp10 integer
+temp12 = 1 integer
+temp11 = temp12 integer
+temp8 = temp9 + temp11 integer
+temp7 = temp8 integer
+i = temp7 integer
+temp17 = i integer
+temp16 = temp17 integer
+temp15 = temp16 integer
+temp20 = 10 integer
+temp19 = temp20 integer
 temp18 = temp19 integer
-temp17 = temp18 integer
-temp23 = 10 integer
-temp22 = temp23 integer
-temp21 = temp22 integer
-temp20 = temp21 integer
-temp16 = temp17 < temp20 integer
-temp15 = temp16
-if_false temp15 goto L0
+temp14 = temp15 < temp18 integer
+temp13 = temp14
+if_false temp13 goto L0
 goto 1 integer
 goto L1
 label L0
 label L1
-temp28 = "end"
-temp27 = temp28 
-temp26 = temp27 
-temp25 = temp26 
-temp24 = temp25 
-write temp24 
+temp24 = "end" 
+temp23 = temp24 
+temp22 = temp23 
+temp21 = temp22 
+write temp21 

@@ -7,8 +7,8 @@ j              integer     5                              0
 n              integer     5                              0
 p              integer     5                              0
 q              integer     5                              0
-x              array_temp1_temp2_integer    6                              0
-y              array_temp1_temp2_integer    6                              0
+x              array_1_100_integer    6                              0
+y              array_1_100_integer    6                              0
 ans            integer     5                              0
 qsort          Procedure    7                              0
 pos            integer     5                              0
