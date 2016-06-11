@@ -32,10 +32,10 @@ i = temp18 integer
 temp27 = i integer
 temp26 = temp27 integer
 temp25 = temp26 integer
-call writeln temp25 integer
+writeln temp25 integer
 goto L0
 label L1
 temp30 = i integer
 temp29 = temp30 integer
 temp28 = temp29 integer
-call writeln temp28 integer
+writeln temp28 integer

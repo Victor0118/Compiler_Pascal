@@ -12,7 +12,7 @@ temp6 = 1 integer
 temp9 = i integer
 temp8 = temp9 integer
 temp7 = temp8 integer
-call writeln temp7 integer
+writeln temp7 integer
 goto L0
 label L2
 temp14 = "offset"
@@ -20,14 +20,14 @@ temp13 = temp14
 temp12 = temp13 
 temp11 = temp12 
 temp10 = temp11 
-call writeln temp10 
+writeln temp10 
 goto L0
 label L3
 temp15 = 3 integer
 temp18 = i integer
 temp17 = temp18 integer
 temp16 = temp17 integer
-call writeln temp16 integer
+writeln temp16 integer
 goto L0
 temp22 = i integer
 temp21 = temp22 integer

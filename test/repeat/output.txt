@@ -24,7 +24,7 @@ i = temp12 integer
 temp21 = i integer
 temp20 = temp21 integer
 temp19 = temp20 integer
-call writeln temp19 integer
+writeln temp19 integer
 temp25 = i integer
 temp24 = temp25 integer
 temp23 = temp24 integer

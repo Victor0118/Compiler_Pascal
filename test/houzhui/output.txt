@@ -7,7 +7,8 @@ begin
 temp6 = s ansistring
 temp5 = temp6 ansistring
 temp4 = temp5 ansistring
-call readln temp4 ansistring
+param temp4 ansistring
+call readln 1
 temp12 = s ansistring
 temp11 = temp12 ansistring
 temp10 = temp11 ansistring
@@ -232,7 +233,8 @@ temp189 = *temp188 longint
 temp169 = temp189 longint
 temp168 = temp169 longint
 temp167 = temp168 longint
-call inc temp167 longint
+param temp167 longint
+call inc 1
 i = i + 1
 goto L10
 label L11
@@ -270,7 +272,9 @@ temp220 = *temp219 longint
 temp210 = temp220 longint
 temp209 = temp210 longint
 temp208 = temp209 longint
-call inc temp199_temp208 None
+param temp199 longint
+param temp208 longint
+call inc 2
 i = i + 1
 goto L12
 label L13
@@ -344,7 +348,8 @@ temp287 = *temp286 longint
 temp267 = temp287 longint
 temp266 = temp267 longint
 temp265 = temp266 longint
-call dec temp265 longint
+param temp265 longint
+call dec 1
 i = i + 1
 goto L14
 label L15
@@ -389,9 +394,11 @@ j = temp305
 label L18
 temp317 = j - temp310
 if_false temp317 goto L19
-temp321 = x longint
-temp323 = 2 integer
-temp322 = temp323 integer
+temp323 = x longint
+temp321 = temp323 longint
+temp325 = 2 integer
+temp324 = temp325 integer
+temp322 = temp324 integer
 temp320 = temp321 * temp322 longint
 temp319 = temp320 longint
 temp318 = temp319 longint
@@ -399,226 +406,231 @@ x = temp318 longint
 j = j + 1
 goto L18
 label L19
-temp328 = 1 integer
+temp330 = 1 integer
+temp329 = temp330 integer
+temp328 = temp329 integer
 temp327 = temp328 integer
 temp326 = temp327 integer
-temp325 = temp326 integer
-temp324 = temp325 integer
-temp331 = len longint
-temp330 = temp331 longint
-temp329 = temp330 longint
-j = temp324
+temp333 = len longint
+temp332 = temp333 longint
+temp331 = temp332 longint
+j = temp326
 label L20
-temp332 = j - temp329
-if_false temp332 goto L21
-temp335 = j longint
-temp334 = temp335 longint
-temp333 = temp334 longint
-temp338 = j longint
-temp337 = temp338 longint
+temp334 = j - temp331
+if_false temp334 goto L21
+temp337 = j longint
 temp336 = temp337 longint
-temp339 = temp333 * elem_size( sa ) integer
-temp340 = &sa + temp339 integer
-temp341 = *temp340 longint
+temp335 = temp336 longint
+temp340 = j longint
+temp339 = temp340 longint
+temp338 = temp339 longint
+temp341 = temp335 * elem_size( sa ) integer
+temp342 = &sa + temp341 integer
+temp343 = *temp342 longint
 j = j + 1
 goto L20
 label L21
-temp344 = x longint
-temp343 = temp344 longint
-temp342 = temp343 longint
-call sort temp342 longint
-temp349 = 0 integer
+temp346 = x longint
+temp345 = temp346 longint
+temp344 = temp345 longint
+param temp344 longint
+call sort 1
+temp351 = 0 integer
+temp350 = temp351 integer
+temp349 = temp350 integer
 temp348 = temp349 integer
 temp347 = temp348 integer
-temp346 = temp347 integer
-temp345 = temp346 integer
-call sort temp345 integer
-temp354 = 1 integer
+param temp347 integer
+call sort 1
+temp356 = 1 integer
+temp355 = temp356 integer
+temp354 = temp355 integer
 temp353 = temp354 integer
 temp352 = temp353 integer
-temp351 = temp352 integer
-temp350 = temp351 integer
-temp357 = len longint
-temp356 = temp357 longint
-temp355 = temp356 longint
-j = temp350
+temp359 = len longint
+temp358 = temp359 longint
+temp357 = temp358 longint
+j = temp352
 label L22
-temp358 = j - temp355
-if_false temp358 goto L23
-temp374 = j longint
-temp373 = temp374 longint
-temp372 = temp373 longint
-temp375 = temp372 * elem_size( sa ) integer
-temp376 = &sa + temp375 integer
-temp377 = *temp376 longint
-temp371 = temp377 longint
-temp370 = temp371 longint
-temp378 = x longint
-temp369 = temp370 + temp378 longint
-temp368 = temp369 longint
-temp379 = temp368 * elem_size( rank ) integer
-temp380 = &rank + temp379 integer
+temp360 = j - temp357
+if_false temp360 goto L23
+temp378 = j longint
+temp377 = temp378 longint
+temp376 = temp377 longint
+temp379 = temp376 * elem_size( sa ) integer
+temp380 = &sa + temp379 integer
 temp381 = *temp380 longint
-temp367 = temp381 longint
-temp366 = temp367 longint
-temp365 = temp366 longint
-temp391 = j longint
-temp390 = temp391 longint
-temp394 = 1 integer
-temp393 = temp394 integer
-temp392 = temp393 integer
-temp389 = temp390 - temp392 longint
-temp388 = temp389 longint
-temp395 = temp388 * elem_size( sa ) integer
-temp396 = &sa + temp395 integer
-temp397 = *temp396 longint
-temp387 = temp397 longint
-temp386 = temp387 longint
-temp398 = x longint
-temp385 = temp386 + temp398 longint
-temp384 = temp385 longint
-temp399 = temp384 * elem_size( rank ) integer
-temp400 = &rank + temp399 integer
+temp375 = temp381 longint
+temp374 = temp375 longint
+temp382 = x longint
+temp373 = temp374 + temp382 longint
+temp372 = temp373 longint
+temp383 = temp372 * elem_size( rank ) integer
+temp384 = &rank + temp383 integer
+temp385 = *temp384 longint
+temp371 = temp385 longint
+temp370 = temp371 longint
+temp369 = temp370 longint
+temp395 = j longint
+temp394 = temp395 longint
+temp398 = 1 integer
+temp397 = temp398 integer
+temp396 = temp397 integer
+temp393 = temp394 - temp396 longint
+temp392 = temp393 longint
+temp399 = temp392 * elem_size( sa ) integer
+temp400 = &sa + temp399 integer
 temp401 = *temp400 longint
-temp383 = temp401 longint
-temp382 = temp383 longint
-temp364 = temp365 == temp382 longint
-temp363 = temp364 longint
-temp411 = j longint
+temp391 = temp401 longint
+temp390 = temp391 longint
+temp402 = x longint
+temp389 = temp390 + temp402 longint
+temp388 = temp389 longint
+temp403 = temp388 * elem_size( rank ) integer
+temp404 = &rank + temp403 integer
+temp405 = *temp404 longint
+temp387 = temp405 longint
+temp386 = temp387 longint
+temp368 = temp369 == temp386 longint
+temp367 = temp368 longint
+temp365 = temp367 longint
+temp415 = j longint
+temp414 = temp415 longint
+temp413 = temp414 longint
+temp416 = temp413 * elem_size( sa ) integer
+temp417 = &sa + temp416 integer
+temp418 = *temp417 longint
+temp412 = temp418 longint
+temp411 = temp412 longint
 temp410 = temp411 longint
-temp409 = temp410 longint
-temp412 = temp409 * elem_size( sa ) integer
-temp413 = &sa + temp412 integer
-temp414 = *temp413 longint
-temp408 = temp414 longint
+temp419 = temp410 * elem_size( rank ) integer
+temp420 = &rank + temp419 integer
+temp421 = *temp420 longint
+temp409 = temp421 longint
+temp408 = temp409 longint
 temp407 = temp408 longint
-temp406 = temp407 longint
-temp415 = temp406 * elem_size( rank ) integer
-temp416 = &rank + temp415 integer
-temp417 = *temp416 longint
-temp405 = temp417 longint
-temp404 = temp405 longint
-temp403 = temp404 longint
-temp426 = j longint
+temp430 = j longint
+temp429 = temp430 longint
+temp433 = 1 integer
+temp432 = temp433 integer
+temp431 = temp432 integer
+temp428 = temp429 - temp431 longint
+temp427 = temp428 longint
+temp434 = temp427 * elem_size( sa ) integer
+temp435 = &sa + temp434 integer
+temp436 = *temp435 longint
+temp426 = temp436 longint
 temp425 = temp426 longint
-temp429 = 1 integer
-temp428 = temp429 integer
-temp427 = temp428 integer
-temp424 = temp425 - temp427 longint
-temp423 = temp424 longint
-temp430 = temp423 * elem_size( sa ) integer
-temp431 = &sa + temp430 integer
-temp432 = *temp431 longint
-temp422 = temp432 longint
-temp421 = temp422 longint
-temp420 = temp421 longint
-temp433 = temp420 * elem_size( rank ) integer
-temp434 = &rank + temp433 integer
-temp435 = *temp434 longint
-temp419 = temp435 longint
-temp418 = temp419 longint
-temp402 = temp403 == temp418 longint
-temp362 = temp363 && temp402 longint
-temp361 = temp362 longint
-temp360 = temp361 longint
-temp359 = temp360
-if_false temp359 goto L24
-temp441 = j longint
+temp424 = temp425 longint
+temp437 = temp424 * elem_size( rank ) integer
+temp438 = &rank + temp437 integer
+temp439 = *temp438 longint
+temp423 = temp439 longint
+temp422 = temp423 longint
+temp406 = temp407 == temp422 longint
+temp366 = temp406 longint
+temp364 = temp365 && temp366 longint
+temp363 = temp364 longint
+temp362 = temp363 longint
+temp361 = temp362
+if_false temp361 goto L24
+temp445 = j longint
+temp444 = temp445 longint
+temp443 = temp444 longint
+temp446 = temp443 * elem_size( sa ) integer
+temp447 = &sa + temp446 integer
+temp448 = *temp447 longint
+temp442 = temp448 longint
+temp441 = temp442 longint
 temp440 = temp441 longint
-temp439 = temp440 longint
-temp442 = temp439 * elem_size( sa ) integer
-temp443 = &sa + temp442 integer
-temp444 = *temp443 longint
-temp438 = temp444 longint
-temp437 = temp438 longint
-temp436 = temp437 longint
-temp454 = j longint
+temp458 = j longint
+temp457 = temp458 longint
+temp461 = 1 integer
+temp460 = temp461 integer
+temp459 = temp460 integer
+temp456 = temp457 - temp459 longint
+temp455 = temp456 longint
+temp462 = temp455 * elem_size( sa ) integer
+temp463 = &sa + temp462 integer
+temp464 = *temp463 longint
+temp454 = temp464 longint
 temp453 = temp454 longint
-temp457 = 1 integer
-temp456 = temp457 integer
-temp455 = temp456 integer
-temp452 = temp453 - temp455 longint
-temp451 = temp452 longint
-temp458 = temp451 * elem_size( sa ) integer
-temp459 = &sa + temp458 integer
-temp460 = *temp459 longint
-temp450 = temp460 longint
+temp452 = temp453 longint
+temp465 = temp452 * elem_size( tmp ) integer
+temp466 = &tmp + temp465 integer
+temp467 = *temp466 longint
+temp451 = temp467 longint
+temp450 = temp451 longint
 temp449 = temp450 longint
-temp448 = temp449 longint
-temp461 = temp448 * elem_size( tmp ) integer
-temp462 = &tmp + temp461 integer
-temp463 = *temp462 longint
-temp447 = temp463 longint
-temp446 = temp447 longint
-temp445 = temp446 longint
-temp464 = temp436 * elem_size( tmp ) integer
-temp465 = &tmp + temp464 integer
-temp466 = *temp465 longint
+temp468 = temp440 * elem_size( tmp ) integer
+temp469 = &tmp + temp468 integer
+temp470 = *temp469 longint
 goto L25
 label L24
-temp472 = j longint
+temp476 = j longint
+temp475 = temp476 longint
+temp474 = temp475 longint
+temp477 = temp474 * elem_size( sa ) integer
+temp478 = &sa + temp477 integer
+temp479 = *temp478 longint
+temp473 = temp479 longint
+temp472 = temp473 longint
 temp471 = temp472 longint
-temp470 = temp471 longint
-temp473 = temp470 * elem_size( sa ) integer
-temp474 = &sa + temp473 integer
-temp475 = *temp474 longint
-temp469 = temp475 longint
-temp468 = temp469 longint
-temp467 = temp468 longint
-temp486 = j longint
+temp490 = j longint
+temp489 = temp490 longint
+temp493 = 1 integer
+temp492 = temp493 integer
+temp491 = temp492 integer
+temp488 = temp489 - temp491 longint
+temp487 = temp488 longint
+temp494 = temp487 * elem_size( sa ) integer
+temp495 = &sa + temp494 integer
+temp496 = *temp495 longint
+temp486 = temp496 longint
 temp485 = temp486 longint
-temp489 = 1 integer
-temp488 = temp489 integer
-temp487 = temp488 integer
-temp484 = temp485 - temp487 longint
-temp483 = temp484 longint
-temp490 = temp483 * elem_size( sa ) integer
-temp491 = &sa + temp490 integer
-temp492 = *temp491 longint
-temp482 = temp492 longint
-temp481 = temp482 longint
+temp484 = temp485 longint
+temp497 = temp484 * elem_size( tmp ) integer
+temp498 = &tmp + temp497 integer
+temp499 = *temp498 longint
+temp483 = temp499 longint
+temp482 = temp483 longint
+temp502 = 1 integer
+temp501 = temp502 integer
+temp500 = temp501 integer
+temp481 = temp482 + temp500 longint
 temp480 = temp481 longint
-temp493 = temp480 * elem_size( tmp ) integer
-temp494 = &tmp + temp493 integer
-temp495 = *temp494 longint
-temp479 = temp495 longint
-temp478 = temp479 longint
-temp498 = 1 integer
-temp497 = temp498 integer
-temp496 = temp497 integer
-temp477 = temp478 + temp496 longint
-temp476 = temp477 longint
-temp499 = temp467 * elem_size( tmp ) integer
-temp500 = &tmp + temp499 integer
-temp501 = *temp500 longint
+temp503 = temp471 * elem_size( tmp ) integer
+temp504 = &tmp + temp503 integer
+temp505 = *temp504 longint
 label L25
 j = j + 1
 goto L22
 label L23
-temp504 = tmp longint
-temp503 = temp504 longint
-temp502 = temp503 longint
-rank = temp502 longint
-temp515 = len longint
-temp514 = temp515 longint
-temp513 = temp514 longint
-temp516 = temp513 * elem_size( sa ) integer
-temp517 = &sa + temp516 integer
-temp518 = *temp517 longint
-temp512 = temp518 longint
-temp511 = temp512 longint
-temp510 = temp511 longint
-temp519 = temp510 * elem_size( rank ) integer
-temp520 = &rank + temp519 integer
-temp521 = *temp520 longint
-temp509 = temp521 longint
-temp508 = temp509 longint
+temp508 = tmp longint
 temp507 = temp508 longint
-temp523 = len longint
-temp522 = temp523 longint
-temp506 = temp507 == temp522 longint
-temp505 = temp506
-if_false temp505 goto L26
+temp506 = temp507 longint
+rank = temp506 longint
+temp519 = len longint
+temp518 = temp519 longint
+temp517 = temp518 longint
+temp520 = temp517 * elem_size( sa ) integer
+temp521 = &sa + temp520 integer
+temp522 = *temp521 longint
+temp516 = temp522 longint
+temp515 = temp516 longint
+temp514 = temp515 longint
+temp523 = temp514 * elem_size( rank ) integer
+temp524 = &rank + temp523 integer
+temp525 = *temp524 longint
+temp513 = temp525 longint
+temp512 = temp513 longint
+temp511 = temp512 longint
+temp527 = len longint
+temp526 = temp527 longint
+temp510 = temp511 == temp526 longint
+temp509 = temp510
+if_false temp509 goto L26
+call break 0
 goto L27
 label L26
 label L27
@@ -628,187 +640,192 @@ label L17
 end
 Procedure get_height
 begin
-temp528 = 1 integer
-temp527 = temp528 integer
-temp526 = temp527 integer
-temp525 = temp526 integer
-temp524 = temp525 integer
-temp531 = len longint
-temp530 = temp531 longint
-temp529 = temp530 longint
-i = temp524
+temp532 = 1 integer
+temp531 = temp532 integer
+temp530 = temp531 integer
+temp529 = temp530 integer
+temp528 = temp529 integer
+temp535 = len longint
+temp534 = temp535 longint
+temp533 = temp534 longint
+i = temp528
 label L28
-temp532 = i - temp529
-if_false temp532 goto L29
-temp540 = i longint
+temp536 = i - temp533
+if_false temp536 goto L29
+temp544 = i longint
+temp543 = temp544 longint
+temp542 = temp543 longint
+temp545 = temp542 * elem_size( rank ) integer
+temp546 = &rank + temp545 integer
+temp547 = *temp546 longint
+temp541 = temp547 longint
+temp540 = temp541 longint
 temp539 = temp540 longint
-temp538 = temp539 longint
-temp541 = temp538 * elem_size( rank ) integer
-temp542 = &rank + temp541 integer
-temp543 = *temp542 longint
-temp537 = temp543 longint
-temp536 = temp537 longint
-temp535 = temp536 longint
-temp545 = len longint
-temp544 = temp545 longint
-temp534 = temp535 < temp544 longint
-temp533 = temp534
-if_false temp533 goto L30
-temp551 = i longint
+temp549 = len longint
+temp548 = temp549 longint
+temp538 = temp539 < temp548 longint
+temp537 = temp538
+if_false temp537 goto L30
+temp555 = i longint
+temp554 = temp555 longint
+temp553 = temp554 longint
+temp556 = temp553 * elem_size( rank ) integer
+temp557 = &rank + temp556 integer
+temp558 = *temp557 longint
+temp552 = temp558 longint
+temp551 = temp552 longint
 temp550 = temp551 longint
-temp549 = temp550 longint
-temp552 = temp549 * elem_size( rank ) integer
-temp553 = &rank + temp552 integer
-temp554 = *temp553 longint
-temp548 = temp554 longint
-temp547 = temp548 longint
-temp546 = temp547 longint
-x = temp546 longint
-temp561 = x longint
+x = temp550 longint
+temp565 = x longint
+temp564 = temp565 longint
+temp568 = 1 integer
+temp567 = temp568 integer
+temp566 = temp567 integer
+temp563 = temp564 + temp566 longint
+temp562 = temp563 longint
+temp569 = temp562 * elem_size( sa ) integer
+temp570 = &sa + temp569 integer
+temp571 = *temp570 longint
+temp561 = temp571 longint
 temp560 = temp561 longint
-temp564 = 1 integer
-temp563 = temp564 integer
-temp562 = temp563 integer
-temp559 = temp560 + temp562 longint
-temp558 = temp559 longint
-temp565 = temp558 * elem_size( sa ) integer
-temp566 = &sa + temp565 integer
-temp567 = *temp566 longint
-temp557 = temp567 longint
-temp556 = temp557 longint
-temp555 = temp556 longint
-next = temp555 longint
+temp559 = temp560 longint
+next = temp559 longint
 label L32
-temp581 = x longint
-temp580 = temp581 longint
-temp579 = temp580 longint
-temp582 = temp579 * elem_size( height ) integer
-temp583 = &height + temp582 integer
-temp584 = *temp583 longint
-temp578 = temp584 longint
-temp577 = temp578 longint
-temp585 = i longint
-temp576 = temp577 + temp585 longint
-temp575 = temp576 longint
-temp587 = len longint
-temp586 = temp587 longint
-temp574 = temp575 <= temp586 longint
-temp573 = temp574 longint
-temp595 = x longint
+temp589 = x longint
+temp588 = temp589 longint
+temp587 = temp588 longint
+temp590 = temp587 * elem_size( height ) integer
+temp591 = &height + temp590 integer
+temp592 = *temp591 longint
+temp586 = temp592 longint
+temp585 = temp586 longint
+temp593 = i longint
+temp584 = temp585 + temp593 longint
+temp583 = temp584 longint
+temp595 = len longint
 temp594 = temp595 longint
-temp593 = temp594 longint
-temp596 = temp593 * elem_size( height ) integer
-temp597 = &height + temp596 integer
-temp598 = *temp597 longint
-temp592 = temp598 longint
-temp591 = temp592 longint
-temp599 = next longint
-temp590 = temp591 + temp599 longint
-temp589 = temp590 longint
-temp601 = len longint
-temp600 = temp601 longint
-temp588 = temp589 <= temp600 longint
-temp572 = temp573 && temp588 longint
-temp612 = x longint
-temp611 = temp612 longint
-temp610 = temp611 longint
-temp613 = temp610 * elem_size( height ) integer
-temp614 = &height + temp613 integer
-temp615 = *temp614 longint
-temp609 = temp615 longint
+temp582 = temp583 <= temp594 longint
+temp581 = temp582 longint
+temp579 = temp581 longint
+temp603 = x longint
+temp602 = temp603 longint
+temp601 = temp602 longint
+temp604 = temp601 * elem_size( height ) integer
+temp605 = &height + temp604 integer
+temp606 = *temp605 longint
+temp600 = temp606 longint
+temp599 = temp600 longint
+temp607 = next longint
+temp598 = temp599 + temp607 longint
+temp597 = temp598 longint
+temp609 = len longint
 temp608 = temp609 longint
-temp616 = i longint
-temp607 = temp608 + temp616 longint
-temp606 = temp607 longint
-temp617 = temp606 * elem_size( s ) integer
-temp618 = &s + temp617 integer
-temp619 = *temp618 ansistring
-temp605 = temp619 ansistring
-temp604 = temp605 ansistring
-temp603 = temp604 ansistring
-temp628 = x longint
-temp627 = temp628 longint
-temp626 = temp627 longint
-temp629 = temp626 * elem_size( height ) integer
-temp630 = &height + temp629 integer
-temp631 = *temp630 longint
-temp625 = temp631 longint
-temp624 = temp625 longint
-temp632 = next longint
-temp623 = temp624 + temp632 longint
-temp622 = temp623 longint
-temp633 = temp622 * elem_size( s ) integer
-temp634 = &s + temp633 integer
-temp635 = *temp634 ansistring
-temp621 = temp635 ansistring
-temp620 = temp621 ansistring
-temp602 = temp603 == temp620 ansistring
-temp571 = temp572 && temp602 longint
-temp570 = temp571 longint
-temp569 = temp570 longint
-temp568 = temp569
-if_false temp568 goto L33
-temp641 = x longint
-temp640 = temp641 longint
-temp639 = temp640 longint
-temp642 = temp639 * elem_size( height ) integer
-temp643 = &height + temp642 integer
-temp644 = *temp643 longint
-temp638 = temp644 longint
-temp637 = temp638 longint
-temp636 = temp637 longint
-call inc temp636 longint
+temp596 = temp597 <= temp608 longint
+temp580 = temp596 longint
+temp578 = temp579 && temp580 longint
+temp576 = temp578 longint
+temp620 = x longint
+temp619 = temp620 longint
+temp618 = temp619 longint
+temp621 = temp618 * elem_size( height ) integer
+temp622 = &height + temp621 integer
+temp623 = *temp622 longint
+temp617 = temp623 longint
+temp616 = temp617 longint
+temp624 = i longint
+temp615 = temp616 + temp624 longint
+temp614 = temp615 longint
+temp625 = temp614 * elem_size( s ) integer
+temp626 = &s + temp625 integer
+temp627 = *temp626 ansistring
+temp613 = temp627 ansistring
+temp612 = temp613 ansistring
+temp611 = temp612 ansistring
+temp636 = x longint
+temp635 = temp636 longint
+temp634 = temp635 longint
+temp637 = temp634 * elem_size( height ) integer
+temp638 = &height + temp637 integer
+temp639 = *temp638 longint
+temp633 = temp639 longint
+temp632 = temp633 longint
+temp640 = next longint
+temp631 = temp632 + temp640 longint
+temp630 = temp631 longint
+temp641 = temp630 * elem_size( s ) integer
+temp642 = &s + temp641 integer
+temp643 = *temp642 ansistring
+temp629 = temp643 ansistring
+temp628 = temp629 ansistring
+temp610 = temp611 == temp628 ansistring
+temp577 = temp610 ansistring
+temp575 = temp576 && temp577 longint
+temp574 = temp575 longint
+temp573 = temp574 longint
+temp572 = temp573
+if_false temp572 goto L33
+temp649 = x longint
+temp648 = temp649 longint
+temp647 = temp648 longint
+temp650 = temp647 * elem_size( height ) integer
+temp651 = &height + temp650 integer
+temp652 = *temp651 longint
+temp646 = temp652 longint
+temp645 = temp646 longint
+temp644 = temp645 longint
+param temp644 longint
+call inc 1
 goto L32
 label L33
-temp653 = x longint
-temp652 = temp653 longint
-temp651 = temp652 longint
-temp654 = temp651 * elem_size( height ) integer
-temp655 = &height + temp654 integer
-temp656 = *temp655 longint
-temp650 = temp656 longint
-temp649 = temp650 longint
-temp659 = 1 integer
-temp658 = temp659 integer
-temp657 = temp658 integer
-temp648 = temp649 - temp657 longint
-temp647 = temp648 longint
-temp663 = 0 integer
-temp662 = temp663 integer
-temp661 = temp662 integer
-temp660 = temp661 integer
-temp646 = temp647 <= temp660 longint
-temp645 = temp646
-if_false temp645 goto L34
-temp670 = i longint
-temp669 = temp670 longint
-temp673 = 1 integer
-temp672 = temp673 integer
-temp671 = temp672 integer
-temp668 = temp669 + temp671 longint
-temp667 = temp668 longint
-temp674 = temp667 * elem_size( rank ) integer
-temp675 = &rank + temp674 integer
-temp676 = *temp675 longint
-temp666 = temp676 longint
-temp665 = temp666 longint
-temp664 = temp665 longint
-temp683 = x longint
-temp682 = temp683 longint
-temp681 = temp682 longint
-temp684 = temp681 * elem_size( height ) integer
-temp685 = &height + temp684 integer
-temp686 = *temp685 longint
-temp680 = temp686 longint
-temp679 = temp680 longint
-temp689 = 1 integer
-temp688 = temp689 integer
-temp687 = temp688 integer
-temp678 = temp679 - temp687 longint
+temp661 = x longint
+temp660 = temp661 longint
+temp659 = temp660 longint
+temp662 = temp659 * elem_size( height ) integer
+temp663 = &height + temp662 integer
+temp664 = *temp663 longint
+temp658 = temp664 longint
+temp657 = temp658 longint
+temp667 = 1 integer
+temp666 = temp667 integer
+temp665 = temp666 integer
+temp656 = temp657 - temp665 longint
+temp655 = temp656 longint
+temp671 = 0 integer
+temp670 = temp671 integer
+temp669 = temp670 integer
+temp668 = temp669 integer
+temp654 = temp655 <= temp668 longint
+temp653 = temp654
+if_false temp653 goto L34
+temp678 = i longint
 temp677 = temp678 longint
-temp690 = temp664 * elem_size( height ) integer
-temp691 = &height + temp690 integer
-temp692 = *temp691 longint
+temp681 = 1 integer
+temp680 = temp681 integer
+temp679 = temp680 integer
+temp676 = temp677 + temp679 longint
+temp675 = temp676 longint
+temp682 = temp675 * elem_size( rank ) integer
+temp683 = &rank + temp682 integer
+temp684 = *temp683 longint
+temp674 = temp684 longint
+temp673 = temp674 longint
+temp672 = temp673 longint
+temp691 = x longint
+temp690 = temp691 longint
+temp689 = temp690 longint
+temp692 = temp689 * elem_size( height ) integer
+temp693 = &height + temp692 integer
+temp694 = *temp693 longint
+temp688 = temp694 longint
+temp687 = temp688 longint
+temp697 = 1 integer
+temp696 = temp697 integer
+temp695 = temp696 integer
+temp686 = temp687 - temp695 longint
+temp685 = temp686 longint
+temp698 = temp672 * elem_size( height ) integer
+temp699 = &height + temp698 integer
+temp700 = *temp699 longint
 goto L35
 label L34
 label L35
@@ -819,37 +836,48 @@ i = i + 1
 goto L28
 label L29
 end
-temp695 = input None
-temp694 = temp695 None
-temp693 = temp694 None
-temp700 = "Suffix.in"
-temp699 = temp700 
-temp698 = temp699 
-temp697 = temp698 
-temp696 = temp697 
-call assign temp693_temp696 None
 temp703 = input None
 temp702 = temp703 None
 temp701 = temp702 None
-call reset temp701 None
-temp706 = output None
-temp705 = temp706 None
-temp704 = temp705 None
-temp711 = "Suffix.out"
-temp710 = temp711 
-temp709 = temp710 
-temp708 = temp709 
+temp708 = "Suffix.in"
 temp707 = temp708 
-call assign temp704_temp707 None
+temp706 = temp707 
+temp705 = temp706 
+temp704 = temp705 
+param temp701 None
+param temp704 
+call assign 2
+temp711 = input None
+temp710 = temp711 None
+temp709 = temp710 None
+param temp709 None
+call reset 1
 temp714 = output None
 temp713 = temp714 None
 temp712 = temp713 None
-call rewrite temp712 None
-temp717 = input None
-temp716 = temp717 None
-temp715 = temp716 None
-call close temp715 None
-temp720 = output None
-temp719 = temp720 None
-temp718 = temp719 None
-call close temp718 None
+temp719 = "Suffix.out"
+temp718 = temp719 
+temp717 = temp718 
+temp716 = temp717 
+temp715 = temp716 
+param temp712 None
+param temp715 
+call assign 2
+temp722 = output None
+temp721 = temp722 None
+temp720 = temp721 None
+param temp720 None
+call rewrite 1
+call init 0
+call get_sa 0
+call get_height 0
+temp725 = input None
+temp724 = temp725 None
+temp723 = temp724 None
+param temp723 None
+call close 1
+temp728 = output None
+temp727 = temp728 None
+temp726 = temp727 None
+param temp726 None
+call close 1

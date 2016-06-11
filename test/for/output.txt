@@ -26,4 +26,4 @@ label L1
 temp19 = i integer
 temp18 = temp19 integer
 temp17 = temp18 integer
-call writeln temp17 integer
+writeln temp17 integer

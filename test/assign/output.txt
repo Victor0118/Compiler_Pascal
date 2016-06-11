@@ -11,7 +11,7 @@ i = temp3 integer
 temp10 = i integer
 temp9 = temp10 integer
 temp8 = temp9 integer
-call writeln temp8 integer
+writeln temp8 integer
 temp15 = 'z' char
 temp14 = temp15 char
 temp13 = temp14 char
@@ -34,7 +34,7 @@ temp32 = *temp31 integer
 temp24 = temp32 integer
 temp23 = temp24 integer
 temp22 = temp23 integer
-call writeln temp22 integer
+writeln temp22 integer
 temp35 = i integer
 temp34 = temp35 integer
 temp33 = temp34 integer
@@ -45,4 +45,4 @@ temp42 = *temp41 integer
 temp40 = temp42 integer
 temp39 = temp40 integer
 temp38 = temp39 integer
-call writeln temp38 integer
+writeln temp38 integer

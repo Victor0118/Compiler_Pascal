@@ -8,7 +8,7 @@ label self_1 integer
 temp7 = i integer
 temp6 = temp7 integer
 temp5 = temp6 integer
-call writeln temp5 integer
+writeln temp5 integer
 temp11 = i integer
 temp10 = temp11 integer
 temp14 = 1 integer
@@ -36,5 +36,4 @@ temp27 = temp28
 temp26 = temp27 
 temp25 = temp26 
 temp24 = temp25 
-param temp24 
-call write 1
+write temp24 

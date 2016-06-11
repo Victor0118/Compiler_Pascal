@@ -21,7 +21,7 @@ temp18 = temp19 is
 temp17 = temp18 is
 temp16 = temp17 is
 temp15 = temp16 is
-call writeln temp15 is
+writeln temp15 is
 goto L1
 label L0
 label L1
@@ -40,7 +40,7 @@ temp32 = temp33 is
 temp31 = temp32 is
 temp30 = temp31 is
 temp29 = temp30 is
-call writeln temp29 is
+writeln temp29 is
 goto L3
 label L2
 label L3
@@ -57,7 +57,7 @@ if_false temp34 goto L4
 temp45 = i integer
 temp44 = temp45 integer
 temp43 = temp44 integer
-call writeln temp43 integer
+writeln temp43 integer
 goto L5
 label L4
 temp50 = "i is not 1"
@@ -65,5 +65,5 @@ temp49 = temp50 is
 temp48 = temp49 is
 temp47 = temp48 is
 temp46 = temp47 is
-call writeln temp46 is
+writeln temp46 is
 label L5
