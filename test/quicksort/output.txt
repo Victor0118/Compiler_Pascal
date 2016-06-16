@@ -1,4 +1,4 @@
-temp0 = maxn
+temp0 = 10000 integer
 maxn = temp0 integer
 Procedure qsort
 begin

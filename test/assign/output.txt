@@ -1,4 +1,4 @@
-temp0 = offset
+temp0 = 100 integer
 offset = temp0 integer
 temp4 = 10 integer
 temp3 = temp4 integer
@@ -36,7 +36,7 @@ temp32 = i integer
 temp31 = temp32 integer
 temp30 = temp31 integer
 temp33 = & bb + field_offset( bb , b1 ) integer
-* integer = temp30 integer
+* temp33 = temp30 integer
 temp37 = & bb + field_offset( bb , b1 ) integer
 temp38 = * temp37 integer
 temp36 = temp38 integer

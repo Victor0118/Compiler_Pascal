@@ -1,4 +1,4 @@
-temp0 = offset
+temp0 = 100 integer
 offset = temp0 integer
 Procedure init
 begin

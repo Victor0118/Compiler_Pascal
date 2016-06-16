@@ -1,4 +1,4 @@
-temp0 = offset
+temp0 = 100 integer
 offset = temp0 integer
 temp4 = 0 integer
 temp3 = temp4 integer
