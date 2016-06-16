@@ -856,12 +856,12 @@ end
 temp720 = input None
 temp719 = temp720 None
 temp718 = temp719 None
-temp724 = "Suffix.in" 
-temp723 = temp724 
-temp722 = temp723 
-temp721 = temp722 
+temp724 = "Suffix.in" string
+temp723 = temp724 string
+temp722 = temp723 string
+temp721 = temp722 string
 param temp718 None
-param temp721 
+param temp721 string
 call assign 2
 temp727 = input None
 temp726 = temp727 None
@@ -871,12 +871,12 @@ call reset 1
 temp730 = output None
 temp729 = temp730 None
 temp728 = temp729 None
-temp734 = "Suffix.out" 
-temp733 = temp734 
-temp732 = temp733 
-temp731 = temp732 
+temp734 = "Suffix.out" string
+temp733 = temp734 string
+temp732 = temp733 string
+temp731 = temp732 string
 param temp728 None
-param temp731 
+param temp731 string
 call assign 2
 temp737 = output None
 temp736 = temp737 None

@@ -5,28 +5,28 @@ temp3 = temp4 integer
 temp2 = temp3 integer
 temp1 = temp2 integer
 i = temp1 integer
-case 1
-label L1
 temp7 = i integer
 temp6 = temp7 integer
 temp5 = temp6 integer
-writeln temp5 integer
+case temp5
+label L1
+temp10 = i integer
+temp9 = temp10 integer
+temp8 = temp9 integer
+writeln temp8 integer
 goto L0
 label L2
-temp11 = "offset" 
-temp10 = temp11 
-temp9 = temp10 
-temp8 = temp9 
-writeln temp8 
+temp14 = "offset" string
+temp13 = temp14 string
+temp12 = temp13 string
+temp11 = temp12 string
+writeln temp11 string
 goto L0
 label L3
-temp14 = i integer
-temp13 = temp14 integer
-temp12 = temp13 integer
-writeln temp12 integer
-goto L0
-temp18 = i integer
-temp17 = temp18 integer
+temp17 = i integer
 temp16 = temp17 integer
-temp15 = temp16
+temp15 = temp16 integer
+writeln temp15 integer
+goto L0
+temp18 = temp5
 label L0

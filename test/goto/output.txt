@@ -28,8 +28,8 @@ goto 1 integer
 goto L1
 label L0
 label L1
-temp24 = "end" 
-temp23 = temp24 
-temp22 = temp23 
-temp21 = temp22 
-write temp21 
+temp24 = "end" string
+temp23 = temp24 string
+temp22 = temp23 string
+temp21 = temp22 string
+write temp21 string
