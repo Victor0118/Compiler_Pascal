@@ -14,6 +14,7 @@ Variable Name    type             Line Numbers        isConst
 table scope: Func_assign
 Variable Name    type             Line Numbers        isConst
 -------------  --------   -------------------------   --------
+st             integer    11                              0
 assign_return  integer    11                              0
 init_2         Procedure   14                              0
 i              integer    13   19                              0
@@ -26,6 +27,8 @@ table scope: Func_assign_2
 Variable Name    type             Line Numbers        isConst
 -------------  --------   -------------------------   --------
 assign_2_return integer    21                              0
+var            integer    21                              0
+st             integer    21                              0
 init_2         Procedure   24                              0
 i              integer    23   29                              0
 

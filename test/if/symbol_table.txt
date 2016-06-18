@@ -1,6 +1,9 @@
 table scope: Main
 Variable Name    type             Line Numbers        isConst
 -------------  --------   -------------------------   --------
+str4           string "i is 2"   13                              0
+str5           string "i is 1"   17                              0
+str6           string "i is not 1"   23                              0
 offset         integer     3                              1
 i              integer     5   11   15   19   21                              0
 j              integer     6                              0

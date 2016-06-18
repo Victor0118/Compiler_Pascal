@@ -13,6 +13,6 @@ Variable Name    type             Line Numbers        isConst
 table scope: Func_assign
 Variable Name    type             Line Numbers        isConst
 -------------  --------   -------------------------   --------
-st             None       13                              0
+st             integer    11   13                              0
 assign_return  integer    11                              0
 

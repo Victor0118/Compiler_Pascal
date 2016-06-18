@@ -28,5 +28,5 @@ temp20 = temp21 integer
 temp24 = j integer
 temp23 = temp24 integer
 temp19 = temp20 <= temp23 integer
-temp9 = temp19
+temp9 = temp19 integer
 if_false temp9 goto L0

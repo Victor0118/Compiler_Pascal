@@ -2,14 +2,14 @@ temp0 = 10000 integer
 maxn = temp0 integer
 Procedure qsort
 begin
-temp3 = l None
-temp2 = temp3 None
-temp1 = temp2 None
-i = temp1 None
-temp6 = r None
-temp5 = temp6 None
-temp4 = temp5 None
-j = temp4 None
+temp3 = l integer
+temp2 = temp3 integer
+temp1 = temp2 integer
+i = temp1 integer
+temp6 = r integer
+temp5 = temp6 integer
+temp4 = temp5 integer
+j = temp4 integer
 temp19 = i integer
 temp18 = temp19 integer
 temp20 = j integer
@@ -107,7 +107,7 @@ temp68 = temp69 integer
 temp67 = temp68 integer
 temp50 = temp51 || temp67 integer
 temp49 = temp50 integer
-temp48 = temp49
+temp48 = temp49 integer
 if_false temp48 goto L2
 temp104 = i integer
 temp103 = temp104 integer
@@ -170,7 +170,7 @@ temp125 = temp126 integer
 temp124 = temp125 integer
 temp107 = temp108 || temp124 integer
 temp106 = temp107 integer
-temp105 = temp106
+temp105 = temp106 integer
 if_false temp105 goto L4
 temp161 = j integer
 temp160 = temp161 integer
@@ -185,7 +185,7 @@ temp164 = temp165 integer
 temp168 = j integer
 temp167 = temp168 integer
 temp163 = temp164 <= temp167 integer
-temp162 = temp163
+temp162 = temp163 integer
 if_false temp162 goto L5
 temp174 = i integer
 temp173 = temp174 integer
@@ -332,7 +332,7 @@ temp299 = temp300 integer
 temp303 = j integer
 temp302 = temp303 integer
 temp298 = temp299 <= temp302 integer
-temp47 = temp298
+temp47 = temp298 integer
 if_false temp47 goto L0
 temp308 = i integer
 temp307 = temp308 integer
@@ -340,27 +340,27 @@ temp306 = temp307 integer
 temp310 = j integer
 temp309 = temp310 integer
 temp305 = temp306 < temp309 integer
-temp304 = temp305
+temp304 = temp305 integer
 if_false temp304 goto L7
 temp313 = i integer
 temp312 = temp313 integer
 temp311 = temp312 integer
-temp316 = r None
-temp315 = temp316 None
-temp314 = temp315 None
+temp316 = r integer
+temp315 = temp316 integer
+temp314 = temp315 integer
 param temp311 integer
-param temp314 None
+param temp314 integer
 call qsort 2
 goto L8
 label L7
 label L8
-temp321 = l None
-temp320 = temp321 None
-temp319 = temp320 None
+temp321 = l integer
+temp320 = temp321 integer
+temp319 = temp320 integer
 temp323 = j integer
 temp322 = temp323 integer
-temp318 = temp319 < temp322 None
-temp317 = temp318
+temp318 = temp319 < temp322 integer
+temp317 = temp318 integer
 if_false temp317 goto L9
 call qsort 0
 goto L10

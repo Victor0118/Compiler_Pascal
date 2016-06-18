@@ -10,10 +10,10 @@ i = temp1 integer
 end
 Function assign
 begin
-temp7 = st None
-temp6 = temp7 None
-temp5 = temp6 None
-assign = temp5 None
+temp7 = st integer
+temp6 = temp7 integer
+temp5 = temp6 integer
+assign = temp5 integer
 end
 call init 0
 temp10 = i integer

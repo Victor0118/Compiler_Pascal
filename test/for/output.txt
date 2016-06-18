@@ -9,19 +9,20 @@ temp6 = temp7 integer
 temp5 = temp6 integer
 i = temp1
 label L0
-temp8 = i - temp5
-if_false temp8 goto L1
-temp12 = i integer
-temp11 = temp12 integer
-temp14 = 1 integer
-temp13 = temp14 integer
-temp10 = temp11 + temp13 integer
-temp9 = temp10 integer
-i = temp9 integer
+temp9 = i integer
+temp9 = temp9 - temp5 integer
+if_false temp9 goto L1
+temp13 = i integer
+temp12 = temp13 integer
+temp15 = 1 integer
+temp14 = temp15 integer
+temp11 = temp12 + temp14 integer
+temp10 = temp11 integer
+i = temp10 integer
 i = i + 1
 goto L0
 label L1
-temp17 = i integer
+temp18 = i integer
+temp17 = temp18 integer
 temp16 = temp17 integer
-temp15 = temp16 integer
-writeln temp15 integer
+writeln temp16 integer

@@ -17,7 +17,7 @@ temp11 = temp12 integer
 temp15 = j integer
 temp14 = temp15 integer
 temp10 = temp11 < temp14 integer
-temp9 = temp10
+temp9 = temp10 integer
 if_false temp9 goto L1
 temp19 = i integer
 temp18 = temp19 integer

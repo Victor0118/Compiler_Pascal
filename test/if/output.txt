@@ -12,13 +12,13 @@ temp12 = 2 integer
 temp11 = temp12 integer
 temp10 = temp11 integer
 temp6 = temp7 == temp10 integer
-temp5 = temp6
+temp5 = temp6 integer
 if_false temp5 goto L0
-temp16 = "i is
-temp15 = temp16 is
-temp14 = temp15 is
-temp13 = temp14 is
-writeln temp13 is
+temp16 = str4 
+temp15 = temp16 
+temp14 = temp15 
+temp13 = temp14 
+writeln temp13 
 goto L1
 label L0
 label L1
@@ -29,13 +29,13 @@ temp24 = 1 integer
 temp23 = temp24 integer
 temp22 = temp23 integer
 temp18 = temp19 == temp22 integer
-temp17 = temp18
+temp17 = temp18 integer
 if_false temp17 goto L2
-temp28 = "i is
-temp27 = temp28 is
-temp26 = temp27 is
-temp25 = temp26 is
-writeln temp25 is
+temp28 = str5 
+temp27 = temp28 
+temp26 = temp27 
+temp25 = temp26 
+writeln temp25 
 goto L3
 label L2
 label L3
@@ -46,7 +46,7 @@ temp36 = 1 integer
 temp35 = temp36 integer
 temp34 = temp35 integer
 temp30 = temp31 == temp34 integer
-temp29 = temp30
+temp29 = temp30 integer
 if_false temp29 goto L4
 temp39 = i integer
 temp38 = temp39 integer
@@ -54,9 +54,9 @@ temp37 = temp38 integer
 writeln temp37 integer
 goto L5
 label L4
-temp43 = "i is
-temp42 = temp43 is
-temp41 = temp42 is
-temp40 = temp41 is
-writeln temp40 is
+temp43 = str6 
+temp42 = temp43 
+temp41 = temp42 
+temp40 = temp41 
+writeln temp40 
 label L5

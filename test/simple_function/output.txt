@@ -1,0 +1,48 @@
+temp0 = 100 integer
+offset = temp0 integer
+Procedure init
+begin
+temp4 = 1 integer
+temp3 = temp4 integer
+temp2 = temp3 integer
+temp1 = temp2 integer
+i = temp1 integer
+end
+Function assign_1
+begin
+temp7 = i integer
+temp6 = temp7 integer
+temp5 = temp6 integer
+assign_1 = temp5 integer
+end
+Procedure assign_2
+begin
+temp10 = st integer
+temp9 = temp10 integer
+temp8 = temp9 integer
+i = temp8 integer
+end
+call init 0
+temp13 = i integer
+temp12 = temp13 integer
+temp11 = temp12 integer
+writeln temp11 integer
+temp19 = i integer
+temp18 = temp19 integer
+temp17 = temp18 integer
+param temp17 integer
+call assign_1 1
+return temp20 integer
+temp16 = temp20 integer
+temp15 = temp16 integer
+temp14 = temp15 integer
+writeln temp14 integer
+temp23 = offset integer
+temp22 = temp23 integer
+temp21 = temp22 integer
+param temp21 integer
+call assign_2 1
+temp26 = i integer
+temp25 = temp26 integer
+temp24 = temp25 integer
+writeln temp24 integer

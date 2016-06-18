@@ -1,0 +1,26 @@
+table scope: Main
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+offset         integer     3   31                              1
+init           Procedure    7                              0
+i              integer     5   29   30   32                              0
+assign_1       Function   12                              0
+assign_2       Procedure   19                              0
+
+table scope: Proc_init
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+
+table scope: Func_assign_1
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+assign_1_return integer    12                              0
+st             integer    12                              0
+i              integer    14   16                              0
+
+table scope: Proc_assign_2
+Variable Name    type             Line Numbers        isConst
+-------------  --------   -------------------------   --------
+st             integer    19   23                              0
+i              integer    21                              0
+

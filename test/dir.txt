@@ -11,4 +11,5 @@ if
 proc
 quicksort
 repeat
+simple_function
 while

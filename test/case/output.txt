@@ -16,11 +16,11 @@ temp8 = temp9 integer
 writeln temp8 integer
 goto L0
 label L2
-temp14 = "offset" string
-temp13 = temp14 string
-temp12 = temp13 string
-temp11 = temp12 string
-writeln temp11 string
+temp14 = str0 
+temp13 = temp14 
+temp12 = temp13 
+temp11 = temp12 
+writeln temp11 
 goto L0
 label L3
 temp17 = i integer
